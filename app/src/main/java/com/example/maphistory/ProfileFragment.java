@@ -82,13 +82,6 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        Button btn1 = context.findViewById(R.id.button3);
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent moveToSignIn = new Intent(context, LoginActivity.class);
-                startActivity(moveToSignIn);
-            }
-        });
+
     }
 }
