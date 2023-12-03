@@ -27,13 +27,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_layout);
 
-        edt1 = findViewById(R.id.edt1);
-        edt2 = findViewById(R.id.edt2);
-
-        tv = findViewById(R.id.tv1);
-
-        btn1_login = findViewById(R.id.btn1);
-        btn2 = findViewById(R.id.btn2);
 
 
         btn1_login.setOnClickListener(new View.OnClickListener() {
