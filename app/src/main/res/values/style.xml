@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="hi_malinda">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#356FC3</item>
+    </style>
+    <style name="categories">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#0B182B</item>
+    </style>
+    <style name="view_all">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#2D39EA</item>
+    </style>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

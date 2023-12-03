@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
             if(item.getItemId() == R.id.home){
                 replaceFragment(new HomeFragment());
             }
+            if(item.getItemId() == R.id.map){
+                replaceFragment(new MapFragment());
+            }
             if(item.getItemId() == R.id.infor){
                 replaceFragment(new InforFragment());
             }

@@ -11,100 +11,132 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/search"
-            android:layout_width="303dp"
-            android:layout_height="40dp"
-            android:background="@drawable/custom_text_view"
-            android:ems="10"
-            android:hint="Tìm kiếm"
-            android:inputType="text"
-            android:paddingLeft="10dp"
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="512dp"
+            android:background="@drawable/bottom_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="414dp"
+                android:layout_height="287dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="69dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/circles"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/circles" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="193dp"
+            android:layout_height="253dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/categories"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/view_all"
+            android:layout_width="65dp"
+            android:layout_height="31dp"
+            android:gravity="right|top"
+            android:text="@string/view_all"
+            android:textAppearance="@style/view_all"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.652"
+            app:layout_constraintStart_toEndOf="@+id/categories"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.631" />
+
+        <TextView
+            android:id="@+id/hi_malinda"
+            android:layout_width="171dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="@string/hi_malinda"
+            android:textAppearance="@style/hi_malinda"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.104"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.023" />
+            app:layout_constraintVertical_bias="0.565" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="425dp"
             android:layout_height="212dp"
-            android:layout_marginTop="18dp"
             android:src="@drawable/home_pic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/search"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.202" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Các sự kiện "
-            android:textColor="#2196F3"
-            android:textSize="25dp"
+            android:id="@+id/categories"
+            android:layout_width="192dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="top"
+            android:text="@string/categories"
+            android:textAppearance="@style/categories"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintHorizontal_bias="0.073"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.034" />
+            app:layout_constraintVertical_bias="0.079" />
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="160dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="61dp"
-            android:background="@drawable/custom_image_button"
-            android:backgroundTint="@null"
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/img_3"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toEndOf="@+id/hi_malinda"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.641" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="193dp"
+            android:layout_height="253dp"
+            android:layout_marginEnd="6dp"
+            android:scaleType="fitXY"
             android:src="@drawable/img_5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.069"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.758"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.01" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sông Bạch Đằng"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.152"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageButton
-            android:id="@+id/imageView2"
-            android:layout_width="160dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/custom_image_button"
-            android:backgroundTint="@null"
-            android:src="@drawable/img_6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/imageButton"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sông Như Nguyệt"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.867"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.142" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
