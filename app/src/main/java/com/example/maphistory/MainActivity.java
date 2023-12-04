@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
         replaceFragment(new HomeFragment());
 
 
@@ -33,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
                 replaceFragment(new MapFragment());
             }
             if(item.getItemId() == R.id.infor){
-                replaceFragment(new InforFragment());
+//                replaceFragment(new InforFragment());
+                Intent move = new Intent(MainActivity.this, ListActivity.class);
+                startActivity(move);
             }
             if(item.getItemId() == R.id.person){
                 replaceFragment(new ProfileFragment());

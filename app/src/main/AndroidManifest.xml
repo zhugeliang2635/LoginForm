@@ -44,6 +44,7 @@
         <activity android:name=".ForgetPasswordActivity"></activity>
         <activity android:name=".OTPActivity"></activity>
         <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>

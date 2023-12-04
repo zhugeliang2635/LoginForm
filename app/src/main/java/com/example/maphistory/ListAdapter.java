@@ -19,13 +19,17 @@ public class ListAdapter extends ArrayAdapter<ListData> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View view, @NonNull ViewGroup parent) {
+
         ListData listData = getItem(position);
+
         if (view == null){
             view = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
-        ImageView listImage = view.findViewById(R.id.listImage);
-        TextView listName = view.findViewById(R.id.listName);
-        TextView listTime = view.findViewById(R.id.listTime);
+        ImageView listImage = view.findViewById(R.id.eventPic);
+        TextView listName = view.findViewById(R.id.eventName);
+        TextView listTime = view.findViewById(R.id.eventTime);
+
+
         listImage.setImageResource(listData.image);
         listName.setText(listData.name);
         listTime.setText(listData.time);

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ListActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="319dp"
+            android:layout_height="59dp"
+            android:background="@drawable/search"
+            android:elevation="24dp"
+            android:hint="Tìm kiếm sự kiện..."
+            android:paddingLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/header_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/header_card"
+            app:layout_constraintVertical_bias="0.229" />
+
+        <View
+            android:id="@+id/header_card"
+            android:layout_width="410dp"
+            android:layout_height="207dp"
+            android:background="@drawable/header_card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ListView
+            android:id="@+id/listview2"
+            android:layout_width="355dp"
+            android:layout_height="737dp"
+            android:layout_marginTop="130dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10sp"
+            android:foregroundGravity="center"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/list_item">
+
+        </ListView>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

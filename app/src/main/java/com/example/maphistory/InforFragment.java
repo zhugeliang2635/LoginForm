@@ -17,8 +17,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import com.example.maphistory.databinding.ActivityMainBinding;
+import com.example.maphistory.databinding.FragmentInforBinding;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -34,10 +36,9 @@ public class InforFragment extends Fragment {
 
 
     Activity context;
-    ActivityMainBinding binding;
-    ListAdapter listAdapter;
-    ArrayList<ListData> dataArrayList = new ArrayList<>();
-    ListData listData;
+    FragmentInforBinding binding;
+
+    InforFragment i = new InforFragment();
 
 
     // TODO: Rename and change types of parameters
@@ -74,13 +75,45 @@ public class InforFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
+        context = getActivity();
+        Intent move = new Intent(context, ListActivity.class);
+        startActivity(move);
+
+//        binding = FragmentInforBinding.inflate(getLayoutInflater());
+//
+//
+//        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
+//                R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7};
+//        String[] name = {"Trận Bạch Đằng", "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng",
+//                "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng"};
+//        String[] time = {"Năm 938", "Năm 938","Năm 938","Năm 938","Năm 938","Năm 938","Năm 938",
+//                "Năm 938","Năm 938","Năm 938",};
+//
+//        ArrayList<ListData> eventList = new ArrayList<>();
+//
+//        for (int i = 0; i < imgageId.length; i++) {
+//            ListData listData = new ListData(name[i], time[i], imgageId[i]);
+//            eventList.add(listData);
+//        }
+//
+//        ListAdapter listAdapter = new ListAdapter(i, eventList);
+//
+//        binding.listview.setAdapter(listAdapter);
+//        binding.listview.setClickable(true);
+//        binding.listview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+//
+//            }
+//        });
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        context = getActivity();
-        return inflater.inflate(R.layout.fragment_infor, container, false);
+
+        View view1 = inflater.inflate(R.layout.fragment_infor, container, false);
+        return view1;
     }
 }
