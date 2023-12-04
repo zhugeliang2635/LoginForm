@@ -8,8 +8,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/loginbkg"
-    tools:context=".MainActivity">
+    android:background="@drawable/img_10">
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,14 +68,28 @@
                 app:cornerRadius = "20dp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
     <TextView
+        android:id="@+id/signupText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:padding="8dp"
-        android:text="Not yet registered? SignUp Now"
-        android:textSize="14sp"
+        android:clickable="true"
+        android:text="Đăng kí tài khoản mới"
         android:textAlignment="center"
-        android:id="@+id/signupText"
         android:textColor="@color/purple"
-        android:layout_marginBottom="20dp"/>
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/forgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:padding="8dp"
+        android:text="Quên mật khẩu"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="14sp" />
 </LinearLayout>

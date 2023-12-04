@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -43,11 +45,9 @@ public class ProfileFragment extends Fragment {
      * @return A new instance of fragment ProfileFragment.
      */
 
-    TextView tv1, tv2, tv3;
     Activity context;
 
-    EditText edt1, edt2, edt3;
-    Button btn1;
+
 
     // TODO: Rename and change types and number of parameters
     public static ProfileFragment newInstance(String param1, String param2) {
@@ -82,6 +82,14 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
+        ImageButton btn1 = context.findViewById(R.id.imageNoti);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToSignIn = new Intent(context, LoginActivity.class);
+                startActivity(moveToSignIn);
+            }
+        });
 
     }
 }

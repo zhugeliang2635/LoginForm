@@ -211,9 +211,10 @@
                                         android:layout_height="65dp"
                                         android:layout_gravity="center_horizontal"
                                         android:layout_margin="12dp"
+
                                         android:background="@drawable/circle_background">
 
-                                        <ImageView
+                                        <ImageButton
                                             android:id="@+id/imageNoti"
                                             android:layout_width="43dp"
                                             android:layout_height="44dp"
