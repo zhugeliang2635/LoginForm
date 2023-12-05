@@ -11,5 +11,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="purple">#8692f7</color>
     <color name="lavender">#8692f7</color>
+    <color name="blue_main">#3550DC</color>
+    <color name="light_sky">#87CEFA</color>
 
 </resources>
