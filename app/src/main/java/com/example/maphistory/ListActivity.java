@@ -23,12 +23,12 @@ public class ListActivity extends AppCompatActivity {
         binding = ActivityListBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
-                R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7};
-        String[] name = {"Trận Bạch Đằng", "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng",
-                "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng"};
-        String[] time = {"Năm 938", "Năm 938","Năm 938","Năm 938","Năm 938","Năm 938","Năm 938",
-                "Năm 938","Năm 938","Năm 938",};
+        int[] imgageId = {R.drawable.img_7, R.drawable.img_1,R.drawable.img_7,R.drawable.img_7,R.drawable.img_5, R.drawable.img_7,
+                R.drawable.img_7,R.drawable.img_4,R.drawable.img_7,R.drawable.img_6};
+        String[] name = {"Trận Bạch Đằng", "Trận Như Nguyệt", "Đông Bộ Đầu","Bạch Đằng","Trận Chi Lăng","Trận Rạch Gầm",
+                "Trận Ngọc Hồi", "Điện Biên Phủ","Điện Biên Phủ trên không","Chiến dịch Hồ Chí Minh"};
+        String[] time = {"Năm 938", "Năm 1077","Năm 1258","Năm 1288","Năm 1427","Năm 1785","Năm 1789",
+                "Năm 1954","Năm 1972","Năm 1975"};
 
         ArrayList<ListData> eventList = new ArrayList<>();
 

@@ -1,15 +1,26 @@
 package com.example.maphistory;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
+import com.denzcoskun.imageslider.models.SlideModel;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +38,12 @@ public class HomeFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+
+    private RecyclerView.Adapter adapterPopular;
+    private RecyclerView recyclerViewPopular;
+
+
+
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -40,12 +57,9 @@ public class HomeFragment extends Fragment {
      * @return A new instance of fragment HomeFragment.
      */
 
+    Activity context;
 
-    ImageView img;
 
-    EditText search;
-
-    TextView tv1;
 
 
     // TODO: Rename and change types and number of parameters
@@ -66,15 +80,45 @@ public class HomeFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
+
+
+
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        TextView xtc = context.findViewById(R.id.textView2);
+
+        xtc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToInfo = new Intent(context, ListActivity.class);
+                startActivity(moveToInfo);
+            }
+        });
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        context = getActivity();
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        return view;
 
+        ImageSlider imageSlider = view.findViewById(R.id.imageSlider);
+        ArrayList<SlideModel> slideModels = new ArrayList<>();
+
+        slideModels.add(new SlideModel(R.drawable.home_pic, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.img_8, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.img_12, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.img_13, ScaleTypes.FIT));
+
+        imageSlider.setImageList(slideModels, ScaleTypes.FIT);
+
+        return view;
 
     }
 
