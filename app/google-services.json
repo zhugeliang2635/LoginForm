@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321953226295",
+    "project_id": "historyquiz-18df1",
+    "storage_bucket": "historyquiz-18df1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321953226295:android:8f8267291b44f5d0df29b2",
+        "android_client_info": {
+          "package_name": "com.example.maphistory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4oPxp1Mvzdo4Hs2JiqFCj4EySt6dBeKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
