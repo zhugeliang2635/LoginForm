@@ -23,9 +23,11 @@
             app:collapsedTitleTextColor="#ffffff"
             app:contentScrim="@color/common_google_signin_btn_text_light_default"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="Event Information">
+            app:title="Event Information"
+            app:titleEnabled="true">
 
             <ImageView
+                android:id="@+id/eventImage"
                 android:layout_width="match_parent"
                 android:layout_height="299dp"
                 android:layout_gravity="center|end"
@@ -59,7 +61,7 @@
                 android:id="@+id/infor_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/test_detail"
+                android:text="@string/bachdang_des"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -67,7 +69,7 @@
             </TextView>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/quizButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 

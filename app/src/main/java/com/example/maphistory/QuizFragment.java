@@ -1,12 +1,16 @@
 package com.example.maphistory;
 
+import android.content.Context;
 import android.os.Bundle;
 
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -21,11 +25,25 @@ public class QuizFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
+    private TextView questionText;
+    private QuizActivity activity;
+    private String ans;
     private String mParam1;
     private String mParam2;
 
+    private TextView questionVal;
+    private Button optionA;
+    private Button optionB;
+    private Button optionC;
+    private Button nextQuestion;
+    private int number;
     public QuizFragment() {
         // Required empty public constructor
+    }
+
+    public QuizFragment( int questionNumber) {
+        this.number = questionNumber;
+
     }
 
     /**
@@ -59,6 +77,50 @@ public class QuizFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_quiz, container, false);
+        View view =  inflater.inflate(R.layout.fragment_quiz, container, false);
+        activity = (QuizActivity) getActivity();
+        optionA = view.findViewById(R.id.option1Btn);
+        optionB = view.findViewById(R.id.option2Btn);
+        optionC = view.findViewById(R.id.option3Btn);
+
+        optionC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+
+
+        questionVal = view.findViewById(R.id.quizQuestionsCount);
+        questionVal.setText(Integer.toString(number));
+        nextQuestion = view.findViewById(R.id.nextQueBtn);
+        questionText = view.findViewById(R.id.quizQuestionTv);
+        switch (activity.getName()) {
+            case "bachdang":
+                if (number == 1) {
+                    questionText.setText(R.string.bachdang_ques_1);
+                    optionA.setText(R.string.bachdang_ques_1_a);
+                    optionB.setText(R.string.bachdang_ques_1_b);
+                    optionC.setText(R.string.bachdang_ques_1_c);
+                    ans = getResources().getString(R.string.bachdang_ques_1_ans);
+                }
+        }
+
+
+        nextQuestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.nextQuestion(number + 1);
+            }
+        });
+        return view;
     }
+
+    public void verify(Button option) {
+        if (option.getText().equals(ans)) {
+            option.setBackground(ContextCompat.getDrawable(getContext(), R.color.green));
+        }
+    }
+
 }

@@ -1,6 +1,8 @@
 package com.example.maphistory;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 
@@ -10,6 +12,7 @@ import com.example.maphistory.databinding.ActivityListBinding;
 import com.example.maphistory.databinding.ActivityMainBinding;
 import com.example.maphistory.databinding.FragmentInforBinding;
 import com.example.maphistory.databinding.ListItemBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
@@ -45,7 +48,10 @@ public class ListActivity extends AppCompatActivity {
         binding.listview2.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-
+                Log.d("TAG",Integer.toString(position) + " - " + Long.toString(id));
+                Intent intent = new Intent(getApplicationContext(), detail.class);
+                intent.putExtra("event", "bachdang");
+                startActivity(intent);
             }
         });
 
