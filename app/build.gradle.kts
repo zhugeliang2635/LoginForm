@@ -87,4 +87,5 @@ dependencies {
     // Java language implementation
     implementation("androidx.navigation:navigation-fragment:$nav_version")
     implementation("androidx.navigation:navigation-ui:$nav_version")
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
 }

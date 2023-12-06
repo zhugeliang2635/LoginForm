@@ -44,7 +44,7 @@ public class QuizDetailFragment extends Fragment {
         title = view.findViewById(R.id.quiz_des_title);
         time = view.findViewById(R.id.quiz_des_time_val);
         totalQuestion = view.findViewById(R.id.quiz_des_total_question_val);
-//        progressBar = view.findViewById(R.id.);
+//       progressBar = view.findViewById(R.id.);
 
     }
 }
