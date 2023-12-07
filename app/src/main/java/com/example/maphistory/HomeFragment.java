@@ -99,13 +99,6 @@ public class HomeFragment extends Fragment {
                 startActivity(moveToInfo);
             }
         });
-        ArrayList<ListData> eventList = new ArrayList<>();
-        ListData listData1 = new ListData("Điện Biên Phủ", "Năm 1954", R.drawable.img_4);
-        ListData listData2 = new ListData("Trận Bạch Đằng", "Năm 938", R.drawable.img_7);
-        ListData listData3 = new ListData("Chiến dịch HCM", "Năm 1975", R.drawable.img_6);
-        eventList.add(listData1);
-        eventList.add(listData2);
-        eventList.add(listData3);
 
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,31 +110,34 @@ public class HomeFragment extends Fragment {
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent move1 = new Intent(context, detail.class);
-                startActivity(move1);
+                Intent intent = new Intent(getContext(), detail.class);
+                intent.putExtra("event", "dienbienphu");
+                startActivity(intent);
             }
         });
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent move2 = new Intent(context, detail.class);
-                startActivity(move2);
+                Intent intent = new Intent(getContext(), detail.class);
+                intent.putExtra("event", "bachdang");
+                startActivity(intent);
             }
         });
         img3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent move3 = new Intent(context, detail.class);
-                startActivity(move3);
+                Intent intent = new Intent(getContext(), detail.class);
+                intent.putExtra("event", "chiendichHCM");
+                startActivity(intent);
             }
         });
         quiz1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent moveToQuiz = new Intent(context, QuizActivity.class);
-                moveToQuiz.putExtra("event", "Bạch Đằng Giang");
-                startActivity(moveToQuiz);
-            }
+                @Override
+                public void onClick(View v) {
+                    Intent moveToQuiz = new Intent(context, QuizActivity.class);
+                    moveToQuiz.putExtra("event", "Bạch Đằng Giang");
+                    startActivity(moveToQuiz);
+                }
         });
 
     }

@@ -32,11 +32,13 @@ public class ListActivity extends AppCompatActivity {
                 "Trận Ngọc Hồi", "Điện Biên Phủ","ĐBP trên không","Chiến dịch HCM", "Chiến dịch HCM"};
         String[] time = {"Năm 938", "Năm 1077","Năm 1258","Năm 1427","Năm 1785","Năm 1789",
                 "Năm 1954","Năm 1972","Năm 1975", "Năm 1975"};
+        String[] id = {"bachdang", "nhunguyet", "dongbodau","chilang","rachgam","ngochoi",
+                "dienbienphu","dienbienphutrenkhong","chiendichHCM","chiendichHCM",};
 
         ArrayList<ListData> eventList = new ArrayList<>();
 
         for (int i = 0; i < imgageId.length; i++) {
-            ListData listData = new ListData(name[i], time[i], imgageId[i]);
+            ListData listData = new ListData(name[i], time[i], imgageId[i], id[i]);
             eventList.add(listData);
         }
         ListAdapter listAdapter = new ListAdapter(ListActivity.this, eventList);
@@ -50,7 +52,7 @@ public class ListActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 Log.d("TAG",Integer.toString(position) + " - " + Long.toString(id));
                 Intent intent = new Intent(getApplicationContext(), detail.class);
-                intent.putExtra("event", "bachdang");
+                intent.putExtra("event", eventList.get(position).getId());
                 startActivity(intent);
             }
         });

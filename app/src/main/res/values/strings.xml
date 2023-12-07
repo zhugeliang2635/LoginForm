@@ -117,7 +117,9 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
 \n\t\tChiến thắng Bạch Đằng năm 938 đã ghi vào lịch sử dân tộc nói chung và lịch sử chống ngoại xâm nói riêng, như một sự kiện trọng đại có vị trí và ý nghĩa lịch sử hết sức lớn lao. Đây được coi là cột mốc quan trọng trong tiến trình lịch sử Việt Nam. Chiến thắng đã giúp phá bỏ nền thống trị hơn 1.000 năm của phong kiến phương Bắc, mở ra thời kỳ độc lập thực sự và lâu dài của dân tộc ta.</string>
 
 
+
 <!--    Bạch Đằng -->
+
     <string name="bachdang_time">Năm 938</string>
     <string name="bachdang_name">Trận Bạch Đằng</string>
     <string name="bachdang_ques_1">Kế hoạch đánh giặc của Ngô Quyền có điểm độc đáo là:</string>
@@ -183,6 +185,7 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
 
 
 <!--Điện Biên Phủ 1954-->
+
     <string name="dbp54_time">Năm 1954</string>
     <string name="dbp54_name">Trận Điện Biên Phủ 1954</string>
 
@@ -249,6 +252,8 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
 
 
 <!--Điện Biên Phủ trên không 1972-->
+
+
     <string name="dbp72_time">Năm 1972</string>
     <string name="dbp72_name">Trận Điện Biên Phủ trên không 1972</string>
 
