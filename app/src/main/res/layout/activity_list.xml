@@ -13,12 +13,13 @@
 
         <EditText
             android:id="@+id/search"
-            android:layout_width="319dp"
+            android:layout_width="355dp"
             android:layout_height="59dp"
             android:background="@drawable/search"
             android:elevation="24dp"
-            android:hint="Tìm kiếm sự kiện..."
+            android:hint=" Tìm kiếm sự kiện..."
             android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/search_icon"
             app:layout_constraintBottom_toBottomOf="@+id/header_card"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
