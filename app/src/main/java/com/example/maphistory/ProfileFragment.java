@@ -16,12 +16,16 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ProfileFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class ProfileFragment extends Fragment {
+
+    FirebaseAuth fAuth;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -75,21 +79,29 @@ public class ProfileFragment extends Fragment {
         // Inflate the layout for this fragment
         context = getActivity();
         View view2 = inflater.inflate(R.layout.new_fragment_profile, container, false);
-
-        return view2;
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        ImageButton btn1 = context.findViewById(R.id.imageNoti);
+        fAuth = FirebaseAuth.getInstance();
+        ImageButton btn1 = view2.findViewById(R.id.imageNoti);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent moveToSignIn = new Intent(context, LoginActivity.class);
-                startActivity(moveToSignIn);
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(context, LoginActivity.class));
             }
         });
-
+        return view2;
     }
+
+//    @Override
+//    public void onStart() {
+//        super.onStart();
+//        ImageButton btn1 = context.findViewById(R.id.imageNoti);
+//        btn1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent moveToSignIn = new Intent(context, LoginActivity.class);
+//                startActivity(moveToSignIn);
+//            }
+//        });
+//
+//    }
 }
