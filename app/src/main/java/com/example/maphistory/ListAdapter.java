@@ -29,7 +29,6 @@ public class ListAdapter extends ArrayAdapter<ListData> {
         TextView listName = view.findViewById(R.id.eventName);
         TextView listTime = view.findViewById(R.id.eventTime);
 
-
         listImage.setImageResource(listData.image);
         listName.setText(listData.name);
         listTime.setText(listData.time);

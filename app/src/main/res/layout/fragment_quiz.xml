@@ -5,7 +5,7 @@
     android:id="@+id/close_quiz_btn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_sky"
+    android:background="@color/white"
     tools:context=".QuizFragment">
 
 
@@ -27,7 +27,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="16dp"
         android:text="Questions"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,62 +76,68 @@
         android:id="@+id/quizQuestionTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="questions"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
+        android:text="questions"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/quizCoutProgressBar" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option1Btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/button_bg"
+        android:background="@drawable/custom_btn"
+        android:clickable="true"
         android:text="Option 1"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        android:elevation="8dp"
         app:layout_constraintTop_toBottomOf="@+id/quizQuestionTv" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option2Btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/button_bg"
+        android:background="@drawable/custom_btn"
+        android:clickable="true"
         android:text="Option 2"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        android:elevation="8dp"
         app:layout_constraintTop_toBottomOf="@+id/option1Btn" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/option3Btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:textColor="@color/white"
         android:layout_marginEnd="24dp"
-        android:background="@drawable/button_bg"
+        android:background="@drawable/custom_btn"
+        android:clickable="true"
         android:text="Option 3"
+        android:elevation="100dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/option2Btn" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextQueBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -46,6 +46,16 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/circles"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:srcCompat="@drawable/circles"
+                                tools:layout_editor_absoluteY="-5dp" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <ImageView
@@ -82,18 +92,6 @@
                             app:layout_constraintEnd_toEndOf="@+id/textView4"
                             app:layout_constraintStart_toStartOf="@+id/textView4"
                             app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-                        <ImageView
-                            android:id="@+id/imageView5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="0dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/circles"
-                            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/circles" />
 
                         <LinearLayout
                             android:id="@+id/linearLayout"
@@ -218,12 +216,12 @@
                                             android:id="@+id/imageNoti"
                                             android:layout_width="43dp"
                                             android:layout_height="44dp"
-                                            android:src="@drawable/notification"
+
                                             app:layout_constraintBottom_toBottomOf="parent"
                                             app:layout_constraintEnd_toEndOf="parent"
                                             app:layout_constraintStart_toStartOf="parent"
                                             app:layout_constraintTop_toTopOf="parent"
-                                            app:srcCompat="@drawable/notification" />
+                                            app:srcCompat="@drawable/img_14" />
                                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                                     <TextView
@@ -231,7 +229,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="8dp"
-                                        android:text="Notification"
+                                        android:text="Log out"
                                         android:textAlignment="center"
                                         android:textColor="#000000"
                                         android:textSize="14sp"

@@ -1,6 +1,8 @@
 package com.example.maphistory;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 
@@ -10,6 +12,7 @@ import com.example.maphistory.databinding.ActivityListBinding;
 import com.example.maphistory.databinding.ActivityMainBinding;
 import com.example.maphistory.databinding.FragmentInforBinding;
 import com.example.maphistory.databinding.ListItemBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
@@ -23,12 +26,12 @@ public class ListActivity extends AppCompatActivity {
         binding = ActivityListBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
-                R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7};
-        String[] name = {"Trận Bạch Đằng", "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng",
-                "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng"};
-        String[] time = {"Năm 938", "Năm 938","Năm 938","Năm 938","Năm 938","Năm 938","Năm 938",
-                "Năm 938","Năm 938","Năm 938",};
+        int[] imgageId = {R.drawable.img_7, R.drawable.img_1,R.drawable.img_7,R.drawable.img_7,R.drawable.img_5, R.drawable.img_7,
+                R.drawable.img_7,R.drawable.img_4,R.drawable.img_7,R.drawable.img_6};
+        String[] name = {"Trận Bạch Đằng", "Trận Như Nguyệt", "Đông Bộ Đầu","Bạch Đằng","Trận Chi Lăng","Trận Rạch Gầm",
+                "Trận Ngọc Hồi", "Điện Biên Phủ","Điện Biên Phủ trên không","Chiến dịch Hồ Chí Minh"};
+        String[] time = {"Năm 938", "Năm 1077","Năm 1258","Năm 1288","Năm 1427","Năm 1785","Năm 1789",
+                "Năm 1954","Năm 1972","Năm 1975"};
 
         ArrayList<ListData> eventList = new ArrayList<>();
 
@@ -45,7 +48,10 @@ public class ListActivity extends AppCompatActivity {
         binding.listview2.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-
+                Log.d("TAG",Integer.toString(position) + " - " + Long.toString(id));
+                Intent intent = new Intent(getApplicationContext(), detail.class);
+                intent.putExtra("event", "bachdang");
+                startActivity(intent);
             }
         });
 

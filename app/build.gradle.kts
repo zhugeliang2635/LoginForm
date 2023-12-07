@@ -63,6 +63,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.gridlayout:gridlayout:1.0.0")
     implementation("com.google.android.material:material:1.0.0")
+    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
     implementation("com.google.android.gms:play-services-maps:18.2.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.7.0")
@@ -87,5 +88,5 @@ dependencies {
     // Java language implementation
     implementation("androidx.navigation:navigation-fragment:$nav_version")
     implementation("androidx.navigation:navigation-ui:$nav_version")
-    implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
+    implementation("com.github.denzcoskun:ImageSlideshow:0.1.2")
 }
