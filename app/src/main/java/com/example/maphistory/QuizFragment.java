@@ -1,6 +1,7 @@
 package com.example.maphistory;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.appcompat.widget.AppCompatButton;
@@ -38,6 +39,8 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     private AppCompatButton optionB;
     private AppCompatButton optionC;
     private AppCompatButton nextQuestion;
+
+    private TextView ansVerify;
     private int number;
 
     private boolean canAnswer = false;
@@ -86,6 +89,7 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
         feedback = view.findViewById(R.id.ansFeedbackTv);
 
         canAnswer = true;
+        feedback.setVisibility(View.INVISIBLE);
         optionA = view.findViewById(R.id.option1Btn);
         optionB = view.findViewById(R.id.option2Btn);
         optionC = view.findViewById(R.id.option3Btn);
@@ -129,6 +133,12 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
                     optionB.setText(R.string.bachdang_ques_1_b);
                     optionC.setText(R.string.bachdang_ques_1_c);
                     ans = getResources().getString(R.string.bachdang_ques_1_ans);
+                } else if (number == 2) {
+                    questionText.setText(R.string.bachdang_ques_2);
+                    optionA.setText(R.string.bachdang_ques_2_a);
+                    optionB.setText(R.string.bachdang_ques_2_b);
+                    optionC.setText(R.string.bachdang_ques_2_c);
+                    ans = getResources().getString(R.string.bachdang_ques_2_ans);
                 }
         }
 
@@ -165,12 +175,24 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
             if (option.getText().equals(ans)) {
                 option.setBackgroundResource(R.drawable.custom_button_correct);
                 feedback.setText("Bạn đã trả lời đúng!");
+                feedback.setVisibility(View.VISIBLE);
+                feedback.setTextColor(getResources().getColor(R.color.green));
                 activity.increaseCorrect();
             } else {
                 option.setBackgroundResource(R.drawable.custom_button_wrong);
                 feedback.setText("Bạn đã trả lời sai!");
+                feedback.setVisibility(View.VISIBLE);
+                feedback.setTextColor(getResources().getColor(R.color.red));
                 activity.increaseWrong();
+                if (ans.equals(optionC.getText())) {
+                    optionC.setBackgroundResource(R.drawable.custom_button_correct);
+                } else if (ans.equals(optionA.getText())) {
+                    optionA.setBackgroundResource(R.drawable.custom_button_correct);
+                } else if (ans.equals(optionB.getText())) {
+                    optionB.setBackgroundResource(R.drawable.custom_button_correct);
+                }
             }
+
             canAnswer = false;
             showNextButton();
         }

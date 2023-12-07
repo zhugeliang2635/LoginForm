@@ -17,6 +17,12 @@
         android:theme="@style/Theme.MapHistory"
         tools:targetApi="31">
         <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".changeProfile"
+            android:exported="false" />
+        <activity
             android:name=".QuizActivity"
             android:exported="false" />
         <!--
@@ -37,7 +43,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,9 +55,9 @@
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".detail" android:exported="false">
-
-        </activity>
+        <activity
+            android:name=".detail"
+            android:exported="false" />
     </application>
 
 </manifest>

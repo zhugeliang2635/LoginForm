@@ -89,9 +89,12 @@
                 android:id="@+id/infor_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal|fill_horizontal|fill_vertical"
+                android:lineSpacingExtra="8sp"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="@string/bachdang_des"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/event_infor">
