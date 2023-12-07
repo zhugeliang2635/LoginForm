@@ -115,7 +115,9 @@ Khi cả binh đoàn thuyền lớn của Hoằng Tháo ào ạt vượt cửa b
 Đợi thủy triều xuống, Ngô Quyền mới cho quân mai phục đổ ra bao vây thuyền địch. Thuyền địch va vào cọc nhọn bịt sắt bị đâm thủng, chìm đắm gần hết, quân chết đuối quá nửa. Hoằng Tháo bị giáo đâm, lăn xuống nước chết tại trận. Quân ta giết và bắt sống hầu hết quân Nam Hán. Thời gian trận đánh chỉ diễn ra trong phạm vi một ngày. Chiến thắng Bạch Đằng nhanh gọn, bất ngờ đến mức vua Nam Hán đang cầm quân tiếp ứng đóng ở biên giới mà không kịp trở tay đối phó. Hắn kinh hoàng, khủng khiếp, đành "thương khóc thu nhặt quân còn sót lại mà rút lui" (Đại Việt sử ký toàn thư) và "đem dư chúng quay trở lại" (Ngũ đại sử ký).
 
 Chiến thắng Bạch Đằng năm 938 đã ghi vào lịch sử dân tộc nói chung và lịch sử chống ngoại xâm nói riêng, như một sự kiện trọng đại có vị trí và ý nghĩa lịch sử hết sức lớn lao. Đây được coi là cột mốc quan trọng trong tiến trình lịch sử Việt Nam. Chiến thắng đã giúp phá bỏ nền thống trị hơn 1.000 năm của phong kiến phương Bắc, mở ra thời kỳ độc lập thực sự và lâu dài của dân tộc ta.</string>
-    <string name="bachdang_time">938</string>
+
+    <string name="bachdang_time">Năm 938</string>
+    <string name="bachdang_name">Trận Bạch Đằng</string>
     <string name="bachdang_ques_1">Kế hoạch đánh giặc của Ngô Quyền có điểm độc đáo là:</string>
     <string name="bachdang_ques_1_a">Quân sĩ đông</string>
     <string name="bachdang_ques_1_b">Vũ khí hiện đại</string>
