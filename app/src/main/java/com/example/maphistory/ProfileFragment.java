@@ -5,15 +5,11 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -26,6 +22,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ProfileFragment extends Fragment {
 
     FirebaseAuth fAuth;
+    private TextView gotoProfile;
+    private TextView gotoChangePass;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -81,6 +79,23 @@ public class ProfileFragment extends Fragment {
         View view2 = inflater.inflate(R.layout.new_fragment_profile, container, false);
         fAuth = FirebaseAuth.getInstance();
         ImageButton btn1 = view2.findViewById(R.id.imageNoti);
+        gotoProfile = view2.findViewById(R.id.goToChangeProfileButton);
+        gotoChangePass = view2.findViewById(R.id.goToChangePassButton);
+
+        gotoProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, changeProfile.class));
+            }
+        });
+
+        gotoChangePass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, ChangePassword.class));
+            }
+        });
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -87,11 +87,60 @@ public class HomeFragment extends Fragment {
         super.onStart();
         TextView xtc = context.findViewById(R.id.textView2);
 
+        ImageView img1, img2, img3, quiz1;
+        img1 = context.findViewById(R.id.imageView1);
+        img2 = context.findViewById(R.id.imageView);
+        img3 = context.findViewById(R.id.imageView3);
+        quiz1 = context.findViewById(R.id.quiz1);
         xtc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent moveToInfo = new Intent(context, ListActivity.class);
                 startActivity(moveToInfo);
+            }
+        });
+        ArrayList<ListData> eventList = new ArrayList<>();
+        ListData listData1 = new ListData("Điện Biên Phủ", "Năm 1954", R.drawable.img_4);
+        ListData listData2 = new ListData("Trận Bạch Đằng", "Năm 938", R.drawable.img_7);
+        ListData listData3 = new ListData("Chiến dịch HCM", "Năm 1975", R.drawable.img_6);
+        eventList.add(listData1);
+        eventList.add(listData2);
+        eventList.add(listData3);
+
+        img1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent move1 = new Intent(context, detail.class);
+                startActivity(move1);
+            }
+        });
+        img1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent move1 = new Intent(context, detail.class);
+                startActivity(move1);
+            }
+        });
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent move2 = new Intent(context, detail.class);
+                startActivity(move2);
+            }
+        });
+        img3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent move3 = new Intent(context, detail.class);
+                startActivity(move3);
+            }
+        });
+        quiz1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToQuiz = new Intent(context, QuizActivity.class);
+                moveToQuiz.putExtra("event", "Bạch Đằng Giang");
+                startActivity(moveToQuiz);
             }
         });
 
