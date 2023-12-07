@@ -22,6 +22,7 @@
             android:fitsSystemWindows="true"
             app:collapsedTitleTextColor="#ffffff"
             app:contentScrim="@color/common_google_signin_btn_text_light_default"
+            app:expandedTitleTextColor="#00FFFFFF"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Event Information"
             app:titleEnabled="true">
@@ -38,6 +39,18 @@
 
             </ImageView>
 
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="300dp">-->
+            <!--                <com.denzcoskun.imageslider.ImageSlider-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="200dp" android:id="@+id/imageSlider"-->
+            <!--                    app:iss_period="1000"-->
+            <!--                    app:iss_auto_cycle="true"-->
+            <!--                    app:iss_delay="1000"-->
+            <!--                    app:iss_corner_radius="20"-->
+            <!--                    app:iss_title_background="@drawable/default_gradient"/>-->
+            <!--            </androidx.cardview.widget.CardView>-->
 
 
             <androidx.appcompat.widget.Toolbar
@@ -59,13 +72,29 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:id="@+id/event_infor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="Trận Bạch Đằng\n938"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
                 android:id="@+id/infor_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:text="@string/bachdang_des"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toBottomOf="@+id/event_infor">
 
             </TextView>
 
