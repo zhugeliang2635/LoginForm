@@ -123,26 +123,26 @@ public class detail extends AppCompatActivity {
                 break;
 
             case "dienbienphu":
-                textView.setText(R.string.dbp54_des);
+                textView.setText(R.string.dienbienphu_des);
                 imageView.setImageResource(R.drawable.img_19);
-                name = getResources().getString(R.string.dbp54_name);
-                time = getResources().getString(R.string.dbp54_time);
+                name = getResources().getString(R.string.dienbienphu_name);
+                time = getResources().getString(R.string.dienbienphu_time);
                 eventInfor.setText(name + "\n" + time);
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "dienbienphutrenkhong":
-                textView.setText(R.string.dbp72_des);
+                textView.setText(R.string.dienbienphutrenkhong_des);
                 imageView.setImageResource(R.drawable.img_25);
-                name = getResources().getString(R.string.dbp72_name);
-                time = getResources().getString(R.string.dbp72_time);
+                name = getResources().getString(R.string.dienbienphutrenkhong_name);
+                time = getResources().getString(R.string.dienbienphutrenkhong_time);
                 eventInfor.setText(name + "\n" + time);
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "chiendichHCM":
-                textView.setText(R.string.nam1975_des);
+                textView.setText(R.string.chiendichHCM_des);
                 imageView.setImageResource(R.drawable.img_26);
-                name = getResources().getString(R.string.nam1975_name);
-                time = getResources().getString(R.string.nam1975_time);
+                name = getResources().getString(R.string.chiendichHCM_name);
+                time = getResources().getString(R.string.chiendichHCM_time);
                 eventInfor.setText(name + "\n" + time);
                 collapsingToolbarLayout.setTitle(name);
                 break;

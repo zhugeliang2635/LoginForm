@@ -125,24 +125,704 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
         nextQuestion = view.findViewById(R.id.nextQueBtn);
         nextQuestion.setVisibility(View.INVISIBLE);
         questionText = view.findViewById(R.id.quizQuestionTv);
+//        switch (activity.getName()) {
+//            case "bachdang":
+//                if (number == 1) {
+//                    questionText.setText(R.string.bachdang_ques_1);
+//                    optionA.setText(R.string.bachdang_ques_1_a);
+//                    optionB.setText(R.string.bachdang_ques_1_b);
+//                    optionC.setText(R.string.bachdang_ques_1_c);
+//                    ans = getResources().getString(R.string.bachdang_ques_1_ans);
+//                } else if (number == 2) {
+//                    questionText.setText(R.string.bachdang_ques_2);
+//                    optionA.setText(R.string.bachdang_ques_2_a);
+//                    optionB.setText(R.string.bachdang_ques_2_b);
+//                    optionC.setText(R.string.bachdang_ques_2_c);
+//                    ans = getResources().getString(R.string.bachdang_ques_2_ans);
+//                } else if (number == 3) {
+//                    questionText.setText(R.string.bachdang_ques_3);
+//                    optionA.setText(R.string.bachdang_ques_3_a);
+//                    optionB.setText(R.string.bachdang_ques_3_b);
+//                    optionC.setText(R.string.bachdang_ques_3_c);
+//                    ans = getResources().getString(R.string.bachdang_ques_3_ans);
+//                } else if (number == 4) {
+//                    questionText.setText(R.string.bachdang_ques_4);
+//                    optionA.setText(R.string.bachdang_ques_4_a);
+//                    optionB.setText(R.string.bachdang_ques_4_b);
+//                    optionC.setText(R.string.bachdang_ques_4_c);
+//                    ans = getResources().getString(R.string.bachdang_ques_4_ans);
+//                } else if (number == 5) {
+//                    questionText.setText(R.string.bachdang_ques_5);
+//                }
+//        }
         switch (activity.getName()) {
             case "bachdang":
-                if (number == 1) {
-                    questionText.setText(R.string.bachdang_ques_1);
-                    optionA.setText(R.string.bachdang_ques_1_a);
-                    optionB.setText(R.string.bachdang_ques_1_b);
-                    optionC.setText(R.string.bachdang_ques_1_c);
-                    ans = getResources().getString(R.string.bachdang_ques_1_ans);
-                } else if (number == 2) {
-                    questionText.setText(R.string.bachdang_ques_2);
-                    optionA.setText(R.string.bachdang_ques_2_a);
-                    optionB.setText(R.string.bachdang_ques_2_b);
-                    optionC.setText(R.string.bachdang_ques_2_c);
-                    ans = getResources().getString(R.string.bachdang_ques_2_ans);
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.bachdang_ques_1);
+                        optionA.setText(R.string.bachdang_ques_1_a);
+                        optionB.setText(R.string.bachdang_ques_1_b);
+                        optionC.setText(R.string.bachdang_ques_1_c);
+                        ans = getResources().getString(R.string.bachdang_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.bachdang_ques_2);
+                        optionA.setText(R.string.bachdang_ques_2_a);
+                        optionB.setText(R.string.bachdang_ques_2_b);
+                        optionC.setText(R.string.bachdang_ques_2_c);
+                        ans = getResources().getString(R.string.bachdang_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.bachdang_ques_3);
+                        optionA.setText(R.string.bachdang_ques_3_a);
+                        optionB.setText(R.string.bachdang_ques_3_b);
+                        optionC.setText(R.string.bachdang_ques_3_c);
+                        ans = getResources().getString(R.string.bachdang_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.bachdang_ques_4);
+                        optionA.setText(R.string.bachdang_ques_4_a);
+                        optionB.setText(R.string.bachdang_ques_4_b);
+                        optionC.setText(R.string.bachdang_ques_4_c);
+                        ans = getResources().getString(R.string.bachdang_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.bachdang_ques_5);
+                        optionA.setText(R.string.bachdang_ques_5_a);
+                        optionB.setText(R.string.bachdang_ques_5_b);
+                        optionC.setText(R.string.bachdang_ques_5_c);
+                        ans = getResources().getString(R.string.bachdang_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.bachdang_ques_6);
+                        optionA.setText(R.string.bachdang_ques_6_a);
+                        optionB.setText(R.string.bachdang_ques_6_b);
+                        optionC.setText(R.string.bachdang_ques_6_c);
+                        ans = getResources().getString(R.string.bachdang_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.bachdang_ques_7);
+                        optionA.setText(R.string.bachdang_ques_7_a);
+                        optionB.setText(R.string.bachdang_ques_7_b);
+                        optionC.setText(R.string.bachdang_ques_7_c);
+                        ans = getResources().getString(R.string.bachdang_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.bachdang_ques_8);
+                        optionA.setText(R.string.bachdang_ques_8_a);
+                        optionB.setText(R.string.bachdang_ques_8_b);
+                        optionC.setText(R.string.bachdang_ques_8_c);
+                        ans = getResources().getString(R.string.bachdang_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.bachdang_ques_9);
+                        optionA.setText(R.string.bachdang_ques_9_a);
+                        optionB.setText(R.string.bachdang_ques_9_b);
+                        optionC.setText(R.string.bachdang_ques_9_c);
+                        ans = getResources().getString(R.string.bachdang_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.bachdang_ques_10);
+                        optionA.setText(R.string.bachdang_ques_10_a);
+                        optionB.setText(R.string.bachdang_ques_10_b);
+                        optionC.setText(R.string.bachdang_ques_10_c);
+                        ans = getResources().getString(R.string.bachdang_ques_10_ans);
+                        break;
                 }
+                break;
+            case "nhunguyet":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.nhunguyet_ques_1);
+                        optionA.setText(R.string.nhunguyet_ques_1_a);
+                        optionB.setText(R.string.nhunguyet_ques_1_b);
+                        optionC.setText(R.string.nhunguyet_ques_1_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.nhunguyet_ques_2);
+                        optionA.setText(R.string.nhunguyet_ques_2_a);
+                        optionB.setText(R.string.nhunguyet_ques_2_b);
+                        optionC.setText(R.string.nhunguyet_ques_2_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.nhunguyet_ques_3);
+                        optionA.setText(R.string.nhunguyet_ques_3_a);
+                        optionB.setText(R.string.nhunguyet_ques_3_b);
+                        optionC.setText(R.string.nhunguyet_ques_3_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.nhunguyet_ques_4);
+                        optionA.setText(R.string.nhunguyet_ques_4_a);
+                        optionB.setText(R.string.nhunguyet_ques_4_b);
+                        optionC.setText(R.string.nhunguyet_ques_4_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.nhunguyet_ques_5);
+                        optionA.setText(R.string.nhunguyet_ques_5_a);
+                        optionB.setText(R.string.nhunguyet_ques_5_b);
+                        optionC.setText(R.string.nhunguyet_ques_5_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.nhunguyet_ques_6);
+                        optionA.setText(R.string.nhunguyet_ques_6_a);
+                        optionB.setText(R.string.nhunguyet_ques_6_b);
+                        optionC.setText(R.string.nhunguyet_ques_6_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.nhunguyet_ques_7);
+                        optionA.setText(R.string.nhunguyet_ques_7_a);
+                        optionB.setText(R.string.nhunguyet_ques_7_b);
+                        optionC.setText(R.string.nhunguyet_ques_7_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.nhunguyet_ques_8);
+                        optionA.setText(R.string.nhunguyet_ques_8_a);
+                        optionB.setText(R.string.nhunguyet_ques_8_b);
+                        optionC.setText(R.string.nhunguyet_ques_8_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.nhunguyet_ques_9);
+                        optionA.setText(R.string.nhunguyet_ques_9_a);
+                        optionB.setText(R.string.nhunguyet_ques_9_b);
+                        optionC.setText(R.string.nhunguyet_ques_9_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.nhunguyet_ques_10);
+                        optionA.setText(R.string.nhunguyet_ques_10_a);
+                        optionB.setText(R.string.nhunguyet_ques_10_b);
+                        optionC.setText(R.string.nhunguyet_ques_10_c);
+                        ans = getResources().getString(R.string.nhunguyet_ques_10_ans);
+                        break;
+                }
+                break;
+            case "dongbodau":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.dongbodau_ques_1);
+                        optionA.setText(R.string.dongbodau_ques_1_a);
+                        optionB.setText(R.string.dongbodau_ques_1_b);
+                        optionC.setText(R.string.dongbodau_ques_1_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.dongbodau_ques_2);
+                        optionA.setText(R.string.dongbodau_ques_2_a);
+                        optionB.setText(R.string.dongbodau_ques_2_b);
+                        optionC.setText(R.string.dongbodau_ques_2_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.dongbodau_ques_3);
+                        optionA.setText(R.string.dongbodau_ques_3_a);
+                        optionB.setText(R.string.dongbodau_ques_3_b);
+                        optionC.setText(R.string.dongbodau_ques_3_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.dongbodau_ques_4);
+                        optionA.setText(R.string.dongbodau_ques_4_a);
+                        optionB.setText(R.string.dongbodau_ques_4_b);
+                        optionC.setText(R.string.dongbodau_ques_4_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.dongbodau_ques_5);
+                        optionA.setText(R.string.dongbodau_ques_5_a);
+                        optionB.setText(R.string.dongbodau_ques_5_b);
+                        optionC.setText(R.string.dongbodau_ques_5_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.dongbodau_ques_6);
+                        optionA.setText(R.string.dongbodau_ques_6_a);
+                        optionB.setText(R.string.dongbodau_ques_6_b);
+                        optionC.setText(R.string.dongbodau_ques_6_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.dongbodau_ques_7);
+                        optionA.setText(R.string.dongbodau_ques_7_a);
+                        optionB.setText(R.string.dongbodau_ques_7_b);
+                        optionC.setText(R.string.dongbodau_ques_7_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.dongbodau_ques_8);
+                        optionA.setText(R.string.dongbodau_ques_8_a);
+                        optionB.setText(R.string.dongbodau_ques_8_b);
+                        optionC.setText(R.string.dongbodau_ques_8_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.dongbodau_ques_9);
+                        optionA.setText(R.string.dongbodau_ques_9_a);
+                        optionB.setText(R.string.dongbodau_ques_9_b);
+                        optionC.setText(R.string.dongbodau_ques_9_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.dongbodau_ques_10);
+                        optionA.setText(R.string.dongbodau_ques_10_a);
+                        optionB.setText(R.string.dongbodau_ques_10_b);
+                        optionC.setText(R.string.dongbodau_ques_10_c);
+                        ans = getResources().getString(R.string.dongbodau_ques_10_ans);
+                        break;
+                }
+                break;
+            case "chilang":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.chilang_ques_1);
+                        optionA.setText(R.string.chilang_ques_1_a);
+                        optionB.setText(R.string.chilang_ques_1_b);
+                        optionC.setText(R.string.chilang_ques_1_c);
+                        ans = getResources().getString(R.string.chilang_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.chilang_ques_2);
+                        optionA.setText(R.string.chilang_ques_2_a);
+                        optionB.setText(R.string.chilang_ques_2_b);
+                        optionC.setText(R.string.chilang_ques_2_c);
+                        ans = getResources().getString(R.string.chilang_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.chilang_ques_3);
+                        optionA.setText(R.string.chilang_ques_3_a);
+                        optionB.setText(R.string.chilang_ques_3_b);
+                        optionC.setText(R.string.chilang_ques_3_c);
+                        ans = getResources().getString(R.string.chilang_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.chilang_ques_4);
+                        optionA.setText(R.string.chilang_ques_4_a);
+                        optionB.setText(R.string.chilang_ques_4_b);
+                        optionC.setText(R.string.chilang_ques_4_c);
+                        ans = getResources().getString(R.string.chilang_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.chilang_ques_5);
+                        optionA.setText(R.string.chilang_ques_5_a);
+                        optionB.setText(R.string.chilang_ques_5_b);
+                        optionC.setText(R.string.chilang_ques_5_c);
+                        ans = getResources().getString(R.string.chilang_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.chilang_ques_6);
+                        optionA.setText(R.string.chilang_ques_6_a);
+                        optionB.setText(R.string.chilang_ques_6_b);
+                        optionC.setText(R.string.chilang_ques_6_c);
+                        ans = getResources().getString(R.string.chilang_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.chilang_ques_7);
+                        optionA.setText(R.string.chilang_ques_7_a);
+                        optionB.setText(R.string.chilang_ques_7_b);
+                        optionC.setText(R.string.chilang_ques_7_c);
+                        ans = getResources().getString(R.string.chilang_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.chilang_ques_8);
+                        optionA.setText(R.string.chilang_ques_8_a);
+                        optionB.setText(R.string.chilang_ques_8_b);
+                        optionC.setText(R.string.chilang_ques_8_c);
+                        ans = getResources().getString(R.string.chilang_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.chilang_ques_9);
+                        optionA.setText(R.string.chilang_ques_9_a);
+                        optionB.setText(R.string.chilang_ques_9_b);
+                        optionC.setText(R.string.chilang_ques_9_c);
+                        ans = getResources().getString(R.string.chilang_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.chilang_ques_10);
+                        optionA.setText(R.string.chilang_ques_10_a);
+                        optionB.setText(R.string.chilang_ques_10_b);
+                        optionC.setText(R.string.chilang_ques_10_c);
+                        ans = getResources().getString(R.string.chilang_ques_10_ans);
+                        break;
+                }
+                break;
+            case "rachgam":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.rachgam_ques_1);
+                        optionA.setText(R.string.rachgam_ques_1_a);
+                        optionB.setText(R.string.rachgam_ques_1_b);
+                        optionC.setText(R.string.rachgam_ques_1_c);
+                        ans = getResources().getString(R.string.rachgam_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.rachgam_ques_2);
+                        optionA.setText(R.string.rachgam_ques_2_a);
+                        optionB.setText(R.string.rachgam_ques_2_b);
+                        optionC.setText(R.string.rachgam_ques_2_c);
+                        ans = getResources().getString(R.string.rachgam_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.rachgam_ques_3);
+                        optionA.setText(R.string.rachgam_ques_3_a);
+                        optionB.setText(R.string.rachgam_ques_3_b);
+                        optionC.setText(R.string.rachgam_ques_3_c);
+                        ans = getResources().getString(R.string.rachgam_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.rachgam_ques_4);
+                        optionA.setText(R.string.rachgam_ques_4_a);
+                        optionB.setText(R.string.rachgam_ques_4_b);
+                        optionC.setText(R.string.rachgam_ques_4_c);
+                        ans = getResources().getString(R.string.rachgam_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.rachgam_ques_5);
+                        optionA.setText(R.string.rachgam_ques_5_a);
+                        optionB.setText(R.string.rachgam_ques_5_b);
+                        optionC.setText(R.string.rachgam_ques_5_c);
+                        ans = getResources().getString(R.string.rachgam_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.rachgam_ques_6);
+                        optionA.setText(R.string.rachgam_ques_6_a);
+                        optionB.setText(R.string.rachgam_ques_6_b);
+                        optionC.setText(R.string.rachgam_ques_6_c);
+                        ans = getResources().getString(R.string.rachgam_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.rachgam_ques_7);
+                        optionA.setText(R.string.rachgam_ques_7_a);
+                        optionB.setText(R.string.rachgam_ques_7_b);
+                        optionC.setText(R.string.rachgam_ques_7_c);
+                        ans = getResources().getString(R.string.rachgam_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.rachgam_ques_8);
+                        optionA.setText(R.string.rachgam_ques_8_a);
+                        optionB.setText(R.string.rachgam_ques_8_b);
+                        optionC.setText(R.string.rachgam_ques_8_c);
+                        ans = getResources().getString(R.string.rachgam_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.rachgam_ques_9);
+                        optionA.setText(R.string.rachgam_ques_9_a);
+                        optionB.setText(R.string.rachgam_ques_9_b);
+                        optionC.setText(R.string.rachgam_ques_9_c);
+                        ans = getResources().getString(R.string.rachgam_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.rachgam_ques_10);
+                        optionA.setText(R.string.rachgam_ques_10_a);
+                        optionB.setText(R.string.rachgam_ques_10_b);
+                        optionC.setText(R.string.rachgam_ques_10_c);
+                        ans = getResources().getString(R.string.rachgam_ques_10_ans);
+                        break;
+                }
+                break;
+            case "ngochoi":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.ngochoi_ques_1);
+                        optionA.setText(R.string.ngochoi_ques_1_a);
+                        optionB.setText(R.string.ngochoi_ques_1_b);
+                        optionC.setText(R.string.ngochoi_ques_1_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.ngochoi_ques_2);
+                        optionA.setText(R.string.ngochoi_ques_2_a);
+                        optionB.setText(R.string.ngochoi_ques_2_b);
+                        optionC.setText(R.string.ngochoi_ques_2_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.ngochoi_ques_3);
+                        optionA.setText(R.string.ngochoi_ques_3_a);
+                        optionB.setText(R.string.ngochoi_ques_3_b);
+                        optionC.setText(R.string.ngochoi_ques_3_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.ngochoi_ques_4);
+                        optionA.setText(R.string.ngochoi_ques_4_a);
+                        optionB.setText(R.string.ngochoi_ques_4_b);
+                        optionC.setText(R.string.ngochoi_ques_4_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.ngochoi_ques_5);
+                        optionA.setText(R.string.ngochoi_ques_5_a);
+                        optionB.setText(R.string.ngochoi_ques_5_b);
+                        optionC.setText(R.string.ngochoi_ques_5_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.ngochoi_ques_6);
+                        optionA.setText(R.string.ngochoi_ques_6_a);
+                        optionB.setText(R.string.ngochoi_ques_6_b);
+                        optionC.setText(R.string.ngochoi_ques_6_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.ngochoi_ques_7);
+                        optionA.setText(R.string.ngochoi_ques_7_a);
+                        optionB.setText(R.string.ngochoi_ques_7_b);
+                        optionC.setText(R.string.ngochoi_ques_7_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.ngochoi_ques_8);
+                        optionA.setText(R.string.ngochoi_ques_8_a);
+                        optionB.setText(R.string.ngochoi_ques_8_b);
+                        optionC.setText(R.string.ngochoi_ques_8_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.ngochoi_ques_9);
+                        optionA.setText(R.string.ngochoi_ques_9_a);
+                        optionB.setText(R.string.ngochoi_ques_9_b);
+                        optionC.setText(R.string.ngochoi_ques_9_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.ngochoi_ques_10);
+                        optionA.setText(R.string.ngochoi_ques_10_a);
+                        optionB.setText(R.string.ngochoi_ques_10_b);
+                        optionC.setText(R.string.ngochoi_ques_10_c);
+                        ans = getResources().getString(R.string.ngochoi_ques_10_ans);
+                        break;
+                }
+                break;
+            case "dienbienphu":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.dienbienphu_ques_1);
+                        optionA.setText(R.string.dienbienphu_ques_1_a);
+                        optionB.setText(R.string.dienbienphu_ques_1_b);
+                        optionC.setText(R.string.dienbienphu_ques_1_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.dienbienphu_ques_2);
+                        optionA.setText(R.string.dienbienphu_ques_2_a);
+                        optionB.setText(R.string.dienbienphu_ques_2_b);
+                        optionC.setText(R.string.dienbienphu_ques_2_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.dienbienphu_ques_3);
+                        optionA.setText(R.string.dienbienphu_ques_3_a);
+                        optionB.setText(R.string.dienbienphu_ques_3_b);
+                        optionC.setText(R.string.dienbienphu_ques_3_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.dienbienphu_ques_4);
+                        optionA.setText(R.string.dienbienphu_ques_4_a);
+                        optionB.setText(R.string.dienbienphu_ques_4_b);
+                        optionC.setText(R.string.dienbienphu_ques_4_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.dienbienphu_ques_5);
+                        optionA.setText(R.string.dienbienphu_ques_5_a);
+                        optionB.setText(R.string.dienbienphu_ques_5_b);
+                        optionC.setText(R.string.dienbienphu_ques_5_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.dienbienphu_ques_6);
+                        optionA.setText(R.string.dienbienphu_ques_6_a);
+                        optionB.setText(R.string.dienbienphu_ques_6_b);
+                        optionC.setText(R.string.dienbienphu_ques_6_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.dienbienphu_ques_7);
+                        optionA.setText(R.string.dienbienphu_ques_7_a);
+                        optionB.setText(R.string.dienbienphu_ques_7_b);
+                        optionC.setText(R.string.dienbienphu_ques_7_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.dienbienphu_ques_8);
+                        optionA.setText(R.string.dienbienphu_ques_8_a);
+                        optionB.setText(R.string.dienbienphu_ques_8_b);
+                        optionC.setText(R.string.dienbienphu_ques_8_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.dienbienphu_ques_9);
+                        optionA.setText(R.string.dienbienphu_ques_9_a);
+                        optionB.setText(R.string.dienbienphu_ques_9_b);
+                        optionC.setText(R.string.dienbienphu_ques_9_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.dienbienphu_ques_10);
+                        optionA.setText(R.string.dienbienphu_ques_10_a);
+                        optionB.setText(R.string.dienbienphu_ques_10_b);
+                        optionC.setText(R.string.dienbienphu_ques_10_c);
+                        ans = getResources().getString(R.string.dienbienphu_ques_10_ans);
+                        break;
+                }
+                break;
+            case "dienbienphutrenkhong":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_1);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_1_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_1_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_1_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_2);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_2_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_2_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_2_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_3);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_3_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_3_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_3_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_4);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_4_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_4_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_4_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_5);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_5_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_5_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_5_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_6);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_6_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_6_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_6_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_7);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_7_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_7_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_7_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_8);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_8_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_8_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_8_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_9);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_9_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_9_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_9_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.dienbienphutrenkhong_ques_10);
+                        optionA.setText(R.string.dienbienphutrenkhong_ques_10_a);
+                        optionB.setText(R.string.dienbienphutrenkhong_ques_10_b);
+                        optionC.setText(R.string.dienbienphutrenkhong_ques_10_c);
+                        ans = getResources().getString(R.string.dienbienphutrenkhong_ques_10_ans);
+                        break;
+                }
+                break;
+            case "chiendichHCM":
+                switch (number) {
+                    case 1:
+                        questionText.setText(R.string.chiendichHCM_ques_1);
+                        optionA.setText(R.string.chiendichHCM_ques_1_a);
+                        optionB.setText(R.string.chiendichHCM_ques_1_b);
+                        optionC.setText(R.string.chiendichHCM_ques_1_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_1_ans);
+                        break;
+                    case 2:
+                        questionText.setText(R.string.chiendichHCM_ques_2);
+                        optionA.setText(R.string.chiendichHCM_ques_2_a);
+                        optionB.setText(R.string.chiendichHCM_ques_2_b);
+                        optionC.setText(R.string.chiendichHCM_ques_2_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_2_ans);
+                        break;
+                    case 3:
+                        questionText.setText(R.string.chiendichHCM_ques_3);
+                        optionA.setText(R.string.chiendichHCM_ques_3_a);
+                        optionB.setText(R.string.chiendichHCM_ques_3_b);
+                        optionC.setText(R.string.chiendichHCM_ques_3_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_3_ans);
+                        break;
+                    case 4:
+                        questionText.setText(R.string.chiendichHCM_ques_4);
+                        optionA.setText(R.string.chiendichHCM_ques_4_a);
+                        optionB.setText(R.string.chiendichHCM_ques_4_b);
+                        optionC.setText(R.string.chiendichHCM_ques_4_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_4_ans);
+                        break;
+                    case 5:
+                        questionText.setText(R.string.chiendichHCM_ques_5);
+                        optionA.setText(R.string.chiendichHCM_ques_5_a);
+                        optionB.setText(R.string.chiendichHCM_ques_5_b);
+                        optionC.setText(R.string.chiendichHCM_ques_5_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_5_ans);
+                        break;
+                    case 6:
+                        questionText.setText(R.string.chiendichHCM_ques_6);
+                        optionA.setText(R.string.chiendichHCM_ques_6_a);
+                        optionB.setText(R.string.chiendichHCM_ques_6_b);
+                        optionC.setText(R.string.chiendichHCM_ques_6_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_6_ans);
+                        break;
+                    case 7:
+                        questionText.setText(R.string.chiendichHCM_ques_7);
+                        optionA.setText(R.string.chiendichHCM_ques_7_a);
+                        optionB.setText(R.string.chiendichHCM_ques_7_b);
+                        optionC.setText(R.string.chiendichHCM_ques_7_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_7_ans);
+                        break;
+                    case 8:
+                        questionText.setText(R.string.chiendichHCM_ques_8);
+                        optionA.setText(R.string.chiendichHCM_ques_8_a);
+                        optionB.setText(R.string.chiendichHCM_ques_8_b);
+                        optionC.setText(R.string.chiendichHCM_ques_8_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_8_ans);
+                        break;
+                    case 9:
+                        questionText.setText(R.string.chiendichHCM_ques_9);
+                        optionA.setText(R.string.chiendichHCM_ques_9_a);
+                        optionB.setText(R.string.chiendichHCM_ques_9_b);
+                        optionC.setText(R.string.chiendichHCM_ques_9_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_9_ans);
+                        break;
+                    case 10:
+                        questionText.setText(R.string.chiendichHCM_ques_10);
+                        optionA.setText(R.string.chiendichHCM_ques_10_a);
+                        optionB.setText(R.string.chiendichHCM_ques_10_b);
+                        optionC.setText(R.string.chiendichHCM_ques_10_c);
+                        ans = getResources().getString(R.string.chiendichHCM_ques_10_ans);
+                        break;
+                }
+                break;
         }
-
-
         nextQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

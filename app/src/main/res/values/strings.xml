@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MapHistory</string>
+    <string name="app_name">Sử đồ</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_maps">MapsActivity</string>
@@ -175,7 +175,7 @@ Add the maggi masala on to it
 \n\t\tKết quả là 300 chiến thuyền và 2 vạn thủy binh của Xiêm cùng một số quân của chúa Nguyễn, không đầy một ngày, đã bị quân Tây Sơn phá tan. Hai tướng Chiêu Tăng, Chiêu Sương chạy trốn về Sa Đéc, bị truy kích, lại hối hả cùng Sa Uyển dẫn vài nghìn tàn quân chạy bộ sang Chân Lạp rồi về Xiêm. Riêng chúa Nguyễn Ánh vội vã rút chạy theo sông Trà Luật ra sông Tiền rồi tìm đường sang Trấn Giang (Cần Thơ). Còn quân bản bộ của chúa Nguyễn thì tan tác mỗi người một ngả. Ngày 25 tháng 1 năm 1785, Nguyễn Ánh sai Mạc Tử Sanh và Chánh cơ Trung sang Xiêm báo tin thất trận. Tháng 3 năm Ất Tỵ (1785), quân Tây Sơn đến truy đuổi, chúa Nguyễn cùng với khoảng 200 quân tướng và 5 chiếc thuyền lại phải chạy sang đảo Cổ Cốt, rồi sang Xiêm.</string>
 
 <!--    dbp54-->
-    <string name="dbp54_des">\t\tSau Cách mạng Tháng 8 năm 1945, thực dân Pháp dã tâm dùng vũ lực hòng đặt lại ách thống trị trên đất nước ta một lần nữa. Thực hiện lời kêu gọi toàn quốc kháng chiến ngày 19/12/1946 của Hồ Chủ tịch và đường lối kháng chiến toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính, với vũ khí thô sơ và ý chí "Thà hy sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ", toàn thể nhân dân Việt Nam đã tiến hành cuộc kháng chiến trường kỳ, gian khổ với niềm tin tất thắng.
+    <string name="dienbienphu_des">\t\tSau Cách mạng Tháng 8 năm 1945, thực dân Pháp dã tâm dùng vũ lực hòng đặt lại ách thống trị trên đất nước ta một lần nữa. Thực hiện lời kêu gọi toàn quốc kháng chiến ngày 19/12/1946 của Hồ Chủ tịch và đường lối kháng chiến toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính, với vũ khí thô sơ và ý chí "Thà hy sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ", toàn thể nhân dân Việt Nam đã tiến hành cuộc kháng chiến trường kỳ, gian khổ với niềm tin tất thắng.
 
 \n\t\tBằng tinh thần "Cảm tử cho Tổ quốc quyết sinh" quân và dân ta đã lần lượt đánh bại các chiến lược quân sự của thực dân Pháp. Vùng giải phóng không ngừng được mở rộng, chính quyền nhân dân được củng cố. Sau hơn 7 năm kháng chiến, ta càng đánh càng mạnh, còn thực dân Pháp ngày càng lâm vào thế bị động.
 
@@ -188,7 +188,7 @@ Add the maggi masala on to it
 \n\t\tNhư vậy, sau nhiều tháng nỗ lực chuẩn bị Chiến dịch và trải qua 55 ngày đêm chiến đấu kiên cường, dũng cảm, sáng tạo, ngày 7/5/1954, quân và dân ta đã làm nên chiến thắng Điện Biên Phủ "lẫy lừng năm châu, chấn động địa cầu". Toàn bộ tập đoàn cứ điểm Điện Biên Phủ được xem là "bất khả chiến bại" đã bị quân và dân ta đánh bại.</string>
 
 <!--    dbp72-->
-    <string name="dbp72_des">\t\tSau thất bại của chiến lược “Chiến tranh đặc biệt” (1961 - 1965), đầu năm 1965, đế quốc Mỹ chuyển sang chiến lược “Chiến tranh cục bộ”, đưa quân Mỹ vào miền Nam Việt Nam và sử dụng không quân, hải quân đánh phá ra miền Bắc. Bị thất bại liên tiếp trên cả hai miền Nam - Bắc, ngày 01/11/1968, Tổng thống Mỹ Johnson tuyên bố chấm dứt ném bom, kết thúc cuộc chiến tranh phá hoại miền Bắc lần thứ nhất, đồng thời chuyển sang thực hiện Chiến lược “Việt Nam hóa chiến tranh”.
+    <string name="dienbienphutrenkhong_des">\t\tSau thất bại của chiến lược “Chiến tranh đặc biệt” (1961 - 1965), đầu năm 1965, đế quốc Mỹ chuyển sang chiến lược “Chiến tranh cục bộ”, đưa quân Mỹ vào miền Nam Việt Nam và sử dụng không quân, hải quân đánh phá ra miền Bắc. Bị thất bại liên tiếp trên cả hai miền Nam - Bắc, ngày 01/11/1968, Tổng thống Mỹ Johnson tuyên bố chấm dứt ném bom, kết thúc cuộc chiến tranh phá hoại miền Bắc lần thứ nhất, đồng thời chuyển sang thực hiện Chiến lược “Việt Nam hóa chiến tranh”.
 
 \n\t\tĐầu năm 1972, cuộc kháng chiến chống Mỹ cứu nước của Nhân dân ta bước vào giai đoạn quyết liệt. Trên cả ba mặt trận: quân sự, chính trị và ngoại giao, ta đều giành thắng lợi to lớn. Chiến lược “Việt Nam hoá chiến tranh” của đế quốc Mỹ có nguy cơ sụp đổ hoàn toàn. Để cứu vãn tình thế, ngày 06/4/1972, Tổng thống Mỹ Richard Nixon vội vã ra lệnh tiến hành cuộc chiến tranh phá hoại lần thứ hai ra miền Bắc với quy mô lớn hơn, tính chất ác liệt, tàn bạo hơn nhiều so với cuộc chiến tranh phá hoại lần thứ nhất. Mỹ sử dụng máy bay chiến lược B-52 đánh phá các tỉnh: Quảng Bình, Nghệ An, Thanh Hoá, Hải Phòng..., nhưng đều bị đánh bại; cục diện chiến tranh chuyển hướng có lợi cho ta. Ngày 14/12/1972, Richard Nixon chính thức phê chuẩn kế hoạch tập kích chiến lược B-52 vào Hà Nội, Hải Phòng với mật danh Linebacker II (nghĩa là Cứu bóng trước khung thành II)
 
@@ -216,7 +216,7 @@ Add the maggi masala on to it
 \n\t\t\Tôn Sĩ Nghị vội vàng tháo chạy. Lê Chiêu Thống được tin Sĩ Nghị đã bỏ chạy, vội dắt gia quyến chạy theo. Em Lê Chiêu Thống là Lê Duy Chi được sai giữ cửa ô Yên Hoa (Tức Yên Phụ ngày nay) thTrận Ngọc Hồi</string>
 
 <!--     1975-->
-    <string name="nam1975_des">\t\t\Chiến dịch Hồ Chí Minh lịch sử - chiến dịch quyết chiến, chiến lược trong tổng tiến công và nổi dậy mùa Xuân 1975 - là mốc son chói lọi, đánh dấu cuộc kháng chiến chống Mỹ, cứu nước đã kết thúc thắng lợi và nhân dân Việt Nam đã thực hiện trọn vẹn tư tưởng chỉ đạo của Chủ tịch Hồ Chí Minh "đánh cho Mỹ cút, đánh cho ngụy nhào"; giải phóng hoàn toàn miền Nam, thống nhất đất nước.
+    <string name="chiendichHCM_des">\t\t\Chiến dịch Hồ Chí Minh lịch sử - chiến dịch quyết chiến, chiến lược trong tổng tiến công và nổi dậy mùa Xuân 1975 - là mốc son chói lọi, đánh dấu cuộc kháng chiến chống Mỹ, cứu nước đã kết thúc thắng lợi và nhân dân Việt Nam đã thực hiện trọn vẹn tư tưởng chỉ đạo của Chủ tịch Hồ Chí Minh "đánh cho Mỹ cút, đánh cho ngụy nhào"; giải phóng hoàn toàn miền Nam, thống nhất đất nước.
 
 \n\t\tNgày 18/4, ta tiến công Phan Rang, đập tan tuyến phòng ngự của địch ở đây, bắt sống Trung tướng Tư lệnh mặt trận Nguyễn Vĩnh Nghi. Ngày 20/4, trước sức tiến công của ta, Sư đoàn 18 ngụy tháo chạy, Xuân Lộc thất thủ.
 
@@ -297,137 +297,137 @@ Add the maggi masala on to it
 
 <!--Điện Biên Phủ 1954-->
 
-    <string name="dbp54_time">Năm 1954</string>
-    <string name="dbp54_name">Trận Điện Biên Phủ 1954</string>
+    <string name="dienbienphu_time">Năm 1954</string>
+    <string name="dienbienphu_name">Chiến thắng Điện Biên Phủ 1954</string>
 
-    <string name="dbp54_ques_1">Chiến dịch Điện Biên Phủ diễn ra trong bao nhiêu ngày</string>
-    <string name="dbp54_ques_1_a">A. 56 ngày đêm</string>
-    <string name="dbp54_ques_1_b">B. 56 ngày</string>
-    <string name="dbp54_ques_1_c">C. 65 ngày đêm</string>
-    <string name="dbp54_ques_1_ans">A. 56 ngày đêm</string>
+    <string name="dienbienphu_ques_1">Chiến dịch Điện Biên Phủ diễn ra trong bao nhiêu ngày</string>
+    <string name="dienbienphu_ques_1_a">A. 56 ngày đêm</string>
+    <string name="dienbienphu_ques_1_b">B. 56 ngày</string>
+    <string name="dienbienphu_ques_1_c">C. 65 ngày đêm</string>
+    <string name="dienbienphu_ques_1_ans">A. 56 ngày đêm</string>
 
 
-    <string name="dbp54_ques_2">Tướng Đờ Ca-xto-ri và Bộ chỉ huy tập đoàn điểm Điện Biện Phủ bị bắt sống vào lúc</string>
-    <string name="dbp54_ques_2_a">A. Hoàng Hoa Thám</string>
-    <string name="dbp54_ques_2_b">B. Quang Trung</string>
-    <string name="dbp54_ques_2_c">C. Trần Đình</string>
-    <string name="dbp54_ques_2_ans">C. Trần Đình</string>
+    <string name="dienbienphu_ques_2">Tướng Đờ Ca-xto-ri và Bộ chỉ huy tập đoàn điểm Điện Biện Phủ bị bắt sống vào lúc</string>
+    <string name="dienbienphu_ques_2_a">A. Hoàng Hoa Thám</string>
+    <string name="dienbienphu_ques_2_b">B. Quang Trung</string>
+    <string name="dienbienphu_ques_2_c">C. Trần Đình</string>
+    <string name="dienbienphu_ques_2_ans">C. Trần Đình</string>
 
-    <string name="dbp54_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
-    <string name="dbp54_ques_3_a">A. phía Bắc</string>
-    <string name="dbp54_ques_3_b">B. phía Nam</string>
-    <string name="dbp54_ques_3_c">C. </string>
-    <string name="dbp54_ques_3_ans">B. Nhân dân luôn nhớ đến công lao của ông</string>
+    <string name="dienbienphu_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dienbienphu_ques_3_a">A. phía Bắc</string>
+    <string name="dienbienphu_ques_3_b">B. phía Nam</string>
+    <string name="dienbienphu_ques_3_c">C. </string>
+    <string name="dienbienphu_ques_3_ans">B. Nhân dân luôn nhớ đến công lao của ông</string>
 
-    <string name="dbp54_ques_4">Phương châm tác chiến của Bộ chính trị Trung ương Đảng trong chiến dịch Điện Biên Phủ năm 1954 là</string>
-    <string name="dbp54_ques_4_a">A. Đánh nhanh, thắng nhanh</string>
-    <string name="dbp54_ques_4_b">B. Đánh chắc, tiến chắc</string>
-    <string name="dbp54_ques_4_c">C. Đánh lâu dài</string>
-    <string name="dbp54_ques_4_ans">B. Đánh chắc, tiến chắc</string>
+    <string name="dienbienphu_ques_4">Phương châm tác chiến của Bộ chính trị Trung ương Đảng trong chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dienbienphu_ques_4_a">A. Đánh nhanh, thắng nhanh</string>
+    <string name="dienbienphu_ques_4_b">B. Đánh chắc, tiến chắc</string>
+    <string name="dienbienphu_ques_4_c">C. Đánh lâu dài</string>
+    <string name="dienbienphu_ques_4_ans">B. Đánh chắc, tiến chắc</string>
 
-    <string name="dbp54_ques_5">Điểm yếu cơ bản của tập đoàn cứ điểm Điện Biên Phủ do Pháp - Mĩ xây dựng là</string>
-    <string name="dbp54_ques_5_a">A. Thiếu thốn về trang thiết bị kĩ thuật</string>
-    <string name="dbp54_ques_5_b">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
-    <string name="dbp54_ques_5_c">C. Là vùng rừng núi nên khó cơ động lực lượng</string>
-    <string name="dbp54_ques_5_ans">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
+    <string name="dienbienphu_ques_5">Điểm yếu cơ bản của tập đoàn cứ điểm Điện Biên Phủ do Pháp - Mĩ xây dựng là</string>
+    <string name="dienbienphu_ques_5_a">A. Thiếu thốn về trang thiết bị kĩ thuật</string>
+    <string name="dienbienphu_ques_5_b">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
+    <string name="dienbienphu_ques_5_c">C. Là vùng rừng núi nên khó cơ động lực lượng</string>
+    <string name="dienbienphu_ques_5_ans">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
 
-    <string name="dbp54_ques_6">Nguyên nhân chủ yếu để Bộ Chính trị Trung ương Đảng quyết định mở chiến dịch Điện Biên Phủ năm 1954?</string>
-    <string name="dbp54_ques_6_a">A. Tạo điều kiện để giải phóng Bắc Lào</string>
-    <string name="dbp54_ques_6_b">B. Để tiêu diệt một bộ phận sinh lực địch</string>
-    <string name="dbp54_ques_6_c">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
-    <string name="dbp54_ques_6_ans">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
+    <string name="dienbienphu_ques_6">Nguyên nhân chủ yếu để Bộ Chính trị Trung ương Đảng quyết định mở chiến dịch Điện Biên Phủ năm 1954?</string>
+    <string name="dienbienphu_ques_6_a">A. Tạo điều kiện để giải phóng Bắc Lào</string>
+    <string name="dienbienphu_ques_6_b">B. Để tiêu diệt một bộ phận sinh lực địch</string>
+    <string name="dienbienphu_ques_6_c">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
+    <string name="dienbienphu_ques_6_ans">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
 
-    <string name="dbp54_ques_7">Anh Phan Đình giót đã lấy thân mình lấp lỗ châu mai trong trận đánh ở</string>
-    <string name="dbp54_ques_7_a">A. Độc Lập</string>
-    <string name="dbp54_ques_7_b">B. Bản Kéo</string>
-    <string name="dbp54_ques_7_c">C. Him Lam</string>
-    <string name="dbp54_ques_7_ans">C. Him Lam</string>
+    <string name="dienbienphu_ques_7">Anh Phan Đình giót đã lấy thân mình lấp lỗ châu mai trong trận đánh ở</string>
+    <string name="dienbienphu_ques_7_a">A. Độc Lập</string>
+    <string name="dienbienphu_ques_7_b">B. Bản Kéo</string>
+    <string name="dienbienphu_ques_7_c">C. Him Lam</string>
+    <string name="dienbienphu_ques_7_ans">C. Him Lam</string>
 
-    <string name="dbp54_ques_8">Đâu không phải là ý nghĩa của chiến dịch Điện Biên Phủ năm 1954?</string>
-    <string name="dbp54_ques_8_a">A. Bước đầu làm phá sản kế hoạch Nava</string>
-    <string name="dbp54_ques_8_b">B. Giáng đòn quyết định vào kế hoạch Nava</string>
-    <string name="dbp54_ques_8_c">C. Xoay chuyển cục diện chiến tranh ở Đông Dương</string>
-    <string name="dbp54_ques_8_ans">A. Bước đầu làm phá sản kế hoạch Nava</string>
+    <string name="dienbienphu_ques_8">Đâu không phải là ý nghĩa của chiến dịch Điện Biên Phủ năm 1954?</string>
+    <string name="dienbienphu_ques_8_a">A. Bước đầu làm phá sản kế hoạch Nava</string>
+    <string name="dienbienphu_ques_8_b">B. Giáng đòn quyết định vào kế hoạch Nava</string>
+    <string name="dienbienphu_ques_8_c">C. Xoay chuyển cục diện chiến tranh ở Đông Dương</string>
+    <string name="dienbienphu_ques_8_ans">A. Bước đầu làm phá sản kế hoạch Nava</string>
 
-    <string name="dbp54_ques_9">Nơi tập trung lực lượng mạnh nhất của thực dân Pháp theo dự tính ban đầu trong kế hoạch Nava là</string>
-    <string name="dbp54_ques_9_a">A. Điện Biên Phủ</string>
-    <string name="dbp54_ques_9_b">B. Đồng bằng Bắc Bộ</string>
-    <string name="dbp54_ques_9_c">C. Thượng Lào</string>
-    <string name="dbp54_ques_9_ans">B. Đồng bằng Bắc Bộ</string>
+    <string name="dienbienphu_ques_9">Nơi tập trung lực lượng mạnh nhất của thực dân Pháp theo dự tính ban đầu trong kế hoạch Nava là</string>
+    <string name="dienbienphu_ques_9_a">A. Điện Biên Phủ</string>
+    <string name="dienbienphu_ques_9_b">B. Đồng bằng Bắc Bộ</string>
+    <string name="dienbienphu_ques_9_c">C. Thượng Lào</string>
+    <string name="dienbienphu_ques_9_ans">B. Đồng bằng Bắc Bộ</string>
 
-    <string name="dbp54_ques_10">Quân ta nổ súng, mở màng cho chiến dịch Điện Biên Phủ vào thời gian nào?</string>
-    <string name="dbp54_ques_10_a">A. 13/1/1954</string>
-    <string name="dbp54_ques_10_b">B. 13/2/1954c</string>
-    <string name="dbp54_ques_10_c">C. 13/3/1954</string>
-    <string name="dbp54_ques_10_ans">C. 13/3/1954</string>
+    <string name="dienbienphu_ques_10">Quân ta nổ súng, mở màng cho chiến dịch Điện Biên Phủ vào thời gian nào?</string>
+    <string name="dienbienphu_ques_10_a">A. 13/1/1954</string>
+    <string name="dienbienphu_ques_10_b">B. 13/2/1954c</string>
+    <string name="dienbienphu_ques_10_c">C. 13/3/1954</string>
+    <string name="dienbienphu_ques_10_ans">C. 13/3/1954</string>
 
 
 <!--Điện Biên Phủ trên không 1972-->
 
 
-    <string name="dbp72_time">Năm 1972</string>
-    <string name="dbp72_name">Trận Điện Biên Phủ trên không 1972</string>
+    <string name="dienbienphutrenkhong_time">Năm 1972</string>
+    <string name="dienbienphutrenkhong_name">Chiến thắng Điện Biên Phủ trên không</string>
 
-    <string name="dbp72_ques_1">B52 là</string>
-    <string name="dbp72_ques_1_a">A. máy bay tối tân lúc bấy giờ</string>
-    <string name="dbp72_ques_1_b">B. "pháo máy bay"</string>
-    <string name="dbp72_ques_1_c">C. máy bay ném bom hiện đại nhất thời ấy</string>
-    <string name="dbp72_ques_1_ans">C. máy bay ném bom hiện đại nhất thời ấy</string>
+    <string name="dienbienphutrenkhong_ques_1">B52 là</string>
+    <string name="dienbienphutrenkhong_ques_1_a">A. máy bay tối tân lúc bấy giờ</string>
+    <string name="dienbienphutrenkhong_ques_1_b">B. "pháo máy bay"</string>
+    <string name="dienbienphutrenkhong_ques_1_c">C. máy bay ném bom hiện đại nhất thời ấy</string>
+    <string name="dienbienphutrenkhong_ques_1_ans">C. máy bay ném bom hiện đại nhất thời ấy</string>
 
 
-    <string name="dbp72_ques_2">Mở đầu 12 ngày đêm ném bom hủy diệt là khoảng 20 giờ</string>
-    <string name="dbp72_ques_2_a">A. 21/12/1972</string>
-    <string name="dbp72_ques_2_b">B. 18/12/1972</string>
-    <string name="dbp72_ques_2_c">C. 26/12/1972</string>
-    <string name="dbp72_ques_2_ans">B. 18/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_2">Mở đầu 12 ngày đêm ném bom hủy diệt là khoảng 20 giờ</string>
+    <string name="dienbienphutrenkhong_ques_2_a">A. 21/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_2_b">B. 18/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_2_c">C. 26/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_2_ans">B. 18/12/1972</string>
 
-    <string name="dbp72_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
-    <string name="dbp72_ques_3_a">A. phía Bắc</string>
-    <string name="dbp72_ques_3_b">B. phía Nam</string>
-    <string name="dbp72_ques_3_c">C. </string>
-    <string name="dbp72_ques_3_ans">B.Nhân dân luôn nhớ đến công lao của ông</string>
+    <string name="dienbienphutrenkhong_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dienbienphutrenkhong_ques_3_a">A. phía Bắc</string>
+    <string name="dienbienphutrenkhong_ques_3_b">B. phía Nam</string>
+    <string name="dienbienphutrenkhong_ques_3_c">C. </string>
+    <string name="dienbienphutrenkhong_ques_3_ans">B.Nhân dân luôn nhớ đến công lao của ông</string>
 
-    <string name="dbp72_ques_4">Thời gian địch tập trung nhiều máy bay B52 nhất ném bom hòng hủy diệt Hà Nội</string>
-    <string name="dbp72_ques_4_a">A. 21/12/1972</string>
-    <string name="dbp72_ques_4_b">B. 26/12/1972</string>
-    <string name="dbp72_ques_4_c">C. 29/12/1972</string>
-    <string name="dbp72_ques_4_ans">B. Đánh chắc, tiến chắc</string>
+    <string name="dienbienphutrenkhong_ques_4">Thời gian địch tập trung nhiều máy bay B52 nhất ném bom hòng hủy diệt Hà Nội</string>
+    <string name="dienbienphutrenkhong_ques_4_a">A. 21/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_4_b">B. 26/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_4_c">C. 29/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_4_ans">B. Đánh chắc, tiến chắc</string>
 
-    <string name="dbp72_ques_5">Gọi trận "Điện Biên Phủ trên không" là do</string>
-    <string name="dbp72_ques_5_a">A. tầm vóc vĩ đại của chiến thắng</string>
-    <string name="dbp72_ques_5_b">B. chiến thắng oanh liệt</string>
-    <string name="dbp72_ques_5_c">C. chiến dịch phòng không oanh liệt nhất</string>
-    <string name="dbp72_ques_5_ans">A. tầm vóc vĩ đại của chiến thắng</string>
+    <string name="dienbienphutrenkhong_ques_5">Gọi trận "Điện Biên Phủ trên không" là do</string>
+    <string name="dienbienphutrenkhong_ques_5_a">A. tầm vóc vĩ đại của chiến thắng</string>
+    <string name="dienbienphutrenkhong_ques_5_b">B. chiến thắng oanh liệt</string>
+    <string name="dienbienphutrenkhong_ques_5_c">C. chiến dịch phòng không oanh liệt nhất</string>
+    <string name="dienbienphutrenkhong_ques_5_ans">A. tầm vóc vĩ đại của chiến thắng</string>
 
-    <string name="dbp72_ques_6">Quân ta đánh thắng trận cuối cùng, tiêu diệt thêm 1 chiếc B52 vào thời gian nào?</string>
-    <string name="dbp72_ques_6_a">A. Đêm 27/12</string>
-    <string name="dbp72_ques_6_b">B. Đêm 28/12</string>
-    <string name="dbp72_ques_6_c">C. Đêm 29/12</string>
-    <string name="dbp72_ques_6_ans">C. Đêm 29/12</string>
+    <string name="dienbienphutrenkhong_ques_6">Quân ta đánh thắng trận cuối cùng, tiêu diệt thêm 1 chiếc B52 vào thời gian nào?</string>
+    <string name="dienbienphutrenkhong_ques_6_a">A. Đêm 27/12</string>
+    <string name="dienbienphutrenkhong_ques_6_b">B. Đêm 28/12</string>
+    <string name="dienbienphutrenkhong_ques_6_c">C. Đêm 29/12</string>
+    <string name="dienbienphutrenkhong_ques_6_ans">C. Đêm 29/12</string>
 
-    <string name="dbp72_ques_7">Máy bay Mĩ đã đánh phá Hà Nội  và các vùng phụ cận trong thời gian bao lâu?</string>
-    <string name="dbp72_ques_7_a">A. 13 ngày đêm</string>
-    <string name="dbp72_ques_7_b">B. 14 ngày đêm</string>
-    <string name="dbp72_ques_7_c">C. 12 ngày đêm</string>
-    <string name="dbp72_ques_7_ans">C. 12 ngày đêm</string>
+    <string name="dienbienphutrenkhong_ques_7">Máy bay Mĩ đã đánh phá Hà Nội  và các vùng phụ cận trong thời gian bao lâu?</string>
+    <string name="dienbienphutrenkhong_ques_7_a">A. 13 ngày đêm</string>
+    <string name="dienbienphutrenkhong_ques_7_b">B. 14 ngày đêm</string>
+    <string name="dienbienphutrenkhong_ques_7_c">C. 12 ngày đêm</string>
+    <string name="dienbienphutrenkhong_ques_7_ans">C. 12 ngày đêm</string>
 
-    <string name="dbp72_ques_8">Ních-xơn tuyên bố ngừng ném bom bắn phá miền Bắc lúc nào?</string>
-    <string name="dbp72_ques_8_a">A. 23/12/1972</string>
-    <string name="dbp72_ques_8_b">B. 26/12/1972</string>
-    <string name="dbp72_ques_8_c">C. 30/12/1972</string>
-    <string name="dbp72_ques_8_ans">A. 23/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_8">Ních-xơn tuyên bố ngừng ném bom bắn phá miền Bắc lúc nào?</string>
+    <string name="dienbienphutrenkhong_ques_8_a">A. 23/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_8_b">B. 26/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_8_c">C. 30/12/1972</string>
+    <string name="dienbienphutrenkhong_ques_8_ans">A. 23/12/1972</string>
 
-    <string name="dbp72_ques_9">Có bao nhiêu máy bay B52 của Mĩ bị bắn rơi trong 12 ngày?</string>
-    <string name="dbp72_ques_9_a">A. 81</string>
-    <string name="dbp72_ques_9_b">B. 34</string>
-    <string name="dbp72_ques_9_c">C. 43</string>
-    <string name="dbp72_ques_9_ans">B. 34</string>
+    <string name="dienbienphutrenkhong_ques_9">Có bao nhiêu máy bay B52 của Mĩ bị bắn rơi trong 12 ngày?</string>
+    <string name="dienbienphutrenkhong_ques_9_a">A. 81</string>
+    <string name="dienbienphutrenkhong_ques_9_b">B. 34</string>
+    <string name="dienbienphutrenkhong_ques_9_c">C. 43</string>
+    <string name="dienbienphutrenkhong_ques_9_ans">B. 34</string>
 
-    <string name="dbp72_ques_10">Đâu không phải ý nghĩa chiến thắng “Điện Biên Phủ trên không”?</string>
-    <string name="dbp72_ques_10_a">A. Đập tan âm mưu xâm lược của đế quốc Mĩ</string>
-    <string name="dbp72_ques_10_b">B. Khẳng định ý chí quyết chiến, quyết thắng của quân dân ta</string>
-    <string name="dbp72_ques_10_c">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
-    <string name="dbp72_ques_10_ans">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
+    <string name="dienbienphutrenkhong_ques_10">Đâu không phải ý nghĩa chiến thắng “Điện Biên Phủ trên không”?</string>
+    <string name="dienbienphutrenkhong_ques_10_a">A. Đập tan âm mưu xâm lược của đế quốc Mĩ</string>
+    <string name="dienbienphutrenkhong_ques_10_b">B. Khẳng định ý chí quyết chiến, quyết thắng của quân dân ta</string>
+    <string name="dienbienphutrenkhong_ques_10_c">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
+    <string name="dienbienphutrenkhong_ques_10_ans">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
 
 
 <!--Chi Lăng-->
@@ -563,68 +563,68 @@ Add the maggi masala on to it
 
 
 <!--Chiến dịch HCM 1975-->
-    <string name="nam1975_time">Năm 1975</string>
-    <string name="nam1975_name">Chiến dịch Hồ Chí Minh 1975</string>
+    <string name="chiendichHCM_time">Năm 1975</string>
+    <string name="chiendichHCM_name">Chiến dịch Hồ Chí Minh</string>
 
-    <string name="nam1975_ques_1">Chiến dịch Hồ Chí Minh diễn ra ngày nào?</string>
-    <string name="nam1975_ques_1_a">A. 22/4/1975</string>
-    <string name="nam1975_ques_1_b">B. 26/4/1975</string>
-    <string name="nam1975_ques_1_c">C. 23/4/1975</string>
-    <string name="nam1975_ques_1_ans">B. 26/4/1975</string>
+    <string name="chiendichHCM_ques_1">Chiến dịch Hồ Chí Minh diễn ra ngày nào?</string>
+    <string name="chiendichHCM_ques_1_a">A. 22/4/1975</string>
+    <string name="chiendichHCM_ques_1_b">B. 26/4/1975</string>
+    <string name="chiendichHCM_ques_1_c">C. 23/4/1975</string>
+    <string name="chiendichHCM_ques_1_ans">B. 26/4/1975</string>
 
-    <string name="nam1975_ques_2">Chiến dịch được chính thức quyết định ngày nào?</string>
-    <string name="nam1975_ques_2_a">A. 8/4</string>
-    <string name="nam1975_ques_2_b">B. 12/4</string>
-    <string name="nam1975_ques_2_c">C. 14/4</string>
-    <string name="nam1975_ques_2_ans">B. 12/4</string>
+    <string name="chiendichHCM_ques_2">Chiến dịch được chính thức quyết định ngày nào?</string>
+    <string name="chiendichHCM_ques_2_a">A. 8/4</string>
+    <string name="chiendichHCM_ques_2_b">B. 12/4</string>
+    <string name="chiendichHCM_ques_2_c">C. 14/4</string>
+    <string name="chiendichHCM_ques_2_ans">B. 12/4</string>
 
-    <string name="nam1975_ques_3">Phương châm đánh mà Bộ Chính trị đề ra trong kế hoạch giải phóng miền Nam là gì?</string>
-    <string name="nam1975_ques_3_a">A. “Đánh nhanh, thắng nhanh”</string>
-    <string name="nam1975_ques_3_b">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
-    <string name="nam1975_ques_3_c">C. “Tích cực, chủ động, cơ động, linh hoạt”</string>
-    <string name="nam1975_ques_3_ans">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
+    <string name="chiendichHCM_ques_3">Phương châm đánh mà Bộ Chính trị đề ra trong kế hoạch giải phóng miền Nam là gì?</string>
+    <string name="chiendichHCM_ques_3_a">A. “Đánh nhanh, thắng nhanh”</string>
+    <string name="chiendichHCM_ques_3_b">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
+    <string name="chiendichHCM_ques_3_c">C. “Tích cực, chủ động, cơ động, linh hoạt”</string>
+    <string name="chiendichHCM_ques_3_ans">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
 
-    <string name="nam1975_ques_4">Thời gian diễn ra chiến dịch?</string>
-    <string name="nam1975_ques_4_a">A. 10 ngày</string>
-    <string name="nam1975_ques_4_b">B. 5 ngày</string>
-    <string name="nam1975_ques_4_c">C. 15 ngày</string>
-    <string name="nam1975_ques_4_ans">B. 5 ngày</string>
+    <string name="chiendichHCM_ques_4">Thời gian diễn ra chiến dịch?</string>
+    <string name="chiendichHCM_ques_4_a">A. 10 ngày</string>
+    <string name="chiendichHCM_ques_4_b">B. 5 ngày</string>
+    <string name="chiendichHCM_ques_4_c">C. 15 ngày</string>
+    <string name="chiendichHCM_ques_4_ans">B. 5 ngày</string>
 
-    <string name="nam1975_ques_5">Tư tưởng "đánh cho Mỹ cút, đánh cho ngụy nhào" là của ai?</string>
-    <string name="nam1975_ques_5_a">A. Đại tướng Võ Nguyên Giáp</string>
-    <string name="nam1975_ques_5_b">B. Chính uỷ Phạm Hùng</string>
-    <string name="nam1975_ques_5_c">C. Chủ tịch Hồ Chí Minh</string>
-    <string name="nam1975_ques_5_ans">C. Chủ tịch Hồ Chí Minh</string>
+    <string name="chiendichHCM_ques_5">Tư tưởng "đánh cho Mỹ cút, đánh cho ngụy nhào" là của ai?</string>
+    <string name="chiendichHCM_ques_5_a">A. Đại tướng Võ Nguyên Giáp</string>
+    <string name="chiendichHCM_ques_5_b">B. Chính uỷ Phạm Hùng</string>
+    <string name="chiendichHCM_ques_5_c">C. Chủ tịch Hồ Chí Minh</string>
+    <string name="chiendichHCM_ques_5_ans">C. Chủ tịch Hồ Chí Minh</string>
 
-    <string name="nam1975_ques_6">Chiến dịch Hồ Chí Minh lịch sử được Đảng ta chia ra bằng mấy mũi tiến công?</string>
-    <string name="nam1975_ques_6_a">A. 5</string>
-    <string name="nam1975_ques_6_b">B. 6</string>
-    <string name="nam1975_ques_6_c">C. 7</string>
-    <string name="nam1975_ques_6_ans">A. 5</string>
+    <string name="chiendichHCM_ques_6">Chiến dịch Hồ Chí Minh lịch sử được Đảng ta chia ra bằng mấy mũi tiến công?</string>
+    <string name="chiendichHCM_ques_6_a">A. 5</string>
+    <string name="chiendichHCM_ques_6_b">B. 6</string>
+    <string name="chiendichHCM_ques_6_c">C. 7</string>
+    <string name="chiendichHCM_ques_6_ans">A. 5</string>
 
-    <string name="nam1975_ques_7">Chiếc xe tăng do Trung uý Bùi Quang Thận đánh chiếm Dinh độc lập mang số bao nhiêu?</string>
-    <string name="nam1975_ques_7_a">A. 309</string>
-    <string name="nam1975_ques_7_b">B. 843</string>
-    <string name="nam1975_ques_7_c">C. 307</string>
-    <string name="nam1975_ques_7_ans">B. 843</string>
+    <string name="chiendichHCM_ques_7">Chiếc xe tăng do Trung uý Bùi Quang Thận đánh chiếm Dinh độc lập mang số bao nhiêu?</string>
+    <string name="chiendichHCM_ques_7_a">A. 309</string>
+    <string name="chiendichHCM_ques_7_b">B. 843</string>
+    <string name="chiendichHCM_ques_7_c">C. 307</string>
+    <string name="chiendichHCM_ques_7_ans">B. 843</string>
 
-    <string name="nam1975_ques_8">Vị tổng thống cuối cùng của chính quyền Mĩ – Ngụy, đã đầu hàng vô điều kiện?</string>
-    <string name="nam1975_ques_8_a">A. Dương Văn Minh</string>
-    <string name="nam1975_ques_8_b">B. Ngô Đình Diệm</string>
-    <string name="nam1975_ques_8_c">C. Nguyễn Văn Thiệu</string>
-    <string name="nam1975_ques_8_ans">A. Dương Văn Minh</string>
+    <string name="chiendichHCM_ques_8">Vị tổng thống cuối cùng của chính quyền Mĩ – Ngụy, đã đầu hàng vô điều kiện?</string>
+    <string name="chiendichHCM_ques_8_a">A. Dương Văn Minh</string>
+    <string name="chiendichHCM_ques_8_b">B. Ngô Đình Diệm</string>
+    <string name="chiendichHCM_ques_8_c">C. Nguyễn Văn Thiệu</string>
+    <string name="chiendichHCM_ques_8_ans">A. Dương Văn Minh</string>
 
-    <string name="nam1975_ques_9">Lúc 10h45p, ngày 30/4/1975, diễn ra sự kiện cơ bản nào ở Sài Gòn?</string>
-    <string name="nam1975_ques_9_a">A. Dương Văn Minh đầu hàng</string>
-    <string name="nam1975_ques_9_b">B. Xe tăng tiến vào Dinh Độc Lập</string>
-    <string name="nam1975_ques_9_c">C. Cắm cờ trên nóc Dinh Độc Lập</string>
-    <string name="nam1975_ques_9_ans">B. Xe tăng tiến vào Dinh Độc Lập</string>
+    <string name="chiendichHCM_ques_9">Lúc 10h45p, ngày 30/4/1975, diễn ra sự kiện cơ bản nào ở Sài Gòn?</string>
+    <string name="chiendichHCM_ques_9_a">A. Dương Văn Minh đầu hàng</string>
+    <string name="chiendichHCM_ques_9_b">B. Xe tăng tiến vào Dinh Độc Lập</string>
+    <string name="chiendichHCM_ques_9_c">C. Cắm cờ trên nóc Dinh Độc Lập</string>
+    <string name="chiendichHCM_ques_9_ans">B. Xe tăng tiến vào Dinh Độc Lập</string>
 
-    <string name="nam1975_ques_10">Người chiến sĩ cắm lá cờ đầu tiên trên nóc Dinh Độc Lập?</string>
-    <string name="nam1975_ques_10_a">A. Lữ Văn Hoả</string>
-    <string name="nam1975_ques_10_b">B. Bùi Quang Thận</string>
-    <string name="nam1975_ques_10_c">C. Thái Bá Minh</string>
-    <string name="nam1975_ques_10_ans">B. Bùi Quang Thận</string>
+    <string name="chiendichHCM_ques_10">Người chiến sĩ cắm lá cờ đầu tiên trên nóc Dinh Độc Lập?</string>
+    <string name="chiendichHCM_ques_10_a">A. Lữ Văn Hoả</string>
+    <string name="chiendichHCM_ques_10_b">B. Bùi Quang Thận</string>
+    <string name="chiendichHCM_ques_10_c">C. Thái Bá Minh</string>
+    <string name="chiendichHCM_ques_10_ans">B. Bùi Quang Thận</string>
 
 
 <!--Như Nguyệt-->
@@ -757,68 +757,68 @@ Add the maggi masala on to it
     <string name="nam1288_ques_10_ans">C. Nhàn</string>
 
 <!--Đông Bộ Đầu 1258-->
-    <string name="nam1258_time">Năm 1288</string>
-    <string name="nam1258_name">Trận Bạch Đằng 1288</string>
+    <string name="dongbodau_time">Năm 1288</string>
+    <string name="dongbodau_name">Trận Bạch Đằng</string>
 
-    <string name="nam1258_ques_1">Vị tướng nào của Mông Cổ đã chỉ huy hơn 3 vạn quân tiến vào xâm lược Đại Việt (năm 1258)?</string>
-    <string name="nam1258_ques_1_a">A. Thoát Hoan</string>
-    <string name="nam1258_ques_1_b">B. Toa Đô</string>
-    <string name="nam1258_ques_1_c">C. Ngột Lương Hợp Thai</string>
-    <string name="nam1258_ques_1_ans">C. Ngột Lương Hợp Thai</string>
+    <string name="dongbodau_ques_1">Vị tướng nào của Mông Cổ đã chỉ huy hơn 3 vạn quân tiến vào xâm lược Đại Việt (năm 1258)?</string>
+    <string name="dongbodau_ques_1_a">A. Thoát Hoan</string>
+    <string name="dongbodau_ques_1_b">B. Toa Đô</string>
+    <string name="dongbodau_ques_1_c">C. Ngột Lương Hợp Thai</string>
+    <string name="dongbodau_ques_1_ans">C. Ngột Lương Hợp Thai</string>
 
-    <string name="nam1258_ques_2">Quân ta lần đầu chiến đấu với địch ở đâu?</string>
-    <string name="nam1258_ques_2_a">A. Bạch Hạc</string>
-    <string name="nam1258_ques_2_b">B. Bình Lệ Nguyên</string>
-    <string name="nam1258_ques_2_c">C. Thăng Long</string>
-    <string name="nam1258_ques_2_ans">B. Bình Lệ Nguyên</string>
+    <string name="dongbodau_ques_2">Quân ta lần đầu chiến đấu với địch ở đâu?</string>
+    <string name="dongbodau_ques_2_a">A. Bạch Hạc</string>
+    <string name="dongbodau_ques_2_b">B. Bình Lệ Nguyên</string>
+    <string name="dongbodau_ques_2_c">C. Thăng Long</string>
+    <string name="dongbodau_ques_2_ans">B. Bình Lệ Nguyên</string>
 
-    <string name="nam1258_ques_3">Khi quân Mông Cổ tiến vào Thăng Long (năm 1258), vua Trần đã chỉ đạo nhân dân thực hiện chủ trương?</string>
-    <string name="nam1258_ques_3_a">A. tấn công trước để chặn thế mạnh của giặc</string>
-    <string name="nam1258_ques_3_b">B. đầu hàng quân giặc để tránh tổn thất</string>
-    <string name="nam1258_ques_3_c">C. “Vườn không nhà trống”</string>
-    <string name="nam1258_ques_3_ans">C. “Vườn không nhà trống”</string>
+    <string name="dongbodau_ques_3">Khi quân Mông Cổ tiến vào Thăng Long (năm 1258), vua Trần đã chỉ đạo nhân dân thực hiện chủ trương?</string>
+    <string name="dongbodau_ques_3_a">A. tấn công trước để chặn thế mạnh của giặc</string>
+    <string name="dongbodau_ques_3_b">B. đầu hàng quân giặc để tránh tổn thất</string>
+    <string name="dongbodau_ques_3_c">C. “Vườn không nhà trống”</string>
+    <string name="dongbodau_ques_3_ans">C. “Vườn không nhà trống”</string>
 
-    <string name="nam1258_ques_4">Tháng 1/1258, trước thế giặc mạnh, vua Trần Thái Tông đã có quyết định?</string>
-    <string name="nam1258_ques_4_a">A. lui quân để bảo toàn lực lượng</string>
-    <string name="nam1258_ques_4_b">B. cho sứ giả sang cầu hòa</string>
-    <string name="nam1258_ques_4_c">C. dâng biểu xin hàng</string>
-    <string name="nam1258_ques_4_ans">A. lui quân để bảo toàn lực lượng</string>
+    <string name="dongbodau_ques_4">Tháng 1/1258, trước thế giặc mạnh, vua Trần Thái Tông đã có quyết định?</string>
+    <string name="dongbodau_ques_4_a">A. lui quân để bảo toàn lực lượng</string>
+    <string name="dongbodau_ques_4_b">B. cho sứ giả sang cầu hòa</string>
+    <string name="dongbodau_ques_4_c">C. dâng biểu xin hàng</string>
+    <string name="dongbodau_ques_4_ans">A. lui quân để bảo toàn lực lượng</string>
 
-    <string name="nam1258_ques_5">Ai chỉ huy chính trận chiến?</string>
-    <string name="nam1258_ques_5_a">A. Trần Hưng Đạo</string>
-    <string name="nam1258_ques_5_b">B. Trần Thủ Độ</string>
-    <string name="nam1258_ques_5_c">C. Trần Thái Tông</string>
-    <string name="nam1258_ques_5_ans">C. Trần Thái Tông</string>
+    <string name="dongbodau_ques_5">Ai chỉ huy chính trận chiến?</string>
+    <string name="dongbodau_ques_5_a">A. Trần Hưng Đạo</string>
+    <string name="dongbodau_ques_5_b">B. Trần Thủ Độ</string>
+    <string name="dongbodau_ques_5_c">C. Trần Thái Tông</string>
+    <string name="dongbodau_ques_5_ans">C. Trần Thái Tông</string>
 
-    <string name="nam1258_ques_6">Trận chiến diễn ra trong bao lâu?</string>
-    <string name="nam1258_ques_6_a">A. 1 tháng</string>
-    <string name="nam1258_ques_6_b">B. 2 tháng</string>
-    <string name="nam1258_ques_6_c">C. 3 tháng</string>
-    <string name="nam1258_ques_6_ans">A. 1 tháng</string>
+    <string name="dongbodau_ques_6">Trận chiến diễn ra trong bao lâu?</string>
+    <string name="dongbodau_ques_6_a">A. 1 tháng</string>
+    <string name="dongbodau_ques_6_b">B. 2 tháng</string>
+    <string name="dongbodau_ques_6_c">C. 3 tháng</string>
+    <string name="dongbodau_ques_6_ans">A. 1 tháng</string>
 
-    <string name="nam1258_ques_7">Quân ta phản công vào thời gian nào?</string>
-    <string name="nam1258_ques_7_a">A. 29/1/1258</string>
-    <string name="nam1258_ques_7_b">B. 30/1/1258</string>
-    <string name="nam1258_ques_7_c">C. 31/1/1258</string>
-    <string name="nam1258_ques_7_ans">A. 29/1/1258</string>
+    <string name="dongbodau_ques_7">Quân ta phản công vào thời gian nào?</string>
+    <string name="dongbodau_ques_7_a">A. 29/1/1258</string>
+    <string name="dongbodau_ques_7_b">B. 30/1/1258</string>
+    <string name="dongbodau_ques_7_c">C. 31/1/1258</string>
+    <string name="dongbodau_ques_7_ans">A. 29/1/1258</string>
 
-    <string name="nam1258_ques_8">Hà Bổng đã tổ chức mai phục quân Nguyên ở đâu?</string>
-    <string name="nam1258_ques_8_a">A. Đông Bộ Đầu</string>
-    <string name="nam1258_ques_8_b">B. Quy Hoá</string>
-    <string name="nam1258_ques_8_c">C. Thiên Trường</string>
-    <string name="nam1258_ques_8_ans">B. Quy Hoá</string>
+    <string name="dongbodau_ques_8">Hà Bổng đã tổ chức mai phục quân Nguyên ở đâu?</string>
+    <string name="dongbodau_ques_8_a">A. Đông Bộ Đầu</string>
+    <string name="dongbodau_ques_8_b">B. Quy Hoá</string>
+    <string name="dongbodau_ques_8_c">C. Thiên Trường</string>
+    <string name="dongbodau_ques_8_ans">B. Quy Hoá</string>
 
-    <string name="nam1258_ques_9">Nội dung nào không phản ánh quyết tâm xâm lược Đại Việt lần thứ ba của nhà Nguyên?</string>
-    <string name="nam1258_ques_9_a">A. Đình chỉ cuộc xâm lược Nhật Bản</string>
-    <string name="nam1258_ques_9_b">B. Đình chỉ kế hoạch xâm lược Champa</string>
-    <string name="nam1258_ques_9_c">C. Chuẩn bị một đoàn thuyền lương đi cùng</string>
-    <string name="nam1258_ques_9_ans">B. Đình chỉ kế hoạch xâm lược Champa</string>
+    <string name="dongbodau_ques_9">Nội dung nào không phản ánh quyết tâm xâm lược Đại Việt lần thứ ba của nhà Nguyên?</string>
+    <string name="dongbodau_ques_9_a">A. Đình chỉ cuộc xâm lược Nhật Bản</string>
+    <string name="dongbodau_ques_9_b">B. Đình chỉ kế hoạch xâm lược Champa</string>
+    <string name="dongbodau_ques_9_c">C. Chuẩn bị một đoàn thuyền lương đi cùng</string>
+    <string name="dongbodau_ques_9_ans">B. Đình chỉ kế hoạch xâm lược Champa</string>
 
-    <string name="nam1258_ques_10">Khi quân Nguyên chuẩn bị xâm lược, vua Trần đã hỏi Trần Quốc Tuấn về thế địch, ông thưa “năm nay đánh giặc...”</string>
-    <string name="nam1258_ques_10_a">A. Mạnh</string>
-    <string name="nam1258_ques_10_b">B. Yếu</string>
-    <string name="nam1258_ques_10_c">C. Nhàn</string>
-    <string name="nam1258_ques_10_ans">C. Nhàn</string>
+    <string name="dongbodau_ques_10">Khi quân Nguyên chuẩn bị xâm lược, vua Trần đã hỏi Trần Quốc Tuấn về thế địch, ông thưa “năm nay đánh giặc...”</string>
+    <string name="dongbodau_ques_10_a">A. Mạnh</string>
+    <string name="dongbodau_ques_10_b">B. Yếu</string>
+    <string name="dongbodau_ques_10_c">C. Nhàn</string>
+    <string name="dongbodau_ques_10_ans">C. Nhàn</string>
 
 
 <!--Ngọc Hồi-->
