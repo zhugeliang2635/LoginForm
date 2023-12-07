@@ -10,17 +10,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nhập mã OTP"
+        android:textSize="25dp"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.134" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="302dp"
+        android:layout_height="36dp"
+        android:text="Mã OTP được gửi về email của bạn"
+        android:textSize="16dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/edt1"
         android:layout_width="302dp"
         android:layout_height="52dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="numberSigned"
         android:hint=""
@@ -30,16 +46,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv3"
         app:layout_constraintVertical_bias="0.052" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="302dp"
+        android:layout_width="300dp"
         android:layout_height="52dp"
         android:background="@drawable/custom_btn"
+        android:textSize="20dp"
         android:text="Xác nhận"
-        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
@@ -48,15 +64,34 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <TextView
-        android:id="@+id/tv2"
-        android:layout_width="302dp"
-        android:layout_height="36dp"
-        android:text="Mã OTP được gửi về email của bạn nếu chưa nhận được click đây để được gửi lại"
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Chưa nhận được mã?"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn1"
-        app:layout_constraintVertical_bias="0.061" />
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Click đây"
+        android:textSize="16dp"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintVertical_bias="0.06" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
