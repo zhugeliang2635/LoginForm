@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
+    android:background="@color/white"
     tools:context=".ResultFragment">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/home_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="32dp"
-        android:background="@color/light_sky"
+        android:background="@drawable/custom_purple_button"
         android:text="Go To Home"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,11 +24,12 @@
 
     <ProgressBar
         android:id="@+id/resultCoutProgressBar"
-        style="?android:attr/progressBarStyle"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
-        android:indeterminateTint="@color/light_sky"
+        android:indeterminateTint="#8888EA"
+        android:progress="100"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,8 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Result"
-        android:textColor="@color/white"
+        android:text="Kết quả"
+        android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,9 +68,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="104dp"
-        android:text="Correct Answers :"
+        android:text="Số câu trả lời đúng:"
         android:textColor="@color/black"
-        android:textSize="17sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultCoutProgressBar" />
 
@@ -79,23 +80,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
+        android:text="Số câu trả lời sai:"
         android:textColor="@color/black"
-        android:text="Wrong Answers :"
-        android:textSize="17sp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:textColor="@color/black"
-        android:textSize="17sp"
-        android:text="Not Answered Questions :"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/correctAnswerTv"
@@ -103,8 +92,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:text="NA"
-        android:textColor="@color/white"
-        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView8" />
 
@@ -114,20 +103,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:text="NA"
-        android:textColor="@color/white"
-        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView9" />
-
-    <TextView
-        android:id="@+id/notAnsweredTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="NA"
-        android:textColor="@color/white"
-        android:textSize="17sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,11 +2,15 @@ package com.example.maphistory;
 
 import android.os.Bundle;
 
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +18,13 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class ResultFragment extends Fragment {
+
+    private AppCompatButton homeButton;
+    private TextView numCorrect;
+    private TextView numWrong;
+    private TextView grade;
+
+    private QuizActivity activity;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +70,24 @@ public class ResultFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_result, container, false);
+        View view = inflater.inflate(R.layout.fragment_result, container, false);
+        activity = (QuizActivity) getActivity();
+        homeButton = view.findViewById(R.id.home_btn);
+        int percentage = activity.getCorrect() * 10;
+        grade = view.findViewById(R.id.resultPercentageTv);
+
+        numCorrect = view.findViewById(R.id.correctAnswerTv);
+        numWrong = view.findViewById(R.id.wrongAnswersTv);
+
+        numCorrect.setText(Integer.toString(activity.getCorrect()));
+        numWrong.setText(Integer.toString(activity.getWrong()));
+        grade.setText(Integer.toString(percentage).concat("%"));
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.goHome();
+            }
+        });
+        return view;
     }
 }
