@@ -26,7 +26,8 @@ public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallb
         // Add a marker in Sydney and move the camera
         LatLng vietnam = new LatLng(21.028511, 105.804817); // 14.0583° N, 108.2772° E
         this.googleMap.addMarker(new MarkerOptions().position(vietnam).title("Ha Noi"));
-        this.googleMap.moveCamera(CameraUpdateFactory.newLatLng(vietnam));
+        float defaultZoomLevel = 12.0f;
+        this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(vietnam, defaultZoomLevel));
 
         List<MarkerOptions> markerOptionsList = getMarkerOptionsList();
 
