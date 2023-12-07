@@ -3,10 +3,12 @@ package com.example.maphistory;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -44,6 +46,9 @@ public class LoginActivity extends AppCompatActivity {
         loginEmail = findViewById(R.id.username);
         loginPassword = findViewById(R.id.password);
 
+        android.view.inputmethod.InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        loginEmail.requestFocus();
+        imm.showSoftInput(loginEmail, InputMethodManager.SHOW_FORCED);
         btn1_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 replaceFragment(new MapFragment());
             }
             if(item.getItemId() == R.id.infor){
+
 //                replaceFragment(new InforFragment());
                 Intent move = new Intent(MainActivity.this, ListActivity.class);
                 startActivity(move);

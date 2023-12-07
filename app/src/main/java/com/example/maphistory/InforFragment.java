@@ -76,36 +76,36 @@ public class InforFragment extends Fragment {
         }
 
         context = getActivity();
-        Intent move = new Intent(context, ListActivity.class);
-        startActivity(move);
+//        Intent move = new Intent(context, ListActivity.class);
+//        startActivity(move);
 
-//        binding = FragmentInforBinding.inflate(getLayoutInflater());
-//
-//
-//        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
-//                R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7};
-//        String[] name = {"Trận Bạch Đằng", "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng",
-//                "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng"};
-//        String[] time = {"Năm 938", "Năm 938","Năm 938","Năm 938","Năm 938","Năm 938","Năm 938",
-//                "Năm 938","Năm 938","Năm 938",};
-//
-//        ArrayList<ListData> eventList = new ArrayList<>();
-//
-//        for (int i = 0; i < imgageId.length; i++) {
-//            ListData listData = new ListData(name[i], time[i], imgageId[i]);
-//            eventList.add(listData);
-//        }
-//
-//        ListAdapter listAdapter = new ListAdapter(i, eventList);
-//
-//        binding.listview.setAdapter(listAdapter);
-//        binding.listview.setClickable(true);
-//        binding.listview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-//
-//            }
-//        });
+        binding = FragmentInforBinding.inflate(getLayoutInflater());
+
+
+        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
+                R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7};
+        String[] name = {"Trận Bạch Đằng", "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng",
+                "Trận Bạch Đằng", "Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng","Trận Bạch Đằng"};
+        String[] time = {"Năm 938", "Năm 938","Năm 938","Năm 938","Năm 938","Năm 938","Năm 938",
+                "Năm 938","Năm 938","Năm 938",};
+
+        ArrayList<ListData> eventList = new ArrayList<>();
+
+        for (int i = 0; i < imgageId.length; i++) {
+            ListData listData = new ListData(name[i], time[i], imgageId[i]);
+            eventList.add(listData);
+        }
+
+        ListAdapter listAdapter = new ListAdapter(getContext(), eventList);
+
+        binding.listview.setAdapter(listAdapter);
+        binding.listview.setClickable(true);
+        binding.listview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+
+            }
+        });
 
     }
 

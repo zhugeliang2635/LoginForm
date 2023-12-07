@@ -1,10 +1,16 @@
 package com.example.maphistory;
 
+import android.content.Intent;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.ArrayList;
@@ -13,7 +19,7 @@ import java.util.List;
 public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallback {
 
     private GoogleMap googleMap;
-
+    MainActivity activity;
     public MyMapFragment()  {
         getMapAsync(this);
     }
@@ -26,7 +32,8 @@ public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallb
         // Add a marker in Sydney and move the camera
         LatLng vietnam = new LatLng(21.028511, 105.804817); // 14.0583° N, 108.2772° E
         this.googleMap.addMarker(new MarkerOptions().position(vietnam).title("Ha Noi"));
-        float defaultZoomLevel = 12.0f;
+        float defaultZoomLevel = 8.0f;
+
         this.googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(vietnam, defaultZoomLevel));
 
         List<MarkerOptions> markerOptionsList = getMarkerOptionsList();
@@ -48,6 +55,21 @@ public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallb
                 googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
                 // Add Marker on Map
                 googleMap.addMarker(markerOptions);
+
+            }
+        });
+
+        this.googleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(@NonNull Marker marker) {
+                if (marker.getTitle().equals("Bạch Đằng Giang")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "bachdang");
+                    startActivity(intent);
+                    Toast.makeText(getContext(), "ok", Toast.LENGTH_SHORT).show();
+                }
+                return true;
             }
         });
     }
