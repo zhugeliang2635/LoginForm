@@ -2,24 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id= "@+id/home"
-        android:title="Home"
-        android:icon="@drawable/baseline_home_24"/>
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Trang chủ" />
 
     <item
-        android:id= "@+id/map"
-        android:title="Map"
+        android:id="@+id/map"
         android:icon="@drawable/baseline_map_24"
-        />
+        android:title="Bản đồ" />
 
     <item
         android:id="@+id/infor"
         android:icon="@drawable/baseline_view_compact_24"
-        android:title="Information" />
+        android:title="Thông tin" />
     <item
-        android:id= "@+id/person"
-        android:title="Profile"
+        android:id="@+id/person"
         android:icon="@drawable/ic_baseline_person_24"
-        />
+        android:title="Cài đặt" />
 
 </menu>
