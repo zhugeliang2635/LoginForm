@@ -55,6 +55,7 @@
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".SignupActivity" />
+
         <activity
             android:name=".detail"
             android:exported="false" />

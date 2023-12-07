@@ -87,10 +87,11 @@ public class HomeFragment extends Fragment {
         super.onStart();
         TextView xtc = context.findViewById(R.id.textView2);
 
-        ImageView img1, img2, img3;
+        ImageView img1, img2, img3, quiz1;
         img1 = context.findViewById(R.id.imageView1);
         img2 = context.findViewById(R.id.imageView);
         img3 = context.findViewById(R.id.imageView3);
+        quiz1 = context.findViewById(R.id.quiz1);
         xtc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,6 +133,14 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 Intent move3 = new Intent(context, detail.class);
                 startActivity(move3);
+            }
+        });
+        quiz1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent moveToQuiz = new Intent(context, QuizActivity.class);
+                moveToQuiz.putExtra("event", "Bạch Đằng Giang");
+                startActivity(moveToQuiz);
             }
         });
 
