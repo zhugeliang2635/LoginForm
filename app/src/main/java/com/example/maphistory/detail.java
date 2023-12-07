@@ -81,6 +81,71 @@ public class detail extends AppCompatActivity {
                 eventInfor.setText(name + "\n" + time);
                 collapsingToolbarLayout.setTitle(name);
                 break;
+            case "nhunguyet":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_20);
+                name = getResources().getString(R.string.nhunguyet_name);
+                time = getResources().getString(R.string.nhunguyet_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "dongbodau":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_21);
+                name = getResources().getString(R.string.bachdang_name);
+                time = getResources().getString(R.string.bachdang_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "chilang":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_22);
+                name = getResources().getString(R.string.chilang_name);
+                time = getResources().getString(R.string.chilang_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "rachgam":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_23);
+                name = getResources().getString(R.string.rachgam_name);
+                time = getResources().getString(R.string.rachgam_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "ngochoi":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_24);
+                name = getResources().getString(R.string.ngochoi_name);
+                time = getResources().getString(R.string.ngochoi_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+
+            case "dienbienphu":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_19);
+                name = getResources().getString(R.string.dbp54_name);
+                time = getResources().getString(R.string.dbp54_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "dienbienphutrenkhong":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_25);
+                name = getResources().getString(R.string.dbp72_name);
+                time = getResources().getString(R.string.dbp72_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
+            case "chiendichHCM":
+                textView.setText(R.string.bachdang_des);
+                imageView.setImageResource(R.drawable.img_26);
+                name = getResources().getString(R.string.nam1975_name);
+                time = getResources().getString(R.string.nam1975_time);
+                eventInfor.setText(name + "\n" + time);
+                collapsingToolbarLayout.setTitle(name);
+                break;
         }
 
 
