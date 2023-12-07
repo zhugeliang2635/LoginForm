@@ -60,7 +60,7 @@
                     <ImageView
                         android:id="@+id/imageViewpf"
                         android:layout_width="50dp"
-                        android:layout_height="51dp"
+                        android:layout_height="50dp"
                         android:layout_marginEnd="5dp"
                         android:src="@drawable/img_3"
                         app:layout_constraintBottom_toBottomOf="parent"

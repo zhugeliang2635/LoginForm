@@ -2,6 +2,7 @@ package com.example.maphistory;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -19,8 +20,17 @@ import android.widget.TextView;
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -41,6 +51,12 @@ public class HomeFragment extends Fragment {
 
     private RecyclerView.Adapter adapterPopular;
     private RecyclerView recyclerViewPopular;
+
+    private ImageView profileImage;
+    private TextView name;
+    private FirebaseAuth fAuth;
+    private FirebaseFirestore firestore;
+    private StorageReference storageReference;
 
 
 
@@ -79,6 +95,12 @@ public class HomeFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
+
+
+
+
 
     }
 
@@ -144,6 +166,16 @@ public class HomeFragment extends Fragment {
         context = getActivity();
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
+        name = view.findViewById(R.id.user);
+        profileImage = view.findViewById(R.id.imageViewpf);
+
+        fAuth = FirebaseAuth.getInstance();
+        firestore = FirebaseFirestore.getInstance();
+        storageReference = FirebaseStorage.getInstance().getReference();
+        name.setText( ((MainActivity)getActivity()).getName());
+
+
+
         ImageSlider imageSlider = view.findViewById(R.id.imageSlider);
         ArrayList<SlideModel> slideModels = new ArrayList<>();
 
@@ -153,6 +185,14 @@ public class HomeFragment extends Fragment {
         slideModels.add(new SlideModel(R.drawable.img_13, ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
+
+        StorageReference profileImageRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid().toString()+"/profile.jpg");
+        profileImageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Picasso.get().load(uri).transform(new CropCircleTransformation()).into(profileImage);
+            }
+        });
 
         return view;
 

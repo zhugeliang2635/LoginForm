@@ -2,6 +2,7 @@ package com.example.maphistory;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,10 +10,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
+
+import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +33,10 @@ public class ProfileFragment extends Fragment {
     FirebaseAuth fAuth;
     private TextView gotoProfile;
     private TextView gotoChangePass;
+
+    private TextView email;
+    private TextView name;
+    private ImageView profileImage;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -77,15 +90,31 @@ public class ProfileFragment extends Fragment {
         // Inflate the layout for this fragment
         context = getActivity();
         View view2 = inflater.inflate(R.layout.new_fragment_profile, container, false);
+        MainActivity parent = (MainActivity) getActivity();
         fAuth = FirebaseAuth.getInstance();
+        name = view2.findViewById(R.id.name);
+        email = view2.findViewById(R.id.email);
+        name.setText(parent.getName());
+        email.setText(parent.getEmail());
+        profileImage = view2.findViewById(R.id.profileImage);
         ImageButton btn1 = view2.findViewById(R.id.imageNoti);
         gotoProfile = view2.findViewById(R.id.goToChangeProfileButton);
         gotoChangePass = view2.findViewById(R.id.goToChangePassButton);
+
+        StorageReference storageReference = FirebaseStorage.getInstance().getReference();
+        StorageReference profileImageRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid().toString()+"/profile.jpg");
+        profileImageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Picasso.get().load(uri).transform(new CropCircleTransformation()).into(profileImage);
+            }
+        });
 
         gotoProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(context, changeProfile.class));
+
             }
         });
 
@@ -101,6 +130,7 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(context, LoginActivity.class));
+                parent.finish();
             }
         });
         return view2;
