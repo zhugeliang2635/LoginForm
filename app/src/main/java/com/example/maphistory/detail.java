@@ -82,7 +82,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "nhunguyet":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.nhunguyet_des);
                 imageView.setImageResource(R.drawable.img_20);
                 name = getResources().getString(R.string.nhunguyet_name);
                 time = getResources().getString(R.string.nhunguyet_time);
@@ -90,7 +90,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "dongbodau":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.nam1258_des);
                 imageView.setImageResource(R.drawable.img_21);
                 name = getResources().getString(R.string.bachdang_name);
                 time = getResources().getString(R.string.bachdang_time);
@@ -98,7 +98,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "chilang":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.chilang_des);
                 imageView.setImageResource(R.drawable.img_22);
                 name = getResources().getString(R.string.chilang_name);
                 time = getResources().getString(R.string.chilang_time);
@@ -106,7 +106,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "rachgam":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.rachgam_des);
                 imageView.setImageResource(R.drawable.img_23);
                 name = getResources().getString(R.string.rachgam_name);
                 time = getResources().getString(R.string.rachgam_time);
@@ -114,7 +114,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "ngochoi":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.ngochoi_des);
                 imageView.setImageResource(R.drawable.img_24);
                 name = getResources().getString(R.string.ngochoi_name);
                 time = getResources().getString(R.string.ngochoi_time);
@@ -123,7 +123,7 @@ public class detail extends AppCompatActivity {
                 break;
 
             case "dienbienphu":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.dbp54_des);
                 imageView.setImageResource(R.drawable.img_19);
                 name = getResources().getString(R.string.dbp54_name);
                 time = getResources().getString(R.string.dbp54_time);
@@ -131,7 +131,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "dienbienphutrenkhong":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.dbp72_des);
                 imageView.setImageResource(R.drawable.img_25);
                 name = getResources().getString(R.string.dbp72_name);
                 time = getResources().getString(R.string.dbp72_time);
@@ -139,7 +139,7 @@ public class detail extends AppCompatActivity {
                 collapsingToolbarLayout.setTitle(name);
                 break;
             case "chiendichHCM":
-                textView.setText(R.string.bachdang_des);
+                textView.setText(R.string.nam1975_des);
                 imageView.setImageResource(R.drawable.img_26);
                 name = getResources().getString(R.string.nam1975_name);
                 time = getResources().getString(R.string.nam1975_time);

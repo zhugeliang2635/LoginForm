@@ -26,7 +26,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="Đăng nhập"
                 android:id="@+id/loginText"
                 android:textSize="36sp"
                 android:textAlignment="center"
@@ -39,7 +39,7 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
                 android:drawablePadding="8dp"
-                android:hint="Username"
+                android:hint="Tên đăng nhập"
                 android:padding="8dp"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background"
@@ -51,7 +51,7 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_lock_person_24"
                 android:drawablePadding="8dp"
-                android:hint="Password"
+                android:hint="Mật khẩu"
                 android:padding="8dp"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:id="@+id/loginButton"
-                android:text="Login"
+                android:text="Đăng nhập"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/purple"
@@ -73,13 +73,14 @@
         android:id="@+id/signupText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="15dp"
         android:padding="8dp"
         android:clickable="true"
         android:text="Đăng kí tài khoản mới"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="@color/purple"
-        android:textSize="14sp" />
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/forgetText"
@@ -88,8 +89,9 @@
         android:layout_marginBottom="5dp"
         android:clickable="true"
         android:padding="8dp"
-        android:text="Quên mật khẩu"
+        android:text="Quên mật khẩu?"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="@color/purple"
-        android:textSize="14sp" />
+        android:textSize="18sp" />
 </LinearLayout>
