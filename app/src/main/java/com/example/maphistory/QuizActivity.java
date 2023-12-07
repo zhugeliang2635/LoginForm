@@ -7,6 +7,23 @@ import android.os.Bundle;
 
 public class QuizActivity extends AppCompatActivity {
     private String name;
+    private int correct;
+    private int wrong;
+
+    public void increaseCorrect() {
+        correct++;
+    }
+    public void increaseWrong() {
+        wrong++;
+    }
+
+    public int getCorrect() {
+        return correct;
+    }
+
+    public int getWrong() {
+        return wrong;
+    }
 
     public String getName() {
         return this.name;
@@ -15,6 +32,8 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        correct = 0;
+        wrong = 0;
         Bundle args = getIntent().getExtras();
         if (args != null) {
             name = args.getString("event");
@@ -25,10 +44,23 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     public void nextQuestion(int questionNum) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        QuizFragment quizFragment = new QuizFragment( questionNum);
-        transaction.replace(R.id.quiz_activity, quizFragment);
-        transaction.commit();
+        if (questionNum <= 10) {
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            QuizFragment quizFragment = new QuizFragment( questionNum);
+            transaction.replace(R.id.quiz_activity, quizFragment);
+            transaction.commit();
+        }
 
+    }
+
+    public void showResult() {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        ResultFragment resultFragment = new ResultFragment();
+        transaction.replace(R.id.quiz_activity, resultFragment);
+        transaction.commit();
+    }
+
+    public void goHome() {
+        finish();
     }
 }

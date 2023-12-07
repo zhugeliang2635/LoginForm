@@ -74,7 +74,7 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         context = getActivity();
-        View view2 = inflater.inflate(R.layout.fragment_profile, container, false);
+        View view2 = inflater.inflate(R.layout.new_fragment_profile, container, false);
 
         return view2;
     }

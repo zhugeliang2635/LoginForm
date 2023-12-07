@@ -3,6 +3,7 @@ package com.example.maphistory;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
@@ -17,7 +18,7 @@ import android.widget.TextView;
  * Use the {@link QuizFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class QuizFragment extends Fragment {
+public class QuizFragment extends Fragment implements View.OnClickListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -30,13 +31,16 @@ public class QuizFragment extends Fragment {
     private String ans;
     private String mParam1;
     private String mParam2;
+    private TextView feedback;
 
     private TextView questionVal;
-    private Button optionA;
-    private Button optionB;
-    private Button optionC;
-    private Button nextQuestion;
+    private AppCompatButton optionA;
+    private AppCompatButton optionB;
+    private AppCompatButton optionC;
+    private AppCompatButton nextQuestion;
     private int number;
+
+    private boolean canAnswer = false;
     public QuizFragment() {
         // Required empty public constructor
     }
@@ -79,22 +83,43 @@ public class QuizFragment extends Fragment {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_quiz, container, false);
         activity = (QuizActivity) getActivity();
+        feedback = view.findViewById(R.id.ansFeedbackTv);
+
+        canAnswer = true;
         optionA = view.findViewById(R.id.option1Btn);
         optionB = view.findViewById(R.id.option2Btn);
         optionC = view.findViewById(R.id.option3Btn);
+        optionC.setEnabled(true);
+//        optionC.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                verify(optionC);
+//            }
+//        });
+//
+//        optionB.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                verify(optionB);
+//            }
+//        });
+//
+//        optionA.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                verify(optionA);
+//            }
+//        });
 
-        optionC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
+        optionC.setOnClickListener(this);
+        optionB.setOnClickListener(this);
+        optionA.setOnClickListener(this);
 
 
         questionVal = view.findViewById(R.id.quizQuestionsCount);
         questionVal.setText(Integer.toString(number));
         nextQuestion = view.findViewById(R.id.nextQueBtn);
+        nextQuestion.setVisibility(View.INVISIBLE);
         questionText = view.findViewById(R.id.quizQuestionTv);
         switch (activity.getName()) {
             case "bachdang":
@@ -111,16 +136,45 @@ public class QuizFragment extends Fragment {
         nextQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                activity.nextQuestion(number + 1);
+                if (number < 10) {
+                    activity.nextQuestion(number + 1);
+                } else  {
+                    activity.showResult();
+                }
+
             }
         });
         return view;
     }
 
-    public void verify(Button option) {
-        if (option.getText().equals(ans)) {
-            option.setBackground(ContextCompat.getDrawable(getContext(), R.color.green));
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.option1Btn) {
+            verify(optionA);
+        } else if (v.getId() == R.id.option2Btn) {
+            verify(optionB);
+        } else if (v.getId() == R.id.option3Btn) {
+            verify(optionC);
         }
+    }
+    public void showNextButton() {
+        nextQuestion.setVisibility(View.VISIBLE);
+    }
+    public void verify(AppCompatButton option) {
+        if (canAnswer) {
+            if (option.getText().equals(ans)) {
+                option.setBackgroundResource(R.drawable.custom_button_correct);
+                feedback.setText("Bạn đã trả lời đúng!");
+                activity.increaseCorrect();
+            } else {
+                option.setBackgroundResource(R.drawable.custom_button_wrong);
+                feedback.setText("Bạn đã trả lời sai!");
+                activity.increaseWrong();
+            }
+            canAnswer = false;
+            showNextButton();
+        }
+
     }
 
 }
