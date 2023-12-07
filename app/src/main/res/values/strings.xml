@@ -456,7 +456,6 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
     <string name="nam1975_ques_1_c">C. 23/4/1975</string>
     <string name="nam1975_ques_1_ans">B. 26/4/1975</string>
 
-
     <string name="nam1975_ques_2">Chiến dịch được chính thức quyết định ngày nào?</string>
     <string name="nam1975_ques_2_a">A. 8/4</string>
     <string name="nam1975_ques_2_b">B. 12/4</string>
@@ -475,17 +474,17 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
     <string name="nam1975_ques_4_c">C. 15 ngày</string>
     <string name="nam1975_ques_4_ans">B. 5 ngày</string>
 
-    <string name="nam1975_ques_5">Vì sao quân Xiêm lại kéo quân vào Gia Định?</string>
-    <string name="nam1975_ques_5_a">A. Do lo ngại ảnh hưởng của phong trào Tây Sơn</string>
-    <string name="nam1975_ques_5_b">B. Do sự nhờ vả của Lê Chiêu Thống</string>
-    <string name="nam1975_ques_5_c">C. Do sự nhờ vả của Nguyễn Ánh</string>
-    <string name="nam1975_ques_5_ans">C. Do sự nhờ vả của Nguyễn Ánh</string>
+    <string name="nam1975_ques_5">Tư tưởng "đánh cho Mỹ cút, đánh cho ngụy nhào" là của ai?</string>
+    <string name="nam1975_ques_5_a">A. Đại tướng Võ Nguyên Giáp</string>
+    <string name="nam1975_ques_5_b">B. Chính uỷ Phạm Hùng</string>
+    <string name="nam1975_ques_5_c">C. Chủ tịch Hồ Chí Minh</string>
+    <string name="nam1975_ques_5_ans">C. Chủ tịch Hồ Chí Minh</string>
 
-    <string name="nam1975_ques_6">Quân địch bắt đầu tiến đánh vào thời gian nào?</string>
-    <string name="nam1975_ques_6_a">A. 7/1784</string>
-    <string name="nam1975_ques_6_b">B. 8/1784</string>
-    <string name="nam1975_ques_6_c">C. 9/1784</string>
-    <string name="nam1975_ques_6_ans">A. 7/1784</string>
+    <string name="nam1975_ques_6">Chiến dịch Hồ Chí Minh lịch sử được Đảng ta chia ra bằng mấy mũi tiến công?</string>
+    <string name="nam1975_ques_6_a">A. 5</string>
+    <string name="nam1975_ques_6_b">B. 6</string>
+    <string name="nam1975_ques_6_c">C. 7</string>
+    <string name="nam1975_ques_6_ans">A. 5</string>
 
     <string name="nam1975_ques_7">Chiếc xe tăng do Trung uý Bùi Quang Thận đánh chiếm Dinh độc lập mang số bao nhiêu?</string>
     <string name="nam1975_ques_7_a">A. 309</string>
@@ -511,8 +510,263 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
     <string name="nam1975_ques_10_c">C. Thái Bá Minh</string>
     <string name="nam1975_ques_10_ans">B. Bùi Quang Thận</string>
 
-    <!--Như Nguyệt-->
+
+<!--Như Nguyệt-->
+    <string name="nhunguyet_time">Năm 1077</string>
+    <string name="nhunguyet_name">Chiến dịch Hồ Chí Minh 1975</string>
+
+    <string name="nhunguyet_ques_1">Trận chiến bắt đầu từ ngày nào?</string>
+    <string name="nhunguyet_ques_1_a">A. 6/1/1077</string>
+    <string name="nhunguyet_ques_1_b">B. 8/1/1077</string>
+    <string name="nhunguyet_ques_1_c">C. 10/1/1077</string>
+    <string name="nhunguyet_ques_1_ans">B. 8/1/1077</string>
+
+    <string name="nhunguyet_ques_2">Trước nguy cơ xâm lược của nhà Tống, Lý Thường Kiệt đã có chủ trương gì?</string>
+    <string name="nhunguyet_ques_2_a">A. Đánh du kích</string>
+    <string name="nhunguyet_ques_2_b">B. "Tiến công trước để tự vệ"</string>
+    <string name="nhunguyet_ques_2_c">C. Phòng thủ</string>
+    <string name="nhunguyet_ques_2_ans">B. "Tiến công trước để tự vệ"</string>
+
+    <string name="nhunguyet_ques_3">Đâu không phải lý do khiến Lý Thường Kiệt chọn Như Nguyệt làm nơi xây dựng phòng tuyến đánh giặc?</string>
+    <string name="nhunguyet_ques_3_a">A. Lực lượng quân Tống sang xâm lược Việt Nam chủ yếu là bộ binh</string>
+    <string name="nhunguyet_ques_3_b">B. Dựa trên truyền thống đánh giặc trên sông của các triều đại trước</string>
+    <string name="nhunguyet_ques_3_c">C. Là một chiến hào tự nhiên khó để vượt qua</string>
+    <string name="nhunguyet_ques_3_ans">B. Dựa trên truyền thống đánh giặc trên sông của các triều đại trước</string>
+
+    <string name="nhunguyet_ques_4">Vào thời gian nào quân Tống vượt ải Nam Quan qua Lạng Sơn tiến vào nước ta?</string>
+    <string name="nhunguyet_ques_4_a">A. Cuối năm 1076</string>
+    <string name="nhunguyet_ques_4_b">B. Đầu năm 1077</string>
+    <string name="nhunguyet_ques_4_c">C. Cuối năm 1075</string>
+    <string name="nhunguyet_ques_4_ans">B. Đầu năm 1077</string>
+
+    <string name="nhunguyet_ques_5">Ai là người chỉ đạo cuộc kháng chiến chống Tống xâm lược thời Lý?</string>
+    <string name="nhunguyet_ques_5_a">A. Lý Kế Nguyên</string>
+    <string name="nhunguyet_ques_5_b">B. Vua Lý Thánh Tông</string>
+    <string name="nhunguyet_ques_5_c">C. Lý Thường Kiệt</string>
+    <string name="nhunguyet_ques_5_ans">C. Lý Thường Kiệt</string>
+
+    <string name="nhunguyet_ques_6">Sau khi rút quân khỏi thành Ung Châu, Lý Thường Kiêt cho quân bố phòng ở?</string>
+    <string name="nhunguyet_ques_6_a">A. Vùng biên giới</string>
+    <string name="nhunguyet_ques_6_b">B. Vùng đồng bằng</string>
+    <string name="nhunguyet_ques_6_c">C. Xung quanh trại địch</string>
+    <string name="nhunguyet_ques_6_ans">A. Vùng biên giới</string>
+
+    <string name="nhunguyet_ques_7">Cánh quân bộ của quân Tống tiến sang Đại Việt do ai chỉ huy?</string>
+    <string name="nhunguyet_ques_7_a">A. Quách Quỳ, Triệu Tiết</string>
+    <string name="nhunguyet_ques_7_b">B. Hầu Nhân Bảo, Vương Thông</string>
+    <string name="nhunguyet_ques_7_c">C. Hòa Mâu, Ô Mã Nhi</string>
+    <string name="nhunguyet_ques_7_ans">A. Quách Quỳ, Triệu Tiết</string>
+
+    <string name="nhunguyet_ques_8">Vì sao nhà Tống lại muốn đem quân xâm lược Đại Việt?</string>
+    <string name="nhunguyet_ques_8_a">A. Để giải quyết những khó khăn ở trong nước</string>
+    <string name="nhunguyet_ques_8_b">B. Do nhà Lý không chấp nhận tước vương của nhà Tống</string>
+    <string name="nhunguyet_ques_8_c">C. Do sự xúi giục của Cham-pa</string>
+    <string name="nhunguyet_ques_8_ans">A. Để giải quyết những khó khăn ở trong nước</string>
+
+    <string name="nhunguyet_ques_9">Cách kết thúc chiến tranh của Lý Thường Kiệt có gì độc đáo?</string>
+    <string name="nhunguyet_ques_9_a">A. Chủ động rút lui để bảo toàn lực lượng</string>
+    <string name="nhunguyet_ques_9_b">B. Chủ động đề nghị giảng hoà</string>
+    <string name="nhunguyet_ques_9_c">C. Tổng tiến công, truy kích kẻ thù đến cùng</string>
+    <string name="nhunguyet_ques_9_ans">B. Chủ động đề nghị giảng hoà</string>
+
+    <string name="nhunguyet_ques_10">Tư tưởng xuyên suốt của nhà Lý trong cuộc kháng chiến chống Tống?</string>
+    <string name="nhunguyet_ques_10_a">A. bị động</string>
+    <string name="nhunguyet_ques_10_b">B. chủ động</string>
+    <string name="nhunguyet_ques_10_c">C. nhân đạo</string>
+    <string name="nhunguyet_ques_10_ans">B. chủ động</string>
+
+
 <!--1288-->
-<!--Đông Bộ Đầu-->
+    <string name="nam1288_time">Năm 1288</string>
+    <string name="nam1288_name">Trận Bạch Đằng 1288</string>
+
+    <string name="nam1288_ques_1">Chiến thắng trong cuộc kháng chiến chống quân xâm lược Nguyên lần thứ ba đã đè bẹp ý chí xâm lược của kẻ thù?</string>
+    <string name="nam1288_ques_1_a">A. Đông Bộ Đầu</string>
+    <string name="nam1288_ques_1_b">B. Bạch Đằng</string>
+    <string name="nam1288_ques_1_c">C. Chương Dương, Hàm Tử</string>
+    <string name="nam1288_ques_1_ans">B. Bạch Đằng</string>
+
+    <string name="nam1288_ques_2">Sự kiện nào đánh dấu kế hoạch xâm lược Đại Việt lần 3 của nhà Nguyên bước đầu bị phá sản?</string>
+    <string name="nam1288_ques_2_a">A. Quân Nguyên gặp phải kế vườn không nhà trống của Đại Việt</string>
+    <string name="nam1288_ques_2_b">B. Đoàn thuyền lương của Trương Văn Hổ bị tiêu diệt</string>
+    <string name="nam1288_ques_2_c">C. Kế hoạch dùng Champa làm bàn đạp đánh Đại Việt thất bại</string>
+    <string name="nam1288_ques_2_ans">B. Đoàn thuyền lương của Trương Văn Hổ bị tiêu diệt</string>
+
+    <string name="nam1288_ques_3">Khi bị lâm vào tình thế nguy khốn, Thoát Hoan đã chủ động đưa ra quyết định gì?</string>
+    <string name="nam1288_ques_3_a">A. Tổ chức cướp bóc lương thực của người dân</string>
+    <string name="nam1288_ques_3_b">B. Tổ chức bình định, lấn chiếm vùng lân cận</string>
+    <string name="nam1288_ques_3_c">C. Quyết định rút quân về nước</string>
+    <string name="nam1288_ques_3_ans">C. Quyết định rút quân về nước</string>
+
+    <string name="nam1288_ques_4">Điểm khác biệt cơ bản giữa Bạch Đằng năm 938 với trận Bạch Đằng năm 1288 là?</string>
+    <string name="nam1288_ques_4_a">A. Thời điểm tổ chức trận đánh</string>
+    <string name="nam1288_ques_4_b">B. Kế sách đánh giặc</string>
+    <string name="nam1288_ques_4_c">C. Kết quả</string>
+    <string name="nam1288_ques_4_ans">A. Thời điểm tổ chức trận đánh</string>
+
+    <string name="nam1288_ques_5">Đâu không phải lý do nhà Trần chọn Bạch Đằng làm nơi diễn ra trận quyết chiến?</string>
+    <string name="nam1288_ques_5_a">A. Do vị trí chiến lược của sông Bạch Đằng</string>
+    <string name="nam1288_ques_5_b">B. Do quân Nguyên yếu về thủy chiến</string>
+    <string name="nam1288_ques_5_c">C. Do cánh quân của Thoát Hoan không quan trọng bằng cánh quân của Ô Mã Nhi</string>
+    <string name="nam1288_ques_5_ans">C. Do cánh quân của Thoát Hoan không quan trọng bằng cánh quân của Ô Mã Nhi</string>
+
+    <string name="nam1288_ques_6">Vị tướng được giao nhiệm vụ bảo vệ đoàn thuyền lương của Trương Văn Hổ?</string>
+    <string name="nam1288_ques_6_a">A. Ô Mã Nhi</string>
+    <string name="nam1288_ques_6_b">B. Thoát Hoan</string>
+    <string name="nam1288_ques_6_c">C. Toa Đô</string>
+    <string name="nam1288_ques_6_ans">A. Ô Mã Nhi</string>
+
+    <string name="nam1288_ques_7">Yếu tố tự nhiên được khai thác triệt để trong trận Bạch Đằng năm 1288?</string>
+    <string name="nam1288_ques_7_a">A. Con nước thủy triều</string>
+    <string name="nam1288_ques_7_b">B. Cây cối rậm rạp</string>
+    <string name="nam1288_ques_7_c">C. Thời tiết mưa</string>
+    <string name="nam1288_ques_7_ans">A. Con nước thủy triều</string>
+
+    <string name="nam1288_ques_8">Khu vực nào được Thoát Hoan lựa chọn làm căn cứ để đánh lâu dài với Đại Việt?</string>
+    <string name="nam1288_ques_8_a">A. Thăng Long</string>
+    <string name="nam1288_ques_8_b">B. Vạn Kiếp</string>
+    <string name="nam1288_ques_8_c">C. Thiên Trường</string>
+    <string name="nam1288_ques_8_ans">B. Vạn Kiếp</string>
+
+    <string name="nam1288_ques_9">Nội dung nào không phản ánh quyết tâm xâm lược Đại Việt lần thứ ba của nhà Nguyên?</string>
+    <string name="nam1288t_ques_9_a">A. Đình chỉ cuộc xâm lược Nhật Bản</string>
+    <string name="nam1288_ques_9_b">B. Đình chỉ kế hoạch xâm lược Champa</string>
+    <string name="nam1288_ques_9_c">C. Chuẩn bị một đoàn thuyền lương đi cùng</string>
+    <string name="nam1288_ques_9_ans">B. Đình chỉ kế hoạch xâm lược Champa</string>
+
+    <string name="nam1288_ques_10">Khi quân Nguyên chuẩn bị xâm lược, vua Trần đã hỏi Trần Quốc Tuấn về thế địch, ông thưa “năm nay đánh giặc...”</string>
+    <string name="nam1288_ques_10_a">A. Mạnh</string>
+    <string name="nam1288_ques_10_b">B. Yếu</string>
+    <string name="nam1288_ques_10_c">C. Nhàn</string>
+    <string name="nam1288_ques_10_ans">C. Nhàn</string>
+
+<!--Đông Bộ Đầu 1258-->
+    <string name="nam1258_time">Năm 1288</string>
+    <string name="nam1258_name">Trận Bạch Đằng 1288</string>
+
+    <string name="nam1258_ques_1">Vị tướng nào của Mông Cổ đã chỉ huy hơn 3 vạn quân tiến vào xâm lược Đại Việt (năm 1258)?</string>
+    <string name="nam1258_ques_1_a">A. Thoát Hoan</string>
+    <string name="nam1258_ques_1_b">B. Toa Đô</string>
+    <string name="nam1258_ques_1_c">C. Ngột Lương Hợp Thai</string>
+    <string name="nam1258_ques_1_ans">C. Ngột Lương Hợp Thai</string>
+
+    <string name="nam1258_ques_2">Quân ta lần đầu chiến đấu với địch ở đâu?</string>
+    <string name="nam1258_ques_2_a">A. Bạch Hạc</string>
+    <string name="nam1258_ques_2_b">B. Bình Lệ Nguyên</string>
+    <string name="nam1258_ques_2_c">C. Thăng Long</string>
+    <string name="nam1258_ques_2_ans">B. Bình Lệ Nguyên</string>
+
+    <string name="nam1258_ques_3">Khi quân Mông Cổ tiến vào Thăng Long (năm 1258), vua Trần đã chỉ đạo nhân dân thực hiện chủ trương?</string>
+    <string name="nam1258_ques_3_a">A. tấn công trước để chặn thế mạnh của giặc</string>
+    <string name="nam1258_ques_3_b">B. đầu hàng quân giặc để tránh tổn thất</string>
+    <string name="nam1258_ques_3_c">C. “Vườn không nhà trống”</string>
+    <string name="nam1258_ques_3_ans">C. “Vườn không nhà trống”</string>
+
+    <string name="nam1258_ques_4">Tháng 1/1258, trước thế giặc mạnh, vua Trần Thái Tông đã có quyết định?</string>
+    <string name="nam1258_ques_4_a">A. lui quân để bảo toàn lực lượng</string>
+    <string name="nam1258_ques_4_b">B. cho sứ giả sang cầu hòa</string>
+    <string name="nam1258_ques_4_c">C. dâng biểu xin hàng</string>
+    <string name="nam1258_ques_4_ans">A. lui quân để bảo toàn lực lượng</string>
+
+    <string name="nam1258_ques_5">Ai chỉ huy chính trận chiến?</string>
+    <string name="nam1258_ques_5_a">A. Trần Hưng Đạo</string>
+    <string name="nam1258_ques_5_b">B. Trần Thủ Độ</string>
+    <string name="nam1258_ques_5_c">C. Trần Thái Tông</string>
+    <string name="nam1258_ques_5_ans">C. Trần Thái Tông</string>
+
+    <string name="nam1258_ques_6">Trận chiến diễn ra trong bao lâu?</string>
+    <string name="nam1258_ques_6_a">A. 1 tháng</string>
+    <string name="nam1258_ques_6_b">B. 2 tháng</string>
+    <string name="nam1258_ques_6_c">C. 3 tháng</string>
+    <string name="nam1258_ques_6_ans">A. 1 tháng</string>
+
+    <string name="nam1258_ques_7">Quân ta phản công vào thời gian nào?</string>
+    <string name="nam1258_ques_7_a">A. 29/1/1258</string>
+    <string name="nam1258_ques_7_b">B. 30/1/1258</string>
+    <string name="nam1258_ques_7_c">C. 31/1/1258</string>
+    <string name="nam1258_ques_7_ans">A. 29/1/1258</string>
+
+    <string name="nam1258_ques_8">Hà Bổng đã tổ chức mai phục quân Nguyên ở đâu?</string>
+    <string name="nam1258_ques_8_a">A. Đông Bộ Đầu</string>
+    <string name="nam1258_ques_8_b">B. Quy Hoá</string>
+    <string name="nam1258_ques_8_c">C. Thiên Trường</string>
+    <string name="nam1258_ques_8_ans">B. Quy Hoá</string>
+
+    <string name="nam1258_ques_9">Nội dung nào không phản ánh quyết tâm xâm lược Đại Việt lần thứ ba của nhà Nguyên?</string>
+    <string name="nam1258_ques_9_a">A. Đình chỉ cuộc xâm lược Nhật Bản</string>
+    <string name="nam1258_ques_9_b">B. Đình chỉ kế hoạch xâm lược Champa</string>
+    <string name="nam1258_ques_9_c">C. Chuẩn bị một đoàn thuyền lương đi cùng</string>
+    <string name="nam1258_ques_9_ans">B. Đình chỉ kế hoạch xâm lược Champa</string>
+
+    <string name="nam1258_ques_10">Khi quân Nguyên chuẩn bị xâm lược, vua Trần đã hỏi Trần Quốc Tuấn về thế địch, ông thưa “năm nay đánh giặc...”</string>
+    <string name="nam1258_ques_10_a">A. Mạnh</string>
+    <string name="nam1258_ques_10_b">B. Yếu</string>
+    <string name="nam1258_ques_10_c">C. Nhàn</string>
+    <string name="nam1258_ques_10_ans">C. Nhàn</string>
+
+
 <!--Ngọc Hồi-->
+    <string name="ngochoi_time">Năm 1789</string>
+    <string name="ngochoi_name">Trận Ngọc Hồi Đống Đa 1789</string>
+
+    <string name="ngochoi_ques_1">Ai là người chỉ huy 29 vạn quân Thanh tiến vào xâm lược Đại Việt vào cuối năm 1788?</string>
+    <string name="ngochoi_ques_1_a">A. Sầm Nghi Đống</string>
+    <string name="ngochoi_ques_1_b">B. Ô Mã Nhi</string>
+    <string name="ngochoi_ques_1_c">C. Tôn Sĩ Nghị</string>
+    <string name="ngochoi_ques_1_ans">C. Tôn Sĩ Nghị</string>
+
+    <string name="ngochoi_ques_2">Trước khi đem quân ra Bắc, Nguyễn Huệ đã có hành động gì để khẳng định tính chính danh?</string>
+    <string name="ngochoi_ques_2_a">A. Tổ chức cuộc duyệt binh ở Nghệ An</string>
+    <string name="ngochoi_ques_2_b">B. Lên ngôi hoàng đế</string>
+    <string name="ngochoi_ques_2_c">C. Ra lời hiểu dụ tướng sĩ</string>
+    <string name="ngochoi_ques_2_ans">B. Lên ngôi hoàng đế</string>
+
+    <string name="ngochoi_ques_3">Vì sao quân Tây Sơn phải rút khỏi Thăng Long khi quân Thanh xâm lược Đại Việt vào cuối năm 1788?</string>
+    <string name="ngochoi_ques_3_a">A. Do thế giặc quá mạnh</string>
+    <string name="ngochoi_ques_3_b">B. Do nhân dân Thăng Long không ủng hộ Tây Sơn</string>
+    <string name="ngochoi_ques_3_c">C. Do cần tập trung đánh Nguyễn Ánh ở phía Nam</string>
+    <string name="ngochoi_ques_3_ans">C. Do cần tập trung đánh Nguyễn Ánh ở phía Nam</string>
+
+    <string name="ngochoi_ques_4">Nguyễn Huệ tuyển quân ở đâu?</string>
+    <string name="ngochoi_ques_4_a">A. Nghệ An</string>
+    <string name="ngochoi_ques_4_b">B. Thanh Hoá</string>
+    <string name="ngochoi_ques_4_c">C. Ninh Bình</string>
+    <string name="ngochoi_ques_4_ans">A. Nghệ An</string>
+
+    <string name="ngochoi_ques_5">Ai chỉ huy chính trận chiến?</string>
+    <string name="ngochoi_ques_5_a">A. Quang Trung</string>
+    <string name="ngochoi_ques_5_b">B. Nguyễn Ánh</string>
+    <string name="ngochoi_ques_5_c">C. Trần Thái Tông</string>
+    <string name="ngochoi_ques_5_ans">A. Quang Trung </string>
+
+    <string name="ngochoi_ques_6">Quân Thanh sang Đại Việt theo mấy đường?</string>
+    <string name="ngochoi_ques_6_a">A. 3</string>
+    <string name="ngochoi_ques_6_b">B. 4</string>
+    <string name="ngochoi_ques_6_c">C. 5</string>
+    <string name="ngochoi_ques_6_ans">A. 3</string>
+
+    <string name="ngochoi_ques_7">Vì sao vua Quang Trung quyết định tiêu diệt quân Thanh vào dịp tết Kỉ Dậu?</string>
+    <string name="ngochoi_ques_7_a">A. Thời điểm quân địch lơ là</string>
+    <string name="ngochoi_ques_7_b">B. Thời điểm tinh thần binh sĩ lên cao</string>
+    <string name="ngochoi_ques_7_c">C. Thời điểm dễ tập hợp lực lượng</string>
+    <string name="ngochoi_ques_7_ans">A. Thời điểm quân địch lơ là</string>
+
+    <string name="ngochoi_ques_8">Chiến thuật chính Quang Trung sử dụng trong trận Ngọc Hồi - Đống Đa là gì?</string>
+    <string name="ngochoi_ques_8_a">A. Đánh lâu dài</string>
+    <string name="ngochoi_ques_8_b">B. Đánh nhanh thắng nhanh</string>
+    <string name="ngochoi_ques_8_c">C. Tiên phát chế nhân</string>
+    <string name="ngochoi_ques_8_ans">B. Đánh nhanh thắng nhanh</string>
+
+    <string name="ngochoi_ques_9">Quân Thanh bị đánh bại trong bao lâu?</string>
+    <string name="ngochoi_ques_9_a">A. 5 ngày</string>
+    <string name="ngochoi_ques_9_b">B. 6 ngày</string>
+    <string name="ngochoi_ques_9_c">C. 7 ngày</string>
+    <string name="ngochoi_ques_9_ans">B. 6 ngày</string>
+
+    <string name="ngochoi_ques_10">Đồn Khương Thượng do ai trấn giữ?</string>
+    <string name="ngochoi_ques_10_a">A. Lê Chiêu Thống</string>
+    <string name="ngochoi_ques_10_b">B. Tôn Sĩ Nghị</string>
+    <string name="ngochoi_ques_10_c">C. Sầm Nghi Đống</string>
+    <string name="ngochoi_ques_10_ans">C. Sầm Nghi Đống</string>
+
 </resources>
