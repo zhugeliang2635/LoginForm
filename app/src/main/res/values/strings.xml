@@ -116,19 +116,403 @@ Lần này, vua Nam Hán sai con trai là Thái tử Giao Vương Lưu Hoằng T
 
 \n\tChiến thắng Bạch Đằng năm 938 đã ghi vào lịch sử dân tộc nói chung và lịch sử chống ngoại xâm nói riêng, như một sự kiện trọng đại có vị trí và ý nghĩa lịch sử hết sức lớn lao. Đây được coi là cột mốc quan trọng trong tiến trình lịch sử Việt Nam. Chiến thắng đã giúp phá bỏ nền thống trị hơn 1.000 năm của phong kiến phương Bắc, mở ra thời kỳ độc lập thực sự và lâu dài của dân tộc ta.</string>
 
+
+<!--    Bạch Đằng -->
     <string name="bachdang_time">Năm 938</string>
     <string name="bachdang_name">Trận Bạch Đằng</string>
     <string name="bachdang_ques_1">Kế hoạch đánh giặc của Ngô Quyền có điểm độc đáo là:</string>
-    <string name="bachdang_ques_1_a">Quân sĩ đông</string>
-    <string name="bachdang_ques_1_b">Vũ khí hiện đại</string>
-    <string name="bachdang_ques_1_c">Lợi dụng thủy triều lên xuống làm trận địa cọc ngầm</string>
-    <string name="bachdang_ques_1_ans">Lợi dụng thủy triều lên xuống làm trận địa cọc ngầm</string>
+    <string name="bachdang_ques_1_a">A. Quân sĩ đông</string>
+    <string name="bachdang_ques_1_b">B. Vũ khí hiện đại</string>
+    <string name="bachdang_ques_1_c">C. Lợi dụng thủy triều lên xuống làm trận địa cọc ngầm</string>
+    <string name="bachdang_ques_1_ans">C. Lợi dụng thủy triều lên xuống làm trận địa cọc ngầm</string>
 
 
     <string name="bachdang_ques_2">Kết quả của Trận Bạch Đằng của Ngô Quyền năm 938 là:</string>
-    <string name="bachdang_ques_2_a">kết thúc hoàn toàn thắng lợi.</string>
-    <string name="bachdang_ques_2_b">thất bại.</string>
-    <string name="bachdang_ques_2_c">không phân thắng bại.</string>
-    <string name="bachdang_ques_2_ans">kết thúc hoàn toàn thắng lợi.</string>
+    <string name="bachdang_ques_2_a">A. kết thúc hoàn toàn thắng lợi.</string>
+    <string name="bachdang_ques_2_b">B. thất bại.</string>
+    <string name="bachdang_ques_2_c">C. không phân thắng bại.</string>
+    <string name="bachdang_ques_2_ans">A. kết thúc hoàn toàn thắng lợi.</string>
 
+    <string name="bachdang_ques_3">Hiện nay, lăng Ngô Quyền được xây dựng ở Đường Lâm – Sơn Tây – Hà Nội, điều này có ý nghĩa:</string>
+    <string name="bachdang_ques_3_a">A.Mang tính chất thờ cúng tổ tiên</string>
+    <string name="bachdang_ques_3_b">B. Nhân dân luôn nhớ đến công lao của ông</string>
+    <string name="bachdang_ques_3_c">C. Đây là nơi ông xưng vương.</string>
+    <string name="bachdang_ques_3_ans">B.Nhân dân luôn nhớ đến công lao của ông</string>
+
+    <string name="bachdang_ques_4">Nhà Nam Hán đã dựa vào duyên cớ gì để đem quân xâm lược nước ta lần thứ hai?</string>
+    <string name="bachdang_ques_4_a">A. Ngô Quyền không thần phục nhà Nam Hán</string>
+    <string name="bachdang_ques_4_b">B. Trị tội Kiều Công Tiễn vì tiếm quyền</string>
+    <string name="bachdang_ques_4_c">C. Kiều Công Tiễn cầu cứu nhà Nam Hán</string>
+    <string name="bachdang_ques_4_ans">C. Kiều Công Tiễn cầu cứu nhà Nam Hán</string>
+
+    <string name="bachdang_ques_5">Tướng giặc nào là người trực tiếp chỉ huy quân Nam Hán khi xâm lược nước ta lần thứ hai?</string>
+    <string name="bachdang_ques_5_a">A. Lưu Cung</string>
+    <string name="bachdang_ques_5_b">B. Lưu Nham</string>
+    <string name="bachdang_ques_5_c">C. Lưu Hoằng Tháo</string>
+    <string name="bachdang_ques_5_ans">C. Lưu Hoằng Tháo</string>
+
+    <string name="bachdang_ques_6">Ngô Quyền đã chọn thời điểm nào để tập trung toàn bộ lực lượng tổng phản công quân Nam Hán?</string>
+    <string name="bachdang_ques_6_a">A. Khi nước triều lên</string>
+    <string name="bachdang_ques_6_b">B. Khi quân chuẩn bị tiến đến bãi cọc ngầm</string>
+    <string name="bachdang_ques_6_c">C. Khi nước triều rút</string>
+    <string name="bachdang_ques_6_ans">C. Khi nước triều rút</string>
+
+    <string name="bachdang_ques_7">Đâu không phải lý do Ngô Quyền quyết định lựa chọn cửa sông Bạch Đằng làm nơi diễn ra trận quyết chiến chiến lược năm 938?</string>
+    <string name="bachdang_ques_7_a">A. Do sông Bạch Đằng là nơi đã diễn ra nhiều trận quyết chiến trong lịch sử</string>
+    <string name="bachdang_ques_7_b">B. Do sông Bạch Đằng chịu ảnh hưởng mạnh của thủy triều</string>
+    <string name="bachdang_ques_7_c">C. Do hai bên bờ sông là rừng thuận lợi cho đặt phục binh</string>
+    <string name="bachdang_ques_7_ans">A. Do sông Bạch Đằng là nơi đã diễn ra nhiều trận quyết chiến trong lịch sử</string>
+
+    <string name="bachdang_ques_8">Hiện nay, lăng Ngô Quyền được xây dựng ở Đường Lâm – Sơn Tây – Hà Nội, điều này có ý nghĩa</string>
+    <string name="bachdang_ques_8_a">A. Mang tính chất thờ cúng tổ tiên</string>
+    <string name="bachdang_ques_8_b">B. Nhân dân luôn nhớ đến công lao của ông</string>
+    <string name="bachdang_ques_8_c">C. Đây là nơi ông xưng vương.</string>
+    <string name="bachdang_ques_8_ans">B. Nhân dân luôn nhớ đến công lao của ông</string>
+
+    <string name="bachdang_ques_9">Chiến thắng Bạch Đằng năm 938 không để lại bài học kinh nghiệm gì cho các cuộc đấu tranh của nhân dân ta ở giai đoạn sau?</string>
+    <string name="bachdang_ques_9_a">A. Tiêu diệt nội phản</string>
+    <string name="bachdang_ques_9_b">B. Thực hiện kế vườn không nhà trống</string>
+    <string name="bachdang_ques_9_c">C. Dựa vào địa hình địa vật để đề ra đường lối đấu tranh</string>
+    <string name="bachdang_ques_9_ans">B. Thực hiện kế vườn không nhà trống</string>
+
+    <string name="bachdang_ques_10">Tướng Hoằng Tháo trong trận Bạch Đằng đã</string>
+    <string name="bachdang_ques_10_a">A. bị tử trận</string>
+    <string name="bachdang_ques_10_b">B. nguỵ trang trốn về nước</string>
+    <string name="bachdang_ques_10_c">C. bị quân ta bắt sống</string>
+    <string name="bachdang_ques_10_ans">A. bị tử trận</string>
+
+
+<!--Điện Biên Phủ 1954-->
+    <string name="dbp54_time">Năm 1954</string>
+    <string name="dbp54_name">Trận Điện Biên Phủ 1954</string>
+
+    <string name="dbp54_ques_1">Chiến dịch Điện Biên Phủ diễn ra trong bao nhiêu ngày</string>
+    <string name="dbp54_ques_1_a">A. 56 ngày đêm</string>
+    <string name="dbp54_ques_1_b">B. 56 ngày</string>
+    <string name="dbp54_ques_1_c">C. 65 ngày đêm</string>
+    <string name="dbp54_ques_1_ans">A. 56 ngày đêm</string>
+
+
+    <string name="dbp54_ques_2">Tướng Đờ Ca-xto-ri và Bộ chỉ huy tập đoàn điểm Điện Biện Phủ bị bắt sống vào lúc</string>
+    <string name="dbp54_ques_2_a">A. Hoàng Hoa Thám</string>
+    <string name="dbp54_ques_2_b">B. Quang Trung</string>
+    <string name="dbp54_ques_2_c">C. Trần Đình</string>
+    <string name="dbp54_ques_2_ans">C. Trần Đình</string>
+
+    <string name="dbp54_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dbp54_ques_3_a">A. phía Bắc</string>
+    <string name="dbp54_ques_3_b">B. phía Nam</string>
+    <string name="dbp54_ques_3_c">C. </string>
+    <string name="dbp54_ques_3_ans">B. Nhân dân luôn nhớ đến công lao của ông</string>
+
+    <string name="dbp54_ques_4">Phương châm tác chiến của Bộ chính trị Trung ương Đảng trong chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dbp54_ques_4_a">A. Đánh nhanh, thắng nhanh</string>
+    <string name="dbp54_ques_4_b">B. Đánh chắc, tiến chắc</string>
+    <string name="dbp54_ques_4_c">C. Đánh lâu dài</string>
+    <string name="dbp54_ques_4_ans">B. Đánh chắc, tiến chắc</string>
+
+    <string name="dbp54_ques_5">Điểm yếu cơ bản của tập đoàn cứ điểm Điện Biên Phủ do Pháp - Mĩ xây dựng là</string>
+    <string name="dbp54_ques_5_a">A. Thiếu thốn về trang thiết bị kĩ thuật</string>
+    <string name="dbp54_ques_5_b">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
+    <string name="dbp54_ques_5_c">C. Là vùng rừng núi nên khó cơ động lực lượng</string>
+    <string name="dbp54_ques_5_ans">B. Nằm cô lập giữa vùng rừng núi Tây Bắc</string>
+
+    <string name="dbp54_ques_6">Nguyên nhân chủ yếu để Bộ Chính trị Trung ương Đảng quyết định mở chiến dịch Điện Biên Phủ năm 1954?</string>
+    <string name="dbp54_ques_6_a">A. Tạo điều kiện để giải phóng Bắc Lào</string>
+    <string name="dbp54_ques_6_b">B. Để tiêu diệt một bộ phận sinh lực địch</string>
+    <string name="dbp54_ques_6_c">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
+    <string name="dbp54_ques_6_ans">C. Để làm phá sản hoàn toàn kế hoạch Nava</string>
+
+    <string name="dbp54_ques_7">Anh Phan Đình giót đã lấy thân mình lấp lỗ châu mai trong trận đánh ở</string>
+    <string name="dbp54_ques_7_a">A. Độc Lập</string>
+    <string name="dbp54_ques_7_b">B. Bản Kéo</string>
+    <string name="dbp54_ques_7_c">C. Him Lam</string>
+    <string name="dbp54_ques_7_ans">C. Him Lam</string>
+
+    <string name="dbp54_ques_8">Đâu không phải là ý nghĩa của chiến dịch Điện Biên Phủ năm 1954?</string>
+    <string name="dbp54_ques_8_a">A. Bước đầu làm phá sản kế hoạch Nava</string>
+    <string name="dbp54_ques_8_b">B. Giáng đòn quyết định vào kế hoạch Nava</string>
+    <string name="dbp54_ques_8_c">C. Xoay chuyển cục diện chiến tranh ở Đông Dương</string>
+    <string name="dbp54_ques_8_ans">A. Bước đầu làm phá sản kế hoạch Nava</string>
+
+    <string name="dbp54_ques_9">Nơi tập trung lực lượng mạnh nhất của thực dân Pháp theo dự tính ban đầu trong kế hoạch Nava là</string>
+    <string name="dbp54_ques_9_a">A. Điện Biên Phủ</string>
+    <string name="dbp54_ques_9_b">B. Đồng bằng Bắc Bộ</string>
+    <string name="dbp54_ques_9_c">C. Thượng Lào</string>
+    <string name="dbp54_ques_9_ans">B. Đồng bằng Bắc Bộ</string>
+
+    <string name="dbp54_ques_10">Quân ta nổ súng, mở màng cho chiến dịch Điện Biên Phủ vào thời gian nào?</string>
+    <string name="dbp54_ques_10_a">A. 13/1/1954</string>
+    <string name="dbp54_ques_10_b">B. 13/2/1954c</string>
+    <string name="dbp54_ques_10_c">C. 13/3/1954</string>
+    <string name="dbp54_ques_10_ans">C. 13/3/1954</string>
+
+
+<!--Điện Biên Phủ trên không 1972-->
+    <string name="dbp72_time">Năm 1972</string>
+    <string name="dbp72_name">Trận Điện Biên Phủ trên không 1972</string>
+
+    <string name="dbp72_ques_1">B52 là</string>
+    <string name="dbp72_ques_1_a">A. máy bay tối tân lúc bấy giờ</string>
+    <string name="dbp72_ques_1_b">B. "pháo máy bay"</string>
+    <string name="dbp72_ques_1_c">C. máy bay ném bom hiện đại nhất thời ấy</string>
+    <string name="dbp72_ques_1_ans">C. máy bay ném bom hiện đại nhất thời ấy</string>
+
+
+    <string name="dbp72_ques_2">Mở đầu 12 ngày đêm ném bom hủy diệt là khoảng 20 giờ</string>
+    <string name="dbp72_ques_2_a">A. 21/12/1972</string>
+    <string name="dbp72_ques_2_b">B. 18/12/1972</string>
+    <string name="dbp72_ques_2_c">C. 26/12/1972</string>
+    <string name="dbp72_ques_2_ans">B. 18/12/1972</string>
+
+    <string name="dbp72_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
+    <string name="dbp72_ques_3_a">A. phía Bắc</string>
+    <string name="dbp72_ques_3_b">B. phía Nam</string>
+    <string name="dbp72_ques_3_c">C. </string>
+    <string name="dbp72_ques_3_ans">B.Nhân dân luôn nhớ đến công lao của ông</string>
+
+    <string name="dbp72_ques_4">Thời gian địch tập trung nhiều máy bay B52 nhất ném bom hòng hủy diệt Hà Nội</string>
+    <string name="dbp72_ques_4_a">A. 21/12/1972</string>
+    <string name="dbp72_ques_4_b">B. 26/12/1972</string>
+    <string name="dbp72_ques_4_c">C. 29/12/1972</string>
+    <string name="dbp72_ques_4_ans">B. Đánh chắc, tiến chắc</string>
+
+    <string name="dbp72_ques_5">Gọi trận "Điện Biên Phủ trên không" là do</string>
+    <string name="dbp72_ques_5_a">A. tầm vóc vĩ đại của chiến thắng</string>
+    <string name="dbp72_ques_5_b">B. chiến thắng oanh liệt</string>
+    <string name="dbp72_ques_5_c">C. chiến dịch phòng không oanh liệt nhất</string>
+    <string name="dbp72_ques_5_ans">A. tầm vóc vĩ đại của chiến thắng</string>
+
+    <string name="dbp72_ques_6">Quân ta đánh thắng trận cuối cùng, tiêu diệt thêm 1 chiếc B52 vào thời gian nào?</string>
+    <string name="dbp72_ques_6_a">A. Đêm 27/12</string>
+    <string name="dbp72_ques_6_b">B. Đêm 28/12</string>
+    <string name="dbp72_ques_6_c">C. Đêm 29/12</string>
+    <string name="dbp72_ques_6_ans">C. Đêm 29/12</string>
+
+    <string name="dbp72_ques_7">Máy bay Mĩ đã đánh phá Hà Nội  và các vùng phụ cận trong thời gian bao lâu?</string>
+    <string name="dbp72_ques_7_a">A. 13 ngày đêm</string>
+    <string name="dbp72_ques_7_b">B. 14 ngày đêm</string>
+    <string name="dbp72_ques_7_c">C. 12 ngày đêm</string>
+    <string name="dbp72_ques_7_ans">C. 12 ngày đêm</string>
+
+    <string name="dbp72_ques_8">Ních-xơn tuyên bố ngừng ném bom bắn phá miền Bắc lúc nào?</string>
+    <string name="dbp72_ques_8_a">A. 23/12/1972</string>
+    <string name="dbp72_ques_8_b">B. 26/12/1972</string>
+    <string name="dbp72_ques_8_c">C. 30/12/1972</string>
+    <string name="dbp72_ques_8_ans">A. 23/12/1972</string>
+
+    <string name="dbp72_ques_9">Có bao nhiêu máy bay B52 của Mĩ bị bắn rơi trong 12 ngày?</string>
+    <string name="dbp72_ques_9_a">A. 81</string>
+    <string name="dbp72_ques_9_b">B. 34</string>
+    <string name="dbp72_ques_9_c">C. 43</string>
+    <string name="dbp72_ques_9_ans">B. 34</string>
+
+    <string name="dbp72_ques_10">Đâu không phải ý nghĩa chiến thắng “Điện Biên Phủ trên không”?</string>
+    <string name="dbp72_ques_10_a">A. Đập tan âm mưu xâm lược của đế quốc Mĩ</string>
+    <string name="dbp72_ques_10_b">B. Khẳng định ý chí quyết chiến, quyết thắng của quân dân ta</string>
+    <string name="dbp72_ques_10_c">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
+    <string name="dbp72_ques_10_ans">C. Đập tan âm mưu xâm lược của thực dân Pháp</string>
+
+
+<!--Chi Lăng-->
+    <string name="chilang_time">Năm 1427</string>
+    <string name="chilang_name">Trận Chi Lăng 1427</string>
+
+    <string name="chilang_ques_1">Ai là người lãnh đạo cuộc khởi nghĩa Lam Sơn?</string>
+    <string name="chilang_ques_1_a">A. Lê Lợi</string>
+    <string name="chilang_ques_1_b">B. Lê Lai</string>
+    <string name="chilang_ques_1_c">C. Lê Hoàn</string>
+    <string name="chilang_ques_1_ans">A. Lê Lợi</string>
+
+
+    <string name="chilang_ques_2">Cuộc khởi nghĩa Lam Sơn của quân dân Việt Nam chống lại quân xâm lược nào?</string>
+    <string name="chilang_ques_2_a">A. Minh</string>
+    <string name="chilang_ques_2_b">B. Tống </string>
+    <string name="chilang_ques_2_c">C. Nguyên</string>
+    <string name="chilang_ques_2_ans">A. Minh</string>
+
+    <string name="chilang_ques_3">Quân địch do ai chỉ huy?</string>
+    <string name="chilang_ques_3_a">A. Vương Thông</string>
+    <string name="chilang_ques_3_b">B. Liễu Thăng</string>
+    <string name="chilang_ques_3_c">C. Hoàng Phúc</string>
+    <string name="chilang_ques_3_ans">B. Liễu Thăng</string>
+
+    <string name="chilang_ques_4">Với thắng lợi của nghĩa quân Lam Sơn, quân Minh phải rút về đâu để cố thủ?</string>
+    <string name="chilang_ques_4_a">A. Đông Triều</string>
+    <string name="chilang_ques_4_b">B. Đông Quan</string>
+    <string name="chilang_ques_4_c">C. Đông Bắc</string>
+    <string name="chilang_ques_4_ans">B. Đông Quan</string>
+
+    <string name="chilang_ques_5">Vì sao quân ta phải chiếm thành Xương Giang trước khi viện binh của giặc đến?</string>
+    <string name="chilang_ques_5_a">A. Không cho giặc có thành trú đóng, phải co cụm giữa cánh đồng</string>
+    <string name="chilang_ques_5_b">B. Chủ động đón quân địch đến</string>
+    <string name="chilang_ques_5_c">C. Lập phòng tuyến, không cho giặc về Đông Quan</string>
+    <string name="chilang_ques_5_ans">C. Lập phòng tuyến, không cho giặc về Đông Quan</string>
+
+    <string name="chilang_ques_6">Quân địch bắt đầu tiến đánh vào thời gian nào?</string>
+    <string name="chilang_ques_6_a">A. 14/7/1427</string>
+    <string name="chilang_ques_6_b">B. 20/5/1427</string>
+    <string name="chilang_ques_6_c">C. 18/9/1427</string>
+    <string name="chilang_ques_6_ans">C. 18/9/1427</string>
+
+    <string name="chilang_ques_7">Lực lượng quân địch</string>
+    <string name="chilang_ques_7_a">A. 15 vạn quân</string>
+    <string name="chilang_ques_7_b">B. 10 vạn quân</string>
+    <string name="chilang_ques_7_c">C. 12 vạn quân</string>
+    <string name="chilang_ques_7_ans">B. 10 vạn quân</string>
+
+    <string name="chilang_ques_8">Kết quả trận chiến</string>
+    <string name="chilang_ques_8_a">A. Quân ta giành thắng lợi, Liễu Thăng tử trận</string>
+    <string name="chilang_ques_8_b">B. Quân ta thất bại</string>
+    <string name="chilang_ques_8_c">C. Quân ta giành thắng lợi, Liễu Thăng bị bắt</string>
+    <string name="chilang_ques_8_ans">A. Quân ta giành thắng lợi, Liễu Thăng tử trận</string>
+
+    <string name="chilang_ques_9">Đâu không phải chiến lược quân sự của Lê Lợi?</string>
+    <string name="chilang_ques_9_a">A. Chọn khu vực chặn giặc thuận lợi cho việc bày trận</string>
+    <string name="chilang_ques_9_b">B. Kế vườn không, nhà trống</string>
+    <string name="chilang_ques_9_c">C. Bố trí trận địa mai phục sâu, hiểm</string>
+    <string name="chilang_ques_9_ans">B. Kế vườn không, nhà trống</string>
+
+    <string name="chilang_ques_10">Sau thất bại ở Chi Lăng – Xương Giang, tình hình quân Minh ở Đông Quan như thế nào?</string>
+    <string name="chilang_ques_10_a">A. Liều chết phá vòng vây rút chạy về nước</string>
+    <string name="chilang_ques_10_b">B. Rơi vào thế bị động, liên lạc về nước cầu cứu viện binh</string>
+    <string name="chilang_ques_10_c">C. Vô cùng khiếp đảm, vội vàng xin hòa và chấp nhận rút quân về nước</string>
+    <string name="chilang_ques_10_ans">C. Vô cùng khiếp đảm, vội vàng xin hòa và chấp nhận rút quân về nước</string>
+
+
+<!--Rạch Gầm-->
+    <string name="rachgam_time">Năm 1785</string>
+    <string name="rachgam_name">Trận Rạch Gầm - Xoài Mút 1785</string>
+
+    <string name="rachgam_ques_1">Thời gian bắt đầu trận chiến</string>
+    <string name="rachgam_ques_1_a">A. 15/1/1785</string>
+    <string name="rachgam_ques_1_b">B. 20/1/1785</string>
+    <string name="rachgam_ques_1_c">C. 21/1/1785</string>
+    <string name="rachgam_ques_1_ans">B. 20/1/1785</string>
+
+
+    <string name="rachgam_ques_2"> Trận chiến chống lại quân nào?</string>
+    <string name="rachgam_ques_2_a">A. Xiêm</string>
+    <string name="rachgam_ques_2_b">B. Thanh</string>
+    <string name="rachgam_ques_2_c">C. Tống</string>
+    <string name="rachgam_ques_2_ans">A. Xiêm</string>
+
+    <string name="rachgam_ques_3">Ai lãnh đạo quân ta?</string>
+    <string name="rachgam_ques_3_a">A. Nguyễn Nhạc</string>
+    <string name="rachgam_ques_3_b">B. Nguyễn Huệ</string>
+    <string name="rachgam_ques_3_c">C. Nguyễn Lữ</string>
+    <string name="rachgam_ques_3_ans">B. Nguyễn Huệ</string>
+
+    <string name="rachgam_ques_4">Khi kéo quân vào Gia Định, quân Xiêm có thái độ như thế nào?</string>
+    <string name="rachgam_ques_4_a">A. Hòa nhã, ra sức giúp Nguyễn Ánh khôi phục cơ đồ</string>
+    <string name="rachgam_ques_4_b">B. Kiêu căng, hung bạo, giết người, cướp của</string>
+    <string name="rachgam_ques_4_c">C. Muốn nhanh chóng rút quân về nước</string>
+    <string name="rachgam_ques_4_ans">B. Kiêu căng, hung bạo, giết người, cướp của</string>
+
+    <string name="rachgam_ques_5">Vì sao quân Xiêm lại kéo quân vào Gia Định?</string>
+    <string name="rachgam_ques_5_a">A. Do lo ngại ảnh hưởng của phong trào Tây Sơn</string>
+    <string name="rachgam_ques_5_b">B. Do sự nhờ vả của Lê Chiêu Thống</string>
+    <string name="rachgam_ques_5_c">C. Do sự nhờ vả của Nguyễn Ánh</string>
+    <string name="rachgam_ques_5_ans">C. Do sự nhờ vả của Nguyễn Ánh</string>
+
+    <string name="rachgam_ques_6">Quân địch bắt đầu tiến đánh vào thời gian nào?</string>
+    <string name="rachgam_ques_6_a">A. 7/1784</string>
+    <string name="rachgam_ques_6_b">B. 8/1784</string>
+    <string name="rachgam_ques_6_c">C. 9/1784</string>
+    <string name="rachgam_ques_6_ans">A. 7/1784</string>
+
+    <string name="rachgam_ques_7">Vì sao Nguyễn Huệ chọn Rạch Gầm Xoài Mút làm trận địa quyết chiến với quân Xiêm?</string>
+    <string name="rachgam_ques_7_a">A. Quân Xiêm yếu về thủy chiến</string>
+    <string name="rachgam_ques_7_b">B. Địa hình đặt thuận lợi cho việc đặt phục binh</string>
+    <string name="rachgam_ques_7_c">C. Lợi dụng thủy triều</string>
+    <string name="rachgam_ques_7_ans">B. Địa hình đặt thuận lợi cho việc đặt phục binh</string>
+
+    <string name="rachgam_ques_8">Phát biểu nào sau đây đúng về chiến thắng Rạch Gầm – Xoài Mút năm 1785?</string>
+    <string name="rachgam_ques_8_a">A. Trận phục kích mang tính chất du kích tiêu biểu trong lịch sử</string>
+    <string name="rachgam_ques_8_b">B. Trận hợp đồng binh chủng đầu tiên trong lịch sử</string>
+    <string name="rachgam_ques_8_c">C. Chiến thắng thể hiện rõ nghệ thuật “đánh điểm diệt viện”</string>
+    <string name="rachgam_ques_8_ans">A. Trận phục kích mang tính chất du kích tiêu biểu trong lịch sử</string>
+
+    <string name="rachgam_ques_9">Sau khi đánh thắng quân Xiêm, Nguyễn Huệ đã có hành động gì?</string>
+    <string name="rachgam_ques_9_a">A. Lên ngôi hoàng đế, lấy niên hiệu là Quang Trung</string>
+    <string name="rachgam_ques_9_b">B. Kéo quân ra Bắc tiêu diệt họ Trịnh</string>
+    <string name="rachgam_ques_9_c">C. Tổ chức trận Ngọc Hồi – Đống Đa</string>
+    <string name="rachgam_ques_9_ans">B. Kéo quân ra Bắc tiêu diệt họ Trịnh</string>
+
+    <string name="rachgam_ques_10">Ý nghĩa quan trọng nhất của chiến thắng Rạch Gầm- Xoài Mút là gì?</string>
+    <string name="rachgam_ques_10_a">A. Tiêu diệt được quân Xiêm, bảo vệ nền độc lập dân tộc</string>
+    <string name="rachgam_ques_10_b">B. Đập tan sự kháng cự của dòng họ Nguyễn</string>
+    <string name="rachgam_ques_10_c">C. Nâng cao vị thế của Đại Việt ở Đông Nam Á</string>
+    <string name="rachgam_ques_10_ans">A. Tiêu diệt được quân Xiêm, bảo vệ nền độc lập dân tộc</string>
+
+
+<!--Chiến dịch HCM 1975-->
+    <string name="nam1975_time">Năm 1975</string>
+    <string name="nam1975_name">Chiến dịch Hồ Chí Minh 1975</string>
+
+    <string name="nam1975_ques_1">Chiến dịch Hồ Chí Minh diễn ra ngày nào?</string>
+    <string name="nam1975_ques_1_a">A. 22/4/1975</string>
+    <string name="nam1975_ques_1_b">B. 26/4/1975</string>
+    <string name="nam1975_ques_1_c">C. 23/4/1975</string>
+    <string name="nam1975_ques_1_ans">B. 26/4/1975</string>
+
+
+    <string name="nam1975_ques_2">Chiến dịch được chính thức quyết định ngày nào?</string>
+    <string name="nam1975_ques_2_a">A. 8/4</string>
+    <string name="nam1975_ques_2_b">B. 12/4</string>
+    <string name="nam1975_ques_2_c">C. 14/4</string>
+    <string name="nam1975_ques_2_ans">B. 12/4</string>
+
+    <string name="nam1975_ques_3">Phương châm đánh mà Bộ Chính trị đề ra trong kế hoạch giải phóng miền Nam là gì?</string>
+    <string name="nam1975_ques_3_a">A. “Đánh nhanh, thắng nhanh”</string>
+    <string name="nam1975_ques_3_b">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
+    <string name="nam1975_ques_3_c">C. “Tích cực, chủ động, cơ động, linh hoạt”</string>
+    <string name="nam1975_ques_3_ans">B. “Thần tốc, táo bạo, bất ngờ, chắc thắng”</string>
+
+    <string name="nam1975_ques_4">Thời gian diễn ra chiến dịch?</string>
+    <string name="nam1975_ques_4_a">A. 10 ngày</string>
+    <string name="nam1975_ques_4_b">B. 5 ngày</string>
+    <string name="nam1975_ques_4_c">C. 15 ngày</string>
+    <string name="nam1975_ques_4_ans">B. 5 ngày</string>
+
+    <string name="nam1975_ques_5">Vì sao quân Xiêm lại kéo quân vào Gia Định?</string>
+    <string name="nam1975_ques_5_a">A. Do lo ngại ảnh hưởng của phong trào Tây Sơn</string>
+    <string name="nam1975_ques_5_b">B. Do sự nhờ vả của Lê Chiêu Thống</string>
+    <string name="nam1975_ques_5_c">C. Do sự nhờ vả của Nguyễn Ánh</string>
+    <string name="nam1975_ques_5_ans">C. Do sự nhờ vả của Nguyễn Ánh</string>
+
+    <string name="nam1975_ques_6">Quân địch bắt đầu tiến đánh vào thời gian nào?</string>
+    <string name="nam1975_ques_6_a">A. 7/1784</string>
+    <string name="nam1975_ques_6_b">B. 8/1784</string>
+    <string name="nam1975_ques_6_c">C. 9/1784</string>
+    <string name="nam1975_ques_6_ans">A. 7/1784</string>
+
+    <string name="nam1975_ques_7">Chiếc xe tăng do Trung uý Bùi Quang Thận đánh chiếm Dinh độc lập mang số bao nhiêu?</string>
+    <string name="nam1975_ques_7_a">A. 309</string>
+    <string name="nam1975_ques_7_b">B. 843</string>
+    <string name="nam1975_ques_7_c">C. 307</string>
+    <string name="nam1975_ques_7_ans">B. 843</string>
+
+    <string name="nam1975_ques_8">Vị tổng thống cuối cùng của chính quyền Mĩ – Ngụy, đã đầu hàng vô điều kiện?</string>
+    <string name="nam1975_ques_8_a">A. Dương Văn Minh</string>
+    <string name="nam1975_ques_8_b">B. Ngô Đình Diệm</string>
+    <string name="nam1975_ques_8_c">C. Nguyễn Văn Thiệu</string>
+    <string name="nam1975_ques_8_ans">A. Dương Văn Minh</string>
+
+    <string name="nam1975_ques_9">Lúc 10h45p, ngày 30/4/1975, diễn ra sự kiện cơ bản nào ở Sài Gòn?</string>
+    <string name="nam1975_ques_9_a">A. Dương Văn Minh đầu hàng</string>
+    <string name="nam1975_ques_9_b">B. Xe tăng tiến vào Dinh Độc Lập</string>
+    <string name="nam1975_ques_9_c">C. Cắm cờ trên nóc Dinh Độc Lập</string>
+    <string name="nam1975_ques_9_ans">B. Xe tăng tiến vào Dinh Độc Lập</string>
+
+    <string name="nam1975_ques_10">Người chiến sĩ cắm lá cờ đầu tiên trên nóc Dinh Độc Lập?</string>
+    <string name="nam1975_ques_10_a">A. Lữ Văn Hoả</string>
+    <string name="nam1975_ques_10_b">B. Bùi Quang Thận</string>
+    <string name="nam1975_ques_10_c">C. Thái Bá Minh</string>
+    <string name="nam1975_ques_10_ans">B. Bùi Quang Thận</string>
+
+    <!--Như Nguyệt-->
+<!--1288-->
+<!--Đông Bộ Đầu-->
+<!--Ngọc Hồi-->
 </resources>
