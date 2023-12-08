@@ -75,23 +75,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/top_background"
                     android:paddingVertical="12dp"
-                    android:paddingHorizontal="15dp">
-
-                    <EditText
-                        android:id="@+id/editTextText2"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/custom_text_view"
-                        android:ems="10"
-                        android:hint=" Tìm kiếm thông tin..."
-                        android:drawableLeft="@drawable/search_icon"
-                        android:inputType="text"
-                        android:paddingLeft="20dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                    android:paddingHorizontal="15dp"/>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -286,7 +270,7 @@
                             android:elevation="3dp">
 
                             <ImageView
-                                android:id="@+id/imageView3"
+                                android:id="@+id/exit"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:clickable="true"

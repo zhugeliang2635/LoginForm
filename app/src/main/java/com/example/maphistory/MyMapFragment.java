@@ -67,7 +67,42 @@ public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallb
                     Intent intent =  new Intent(getActivity(), detail.class);
                     intent.putExtra("event", "bachdang");
                     startActivity(intent);
-                    Toast.makeText(getContext(), "ok", Toast.LENGTH_SHORT).show();
+
+                } else if (marker.getTitle().equals("Dinh Độc Lập")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "chiendichHCM");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Sông Như Nguyệt")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "nhunguyet");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Đông Bộ Đầu")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "dongbodau");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Ải Chi Lăng")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "chilang");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Rạch Gầm - Xoài Mút")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "rachgam");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Gò Đống Đa")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "ngochoi");
+                    startActivity(intent);
+                } else if (marker.getTitle().equals("Điện Biên Phủ 1954")) {
+                    activity = (MainActivity) getActivity();
+                    Intent intent =  new Intent(getActivity(), detail.class);
+                    intent.putExtra("event", "dienbienphu");
+                    startActivity(intent);
                 }
                 return true;
             }
@@ -80,7 +115,7 @@ public class MyMapFragment extends SupportMapFragment implements OnMapReadyCallb
         markers.add(new MarkerOptions().position(new LatLng(10.777268218978266, 106.69523772297113)).title("Dinh Độc Lập"));
         markers.add(new MarkerOptions().position(new LatLng(20.970983686945782, 106.76340775064018)).title("Bạch Đằng Giang"));
         markers.add(new MarkerOptions().position(new LatLng(21.453633480797382, 105.95821867879603)).title("Sông Như Nguyệt"));
-        markers.add(new MarkerOptions().position(new LatLng(21.042772795975253, 105.84731782197028)).title("Đông Bộ Đầu?"));
+        markers.add(new MarkerOptions().position(new LatLng(21.042772795975253, 105.84731782197028)).title("Đông Bộ Đầu"));
         markers.add(new MarkerOptions().position(new LatLng(21.607626503291158, 106.54238698085749)).title("Ải Chi Lăng"));
         markers.add(new MarkerOptions().position(new LatLng(10.325467322188175, 106.24804066529335)).title("Rạch Gầm - Xoài Mút"));
         markers.add(new MarkerOptions().position(new LatLng(21.012901756564215, 105.82427927777248)).title("Gò Đống Đa"));

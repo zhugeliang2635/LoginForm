@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ListView;
+
 import com.example.maphistory.databinding.ActivityMainBinding;
 import com.example.maphistory.databinding.FragmentInforBinding;
 
@@ -34,8 +37,8 @@ public class InforFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-
-    Activity context;
+    private ListView listview2;
+    MainActivity mainActivity;
     FragmentInforBinding binding;
 
     InforFragment i = new InforFragment();
@@ -75,11 +78,10 @@ public class InforFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-        context = getActivity();
 //        Intent move = new Intent(context, ListActivity.class);
 //        startActivity(move);
 
-        binding = FragmentInforBinding.inflate(getLayoutInflater());
+//        binding = FragmentInforBinding.inflate(getLayoutInflater());
 
 
 //        int[] imgageId = {R.drawable.img_7, R.drawable.img_7,R.drawable.img_7,R.drawable.img_7,R.drawable.img_7, R.drawable.img_7,
@@ -107,13 +109,48 @@ public class InforFragment extends Fragment {
 //            }
 //        });
 
+
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view1 = inflater.inflate(R.layout.fragment_infor, container, false);
+        View view1 = inflater.inflate(R.layout.activity_list, container, false);
+        mainActivity = (MainActivity) getActivity();
+        listview2 = view1.findViewById(R.id.listview2);
+        int[] imgageId = {R.drawable.img_7, R.drawable.img_1,R.drawable.img_18, R.drawable.img_5, R.drawable.img_17,
+                R.drawable.img_16,R.drawable.img_4,R.drawable.img_15,R.drawable.img_6, R.drawable.img_6};
+        String[] name = {"Trận Bạch Đằng", "Trận Như Nguyệt", "Đông Bộ Đầu","Trận Chi Lăng","Trận Rạch Gầm",
+                "Trận Ngọc Hồi", "Điện Biên Phủ","ĐBP trên không","Chiến dịch HCM", "Chiến dịch HCM"};
+        String[] time = {"Năm 938", "Năm 1077","Năm 1258","Năm 1427","Năm 1785","Năm 1789",
+                "Năm 1954","Năm 1972","Năm 1975", "Năm 1975"};
+        String[] id = {"bachdang", "nhunguyet", "dongbodau","chilang","rachgam","ngochoi",
+                "dienbienphu","dienbienphutrenkhong","chiendichHCM","chiendichHCM",};
+
+        ArrayList<ListData> eventList = new ArrayList<>();
+
+        for (int i = 0; i < imgageId.length; i++) {
+            ListData listData = new ListData(name[i], time[i], imgageId[i], id[i]);
+            eventList.add(listData);
+        }
+        ListAdapter listAdapter = new ListAdapter(mainActivity, eventList);
+
+
+
+        listview2.setAdapter(listAdapter);
+        listview2.setClickable(true);
+        listview2.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+                Log.d("TAG",Integer.toString(position) + " - " + Long.toString(id));
+                Intent intent = new Intent(mainActivity, detail.class);
+                intent.putExtra("event", eventList.get(position).getId());
+                startActivity(intent);
+            }
+        });
         return view1;
     }
 }

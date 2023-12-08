@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.widget.Toast;
 
 import com.example.maphistory.databinding.ActivityMainBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -56,43 +57,46 @@ public class MainActivity extends AppCompatActivity {
         if (fAuth.getCurrentUser() == null) {
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
-        }
-        DocumentReference documentReference = firestore.collection("users").document(fAuth.getCurrentUser().getUid().toString());
-        documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()) {
-                    DocumentSnapshot snapshot = task.getResult();
-                    phone = snapshot.getString("phone");
-                    name = snapshot.getString("fname");
-                    email = snapshot.getString("email");
-                } else {
-                    Log.d("TAG", "Cannot get user information");
+        } else {
+            DocumentReference documentReference = firestore.collection("users").document(fAuth.getCurrentUser().getUid().toString());
+            documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    if (task.isSuccessful()) {
+                        DocumentSnapshot snapshot = task.getResult();
+                        phone = snapshot.getString("phone");
+                        name = snapshot.getString("fname");
+                        email = snapshot.getString("email");
+                        Toast.makeText(getApplicationContext(), name + email, Toast.LENGTH_SHORT);
+                    } else {
+                        Log.d("TAG", "Cannot get user information");
+                    }
                 }
-            }
-        });
-        replaceFragment(new HomeFragment());
-        binding.bottomNavigationView.setOnItemSelectedListener(item -> {
+            });
+            replaceFragment(new HomeFragment());
+            binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
-            if(item.getItemId() == R.id.home){
-                replaceFragment(new HomeFragment());
-            }
-            if(item.getItemId() == R.id.map){
-                replaceFragment(new MapFragment());
-            }
-            if(item.getItemId() == R.id.infor){
+                if(item.getItemId() == R.id.home){
+                    replaceFragment(new HomeFragment());
+                }
+                if(item.getItemId() == R.id.map){
+                    replaceFragment(new MapFragment());
+                }
+                if(item.getItemId() == R.id.infor){
 
 //                replaceFragment(new InforFragment());
-                Intent move = new Intent(MainActivity.this, ListActivity.class);
-                startActivity(move);
-            }
-            if(item.getItemId() == R.id.person){
-                replaceFragment(new ProfileFragment());
-            }
+                    Intent move = new Intent(MainActivity.this, ListActivity.class);
+                    startActivity(move);
+                }
+                if(item.getItemId() == R.id.person){
+                    replaceFragment(new ProfileFragment());
+                }
 
 
-            return true;
-        });
+                return true;
+            });
+        }
+
     }
 
     private void replaceFragment(Fragment fragment){

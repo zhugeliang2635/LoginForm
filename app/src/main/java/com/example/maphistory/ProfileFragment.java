@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AlphaAnimation;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -97,7 +97,7 @@ public class ProfileFragment extends Fragment {
         name.setText(parent.getName());
         email.setText(parent.getEmail());
         profileImage = view2.findViewById(R.id.profileImage);
-        ImageButton btn1 = view2.findViewById(R.id.imageNoti);
+        AppCompatButton btn1 = view2.findViewById(R.id.imageNoti);
         gotoProfile = view2.findViewById(R.id.goToChangeProfileButton);
         gotoChangePass = view2.findViewById(R.id.goToChangePassButton);
 

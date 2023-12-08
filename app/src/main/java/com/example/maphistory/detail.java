@@ -9,6 +9,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,6 +26,8 @@ public class detail extends AppCompatActivity {
     private TextView textView;
     private ImageView imageView;
     private TextView eventInfor;
+    private float defaultSize;
+    private ImageButton getBack;
 
     private CollapsingToolbarLayout collapsingToolbarLayout;
     @Override
@@ -51,6 +54,15 @@ public class detail extends AppCompatActivity {
         textView = findViewById(R.id.infor_detail);
         eventInfor = findViewById(R.id.event_infor);
         collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
+        defaultSize = textView.getTextSize();
+        getBack = findViewById(R.id.getBack);
+
+        getBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         Button quizButotn = findViewById(R.id.quizButton);
 
@@ -67,7 +79,11 @@ public class detail extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 TextView text = findViewById(R.id.infor_detail);
-                text.setTextSize(TypedValue.COMPLEX_UNIT_PX,text.getTextSize() + 1);
+                float nextTextSize = text.getTextSize() + 1;
+                if (nextTextSize - defaultSize > 5) {
+                    nextTextSize = defaultSize;
+                }
+                text.setTextSize(TypedValue.COMPLEX_UNIT_PX,nextTextSize);
             }
 
         });
@@ -92,8 +108,8 @@ public class detail extends AppCompatActivity {
             case "dongbodau":
                 textView.setText(R.string.nam1258_des);
                 imageView.setImageResource(R.drawable.img_21);
-                name = getResources().getString(R.string.bachdang_name);
-                time = getResources().getString(R.string.bachdang_time);
+                name = getResources().getString(R.string.dongbodau_name);
+                time = getResources().getString(R.string.dongbodau_time);
                 eventInfor.setText(name + "\n" + time);
                 collapsingToolbarLayout.setTitle(name);
                 break;

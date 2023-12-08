@@ -89,9 +89,39 @@ public class QuizDetail2Fragment extends Fragment {
             }
         });
         textView = mView.findViewById(R.id.quiz_des_title);
+        QuizActivity parent = (QuizActivity) getActivity();
 
+        switch (parent.getName()) {
+            case "bachdang":
+                textView.setText("Chiến thắng Bạch Đằng năm 938");
+                break;
+            case "nhunguyet":
+                textView.setText("Trận Như Nguyệt năm 1077");
+                break;
+            case "dongbodau":
+                textView.setText("Trận Đông Bộ Đầu năm 1258");
+                break;
+            case "chilang":
+                textView.setText("Trận Chi Lăng năm 1427");
+                break;
+            case "rachgam":
+                textView.setText("Trận Rạch Gầm Xoài Mút năm 1785");
+                break;
+            case "ngochoi":
+                textView.setText("Trận Ngọc Hồi Đống Đa năm 1789");
+                break;
+            case "dienbienphu":
+                textView.setText("Chiến thắng Điện Biên Phủ 1954");
+                break;
+            case "dienbienphutrenkhong":
+                textView.setText("Chiến thắng Điện Biên Phủ trên không 1972");
+                break;
+            case "chiendichHCM":
+                textView.setText("Chiến dịch Hồ Chí Minh năm 1975");
+                break;
+        }
         image = mView.findViewById(R.id.quiz_des_image);
-        image.setBackgroundResource(R.drawable.home_pic);
+        image.setBackgroundResource(R.drawable.quiz_pic);
 
         return mView;
     }

@@ -34,30 +34,32 @@
                 android:textColor="@color/purple"/>
 
             <EditText
+                android:id="@+id/signup_email"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/signup_email"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="8dp"
                 android:hint="Email"
                 android:padding="10dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="30dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
+                android:id="@+id/signup_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/signup_name"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_person_24"
                 android:drawablePadding="8dp"
                 android:hint="Họ và tên"
                 android:padding="10dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="20dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
                 android:id="@+id/signup_phone"
@@ -69,34 +71,39 @@
                 android:drawablePadding="8dp"
                 android:hint="Số điện thoại"
                 android:padding="10dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
+                android:id="@+id/signup_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/signup_password"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_lock_person_24"
                 android:drawablePadding="8dp"
                 android:hint="Mật khẩu"
+                android:inputType="text|textPassword"
                 android:padding="10dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="20dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
+
             <EditText
+                android:id="@+id/signup_confirm"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/signup_confirm"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/ic_baseline_lock_person_24"
                 android:drawablePadding="8dp"
                 android:hint="Xác nhận mật khẩu"
-                android:padding="10dp"
                 android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="20dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"

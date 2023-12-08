@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,11 +21,20 @@ public class ListActivity extends AppCompatActivity {
 
     ActivityListBinding binding;
 
+    private ImageButton backButton;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityListBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         int[] imgageId = {R.drawable.img_7, R.drawable.img_1,R.drawable.img_18, R.drawable.img_5, R.drawable.img_17,
                 R.drawable.img_16,R.drawable.img_4,R.drawable.img_15,R.drawable.img_6, R.drawable.img_6};

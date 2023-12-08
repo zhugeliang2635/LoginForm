@@ -10,6 +10,7 @@ public class QuizActivity extends AppCompatActivity {
     private int correct;
     private int wrong;
 
+
     public void increaseCorrect() {
         correct++;
     }

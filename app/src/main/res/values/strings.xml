@@ -314,10 +314,10 @@ Add the maggi masala on to it
     <string name="dienbienphu_ques_2_ans">C. Trần Đình</string>
 
     <string name="dienbienphu_ques_3">Mật danh của chiến dịch Điện Biên Phủ năm 1954 là</string>
-    <string name="dienbienphu_ques_3_a">A. phía Bắc</string>
-    <string name="dienbienphu_ques_3_b">B. phía Nam</string>
-    <string name="dienbienphu_ques_3_c">C. </string>
-    <string name="dienbienphu_ques_3_ans">B. Nhân dân luôn nhớ đến công lao của ông</string>
+    <string name="dienbienphu_ques_3_a">A. Hoàng Hoa Thám</string>
+    <string name="dienbienphu_ques_3_b">B. Quang Trung</string>
+    <string name="dienbienphu_ques_3_c">C. Trần Đình</string>
+    <string name="dienbienphu_ques_3_ans">C. Trần Đình</string>
 
     <string name="dienbienphu_ques_4">Phương châm tác chiến của Bộ chính trị Trung ương Đảng trong chiến dịch Điện Biên Phủ năm 1954 là</string>
     <string name="dienbienphu_ques_4_a">A. Đánh nhanh, thắng nhanh</string>
@@ -758,7 +758,7 @@ Add the maggi masala on to it
 
 <!--Đông Bộ Đầu 1258-->
     <string name="dongbodau_time">Năm 1288</string>
-    <string name="dongbodau_name">Trận Bạch Đằng</string>
+    <string name="dongbodau_name">Trận Đông Bộ Đầu</string>
 
     <string name="dongbodau_ques_1">Vị tướng nào của Mông Cổ đã chỉ huy hơn 3 vạn quân tiến vào xâm lược Đại Việt (năm 1258)?</string>
     <string name="dongbodau_ques_1_a">A. Thoát Hoan</string>

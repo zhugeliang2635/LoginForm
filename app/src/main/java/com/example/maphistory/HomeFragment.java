@@ -5,30 +5,34 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
@@ -112,7 +116,7 @@ public class HomeFragment extends Fragment {
         ImageView img1, img2, img3, quiz1;
         img1 = context.findViewById(R.id.imageView1);
         img2 = context.findViewById(R.id.imageView);
-        img3 = context.findViewById(R.id.imageView3);
+        img3 = context.findViewById(R.id.exit);
         quiz1 = context.findViewById(R.id.quiz1);
         xtc.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -141,6 +145,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), detail.class);
+
                 intent.putExtra("event", "bachdang");
                 startActivity(intent);
             }
@@ -157,7 +162,10 @@ public class HomeFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     Intent moveToQuiz = new Intent(context, QuizActivity.class);
-                    moveToQuiz.putExtra("event", "Bạch Đằng Giang");
+                    String[] id = {"bachdang", "nhunguyet", "dongbodau","chilang","rachgam","ngochoi",
+                            "dienbienphu","dienbienphutrenkhong","chiendichHCM"};
+                    int num = new Random().nextInt(id.length);
+                    moveToQuiz.putExtra("event", id[num]);
                     startActivity(moveToQuiz);
                 }
         });
@@ -177,7 +185,22 @@ public class HomeFragment extends Fragment {
         fAuth = FirebaseAuth.getInstance();
         firestore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
-        name.setText( ((MainActivity)getActivity()).getName());
+        MainActivity mainActivity = (MainActivity) getActivity();
+        name.setText( mainActivity.getName());
+
+        DocumentReference documentReference = firestore.collection("users").document(fAuth.getCurrentUser().getUid().toString());
+        documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    DocumentSnapshot snapshot = task.getResult();
+                    name.setText(snapshot.getString("fname")) ;
+                    Toast.makeText(mainActivity, name.getText().toString(), Toast.LENGTH_SHORT);
+                } else {
+                    Log.d("TAG", "Cannot get user information");
+                }
+            }
+        });
 
 
 

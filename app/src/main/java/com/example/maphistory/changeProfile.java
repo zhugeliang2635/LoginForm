@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -51,6 +52,9 @@ public class changeProfile extends AppCompatActivity {
     private AppCompatButton saveInfor;
     private ImageView editName;
     private ImageView editPhone;
+    private TextView email;
+
+    private ImageView backtoHome;
 
     private ImageView profileImage;
 
@@ -62,6 +66,7 @@ public class changeProfile extends AppCompatActivity {
         setContentView(R.layout.activity_change_profile);
         phone =(EditText) findViewById(R.id.phone);
         name = findViewById(R.id.name);
+        email = findViewById(R.id.emailText);
         changePicture = findViewById(R.id.changePicture);
         saveInfor = findViewById(R.id.saveInfor);
         editName = findViewById(R.id.editNameButton);
@@ -70,7 +75,7 @@ public class changeProfile extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         firestore = FirebaseFirestore.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
-
+        backtoHome = findViewById(R.id.backToHome);
         StorageReference profileImageRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid().toString()+"/profile.jpg");
         profileImageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override
@@ -87,6 +92,7 @@ public class changeProfile extends AppCompatActivity {
                     DocumentSnapshot snapshot = task.getResult();
                     phone.setText(snapshot.getString("phone"));
                     name.setText(snapshot.getString("fname"));
+                    email.setText(snapshot.getString("email"));
                 } else {
                     Log.d("TAG", "Cannot get user information");
                 }
@@ -118,6 +124,17 @@ public class changeProfile extends AppCompatActivity {
             }
         });
 
+        backtoHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.putExtra("name", name.getText().toString());
+                intent.putExtra("phone", phone.getText().toString());
+                startActivity(intent);
+                finish();
+            }
+        });
+
 
         saveInfor.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,7 +145,7 @@ public class changeProfile extends AppCompatActivity {
                 String nameText = name.getText().toString();
                 Map<String, Object> edited = new HashMap<>();
                 edited.put("phone", phoneText);
-                edited.put("name", nameText);
+                edited.put("fname", nameText);
                 documentReference.update(edited);
                 phone.setEnabled(false);
                 name.setEnabled(false);

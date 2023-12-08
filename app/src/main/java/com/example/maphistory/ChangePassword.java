@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,12 +21,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class ChangePassword extends AppCompatActivity {
-    private EditText currentPass;
     private EditText newPass;
     private EditText confirmPass;
 
     private FirebaseAuth fAuth;
-
+    private ImageButton goBack;
     private FirebaseUser user;
     private TextView errorMessage;
 
@@ -35,13 +35,20 @@ public class ChangePassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_password);
 
-        currentPass = findViewById(R.id.currentPass);
         newPass = findViewById(R.id.newPass);
         confirmPass = findViewById(R.id.confirmNewPass);
         changeButton = findViewById(R.id.changeButton);
         errorMessage = findViewById(R.id.errorMessage);
         fAuth = FirebaseAuth.getInstance();
         user = fAuth.getCurrentUser();
+
+        goBack = findViewById(R.id.goBack);
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         changeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,6 +1,7 @@
 package com.example.maphistory;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -12,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -33,6 +35,8 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     private String mParam1;
     private String mParam2;
     private TextView feedback;
+
+    private ImageView exit;
 
     private TextView questionVal;
     private AppCompatButton optionA;
@@ -93,6 +97,19 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
         optionA = view.findViewById(R.id.option1Btn);
         optionB = view.findViewById(R.id.option2Btn);
         optionC = view.findViewById(R.id.option3Btn);
+        exit = view.findViewById(R.id.exit);
+
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                QuizActivity parent = (QuizActivity)getActivity();
+                Intent intent = new Intent(parent, detail.class);
+                intent.putExtra("event", parent.getName());
+                startActivity(intent);
+                parent.finish();
+
+            }
+        });
         optionC.setEnabled(true);
 //        optionC.setOnClickListener(new View.OnClickListener() {
 //            @Override
